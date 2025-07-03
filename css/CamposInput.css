@@ -1,0 +1,240 @@
+
+    /* para select2*/
+    .form__group>span {
+        font-family: inherit;
+        width: 100%;
+        border: 0;
+        border-bottom: 2px solid #9b9b9b;
+        outline: 0;
+        font-size: var(--size-font);
+        color: black;
+        padding: 4px 0;
+        background: transparent;
+        transition: border-color 0.2s;
+        width: 100% !important;
+    }
+
+    .form__group>textarea {
+        height: 300px;
+        border: 2px solid #9b9b9b;
+        padding: 20px;
+        position: relative;
+        top: 10px;
+    }
+
+
+
+    .form__group .select2-selection {
+        border: none;
+        padding-left: 0;
+    }
+
+    .form__group .select2-selection__arrow {
+        top: 10px !important;
+    }
+
+    .select2-container--default .select2-selection--multiple .select2-selection__choice {
+        background-color: #3c8dbc;
+    }
+
+    /* cierre para select 2 */
+
+    /* ------------------------------------- */
+    /* ------------------------------------- */
+    /* ----------input numero 2---------------- */
+    /* ------------------------------------- */
+
+
+    :root {
+        --color-background: white;
+        --color-text: #212121;
+        --color-accent: #3c8dbc;
+        --size-bezel: 0.5rem;
+        --size-radius: 4px;
+        --size-font: 15px;
+    }
+
+    .input {
+        position: relative;
+        margin-top: 30px;
+    }
+
+    .input .select2 {
+        width: 100% !important;
+    }
+
+    .input .select2-selection {
+        padding: 10px;
+        height: 38px;
+        border-color: #d2d6de;
+    }
+
+    .input .select2-selection__arrow {
+        top: 6px !important;
+    }
+
+    .input__label_select2 {
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: calc(var(--size-bezel) * 0.75) calc(var(--size-bezel) * .5);
+        margin: calc(var(--size-bezel) * 0.75 + 3px) calc(var(--size-bezel) * 5.5);
+        background: pink;
+        white-space: nowrap;
+        transform: translate(0.25rem, -65%) scale(0.8);
+        color: var(--color-accent);
+        transform-origin: 0 0;
+        background: var(--color-background);
+        transition: transform 120ms ease-in;
+        font-weight: bold;
+        line-height: 1.2;
+        font-size: var(--size-font);
+    }
+
+    .input__label {
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: calc(var(--size-bezel) * 0.75) calc(var(--size-bezel) * .5);
+        margin: calc(var(--size-bezel) * 0.75 + 3px) calc(var(--size-bezel) * 5.5);
+        background: pink;
+        /*white-space: nowrap;*/
+        transform: translate(0, 0);
+        transform-origin: 0 0;
+        background: var(--color-background);
+        transition: transform 120ms ease-in;
+        font-weight: bold;
+        line-height: 1.2;
+        font-size: var(--size-font);
+        color: #00000091;
+    }
+
+    .input__field {
+        height: 48px;
+        
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        border: 1px solid currentColor;
+        border-color: #d2d6de;
+        padding: calc(var(--size-bezel) * 1.5) var(--size-bezel);
+        padding-left: 15px;
+        color: currentColor;
+        background: transparent;
+        border-radius: var(--size-radius);
+        font-size: var(--size-font);
+    }
+
+    /*
+.input__field[type=date]{
+  font-size:  calc(var(--size-font)*0.9);
+}
+*/
+    .input__field:focus+.input__label,
+    .input__field:not(:placeholder-shown)+.input__label {
+        transform: translate(0.25rem, -65%) scale(0.8);
+        color: var(--color-accent);
+    }
+
+    .input__label__select {
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: calc(var(--size-bezel) * 0.75) calc(var(--size-bezel) * .5);
+        margin: calc(var(--size-bezel) * 0.75 + 3px) calc(var(--size-bezel) * 5.5);
+        background: pink;
+        /*white-space: nowrap;*/
+        transform: translate(0, 0);
+        transform-origin: 0 0;
+        background: var(--color-background);
+        transition: transform 120ms ease-in;
+        font-weight: bold;
+        line-height: 1.2;
+        font-size: var(--size-font);
+        transform: translate(0.25rem, -65%) scale(0.8);
+        color: var(--color-accent);
+    }
+
+
+    @keyframes gradient {
+        0% {
+            background-position: 0 0;
+        }
+
+        100% {
+            background-position: 100% 0;
+        }
+    }
+
+    .webflow-style-input:after {
+        content: "";
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 999;
+        height: 2px;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        background-position: 0% 0%;
+        background: linear-gradient(to right, #3c8dbc, #57e6e6, #3c8dbc, #57e6e6, #3c8dbc, #9acfcf);
+        background-size: 500% auto;
+        animation: gradient 8s linear infinite;
+        margin-left: 17px;
+        margin-right: 17px;
+    }
+
+
+    .webflow-style-input input::-webkit-input-placeholder {
+        color: #7881a1;
+    }
+
+    .webflow-style-input button {
+        color: #7881a1;
+        font-size: 2.4rem;
+        line-height: 2.4rem;
+        vertical-align: middle;
+        transition: color 0.25s;
+    }
+
+    .webflow-style-input button:hover {
+        color: #bfd2ff;
+    }
+
+    .input__label_select2 {
+        transform: translate(0.25rem, -65%) scale(0.8);
+        color: var(--color-accent);
+
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: calc(var(--size-bezel) * 0.75) calc(var(--size-bezel) * .5);
+        margin: calc(var(--size-bezel) * 0.75 + 3px) calc(var(--size-bezel) * 5.5);
+        background: pink;
+        /*white-space: nowrap;*/
+        transform: translate(0, 0);
+        transform-origin: 0 0;
+        background: var(--color-background);
+        transition: transform 120ms ease-in;
+        font-weight: bold;
+        line-height: 1.2;
+        font-size: var(--size-font);
+        transform: translate(0.25rem, -65%) scale(0.8);
+        color: var(--color-accent);
+    }
+
+    .select2-container .select2-selection--single {
+        /*height: 38px !important;*/
+        height:48px !important;
+        padding: 8px !important;
+    }
+
+    /* css  clase input__field con el type date*/
+    .input__field[type=date] {
+        padding: calc(var(--size-bezel) * 1.3) var(--size-bezel);
+        padding-left: 15px;
+    }
+
+    .select2-container--default .select2-selection--single .select2-selection__rendered {
+        margin-top: 1px!important;
+    }

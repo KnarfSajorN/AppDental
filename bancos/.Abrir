@@ -1,0 +1,329 @@
+----------------------------------------------
+- Módulos de bancos
+----------------------------------------------
+- incluye:
+----------------------------------------------
+- Mantenimiento de bancos (crear, editar) cuentas bancarias
+- token o código de seguridad para movimientos de bancos (opcional)
+- Transferencias bancarias (cheque, ND, Deposito, NC, trans. ingreso de fondos, Trans. egreso de fondos, trans. entre bancos)
+- maestro de conceptos para movimientos bancarios
+- historial de conciliaciones
+----------------------------------------------
+
+
+- agregar en funciones.php 
+
+
+// CENTROS DE COSTO
+function verCentroCosto()
+{
+	include 'conn3.php';
+	echo '<label>Centro de Costos</label><br>';
+	echo '<select class="form-control input-lg select" name="idCentroCosto">';
+	echo '<option value="0" selected="">Seleccione</option>';
+	$queryListCentro = mysqli_query($conn3, "SELECT * from CcentroCostos");
+	$nrowl = mysqli_num_rows($queryListCentro);
+	while ($rowCentro = mysqli_fetch_array($queryListCentro)) {
+
+		$idCentro = $rowCentro['id'];
+		$codigoCentro = $rowCentro['codigo'];
+		$descripcionCentro = $rowCentro['descripcion'];
+		$fechaRegCentro = $rowCentro['fechaReg'];
+		$horaRegCentro = $rowCentro['horaReg'];
+		$preCentro = $rowCentro['pre'];
+		$movCentro = $rowCentro['mov'];
+		$actCentro = $rowCentro['act'];
+		$grupoCentro = $rowCentro['grupo'];
+		$subgrupoCentro = $rowCentro['subgrupo'];
+		$estadoCentro = $rowCentro['estado'];
+		$subCentroCentro = $rowCentro['subCentro'];
+		$centroPrincipal_idCentro = $rowCentro['centroPrincipal_id'];
+
+		echo '<option value="' . $idCentro . '">' . $codigoCentro . '-' . $descripcionCentro . '</option>';
+	}
+	echo '</select>';
+	return trim($texto);
+}
+// CENTROS DE COSTO array
+function verCentroCostoArray()
+{
+	include 'conn3.php';
+	echo '<label>Centro de Costos</label><br>';
+	echo '<select class="form-control input-lg select" name="idCentroCosto[]">';
+	echo '<option value="0" selected="">Seleccione</option>';
+	$queryListCentro = mysqli_query($conn3, "SELECT * from CcentroCostos");
+	$nrowl = mysqli_num_rows($queryListCentro);
+	while ($rowCentro = mysqli_fetch_array($queryListCentro)) {
+
+		$idCentro = $rowCentro['id'];
+		$codigoCentro = $rowCentro['codigo'];
+		$descripcionCentro = $rowCentro['descripcion'];
+		$fechaRegCentro = $rowCentro['fechaReg'];
+		$horaRegCentro = $rowCentro['horaReg'];
+		$preCentro = $rowCentro['pre'];
+		$movCentro = $rowCentro['mov'];
+		$actCentro = $rowCentro['act'];
+		$grupoCentro = $rowCentro['grupo'];
+		$subgrupoCentro = $rowCentro['subgrupo'];
+		$estadoCentro = $rowCentro['estado'];
+		$subCentroCentro = $rowCentro['subCentro'];
+		$centroPrincipal_idCentro = $rowCentro['centroPrincipal_id'];
+
+		echo '<option value="' . $idCentro . '">' . $codigoCentro . '-' . $descripcionCentro . '</option>';
+	}
+	echo '</select>';
+	return trim($texto);
+}
+
+
+- tablas a crear:
+
+CREATE TABLE `CcentroCostos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `codigo` varchar(10) DEFAULT NULL,
+  `descripcion` varchar(255) DEFAULT NULL,
+  `fechaReg` date DEFAULT '0000-00-00',
+  `horaReg` time DEFAULT current_timestamp(),
+  `pre` int(11) DEFAULT 0,
+  `mov` int(11) DEFAULT 0,
+  `act` int(11) DEFAULT 0,
+  `grupo` varchar(255) DEFAULT NULL,
+  `subgrupo` varchar(255) DEFAULT NULL,
+  `estado` int(11) DEFAULT 1,
+  `subCentro` int(11) DEFAULT 0,
+  `centroPrincipal_id` int(11) DEFAULT 0,
+  PRIMARY KEY (`id`)
+);
+
+CREATE TABLE `CCuentas` (
+  `id` varchar(255) NOT NULL DEFAULT '.',
+  `descripcion` varchar(255) DEFAULT NULL,
+  `detalle` longtext DEFAULT NULL,
+  `fechaReg` date DEFAULT '0000-00-00',
+  `horaReg` time DEFAULT current_timestamp(),
+  `ajuste_fiscal` int(11) DEFAULT 0,
+  `saldo_inicial` float DEFAULT 0,
+  `saldo_actual` float DEFAULT 0,
+  `ccosto_fijo` float DEFAULT 0,
+  `ccosto` float DEFAULT 0,
+  `tipo_actividad` int(11) DEFAULT 0,
+  `c1` int(11) DEFAULT 0,
+  `c2` int(11) DEFAULT 0,
+  `c3` int(11) DEFAULT 0,
+  `c4` int(11) DEFAULT 0,
+  `c5` int(11) DEFAULT 0,
+  `c6` int(11) DEFAULT 0,
+  `tap` int(11) DEFAULT 0,
+  `ppc` int(11) DEFAULT 0,
+  `activo` int(11) DEFAULT 1,
+  `migracion` int(11) DEFAULT 0 COMMENT '0: No, 1: Si;',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id` (`id`)
+);
+
+CREATE TABLE `Sbancos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `fechaReg` date DEFAULT '0000-00-00',
+  `nCuenta` text DEFAULT NULL,
+  `descripcion` text DEFAULT NULL,
+  `tipo` text DEFAULT NULL,
+  `descripcionDetalle` longtext DEFAULT NULL,
+  `sucursal` text DEFAULT NULL,
+  `contacto` text DEFAULT NULL,
+  `direccion` text DEFAULT NULL,
+  `moneda` text DEFAULT NULL,
+  `telefono` text DEFAULT NULL,
+  `fax` text DEFAULT NULL,
+  `email` text DEFAULT NULL,
+  `idCuentaContable` text DEFAULT '0' COMMENT 'esta es la cuenta contable del banco',
+  `idCentroCosto` text DEFAULT '0',
+  `idCuentaContableDebe` text DEFAULT '0' COMMENT ' Cuenta Contable DEBE *Creado desde Guardar Bancos*',
+  `usuario_id` text DEFAULT '0' COMMENT ' usuario id *Creado desde Guardar Bancos*',
+  UNIQUE KEY `id` (`id`)
+);
+
+CREATE TABLE `CCompDiario` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `numero` varchar(50) DEFAULT NULL,
+  `fecha` date DEFAULT '0000-00-00',
+  `tipo` int(11) DEFAULT 0,
+  `estado` int(11) DEFAULT 0,
+  `descripcion` text DEFAULT NULL,
+  `monto_debe` text DEFAULT '0',
+  `monto_haber` text DEFAULT '0',
+  `cant_movimientos` int(11) DEFAULT 0,
+  `detallada` longtext DEFAULT NULL,
+  `idCuentaContable` varchar(100) DEFAULT '0',
+  `idCentroCosto` varchar(100) DEFAULT '0',
+  `tipo_comprobante` text DEFAULT '0' COMMENT '0-> comprobante | 1-> factura | 2-> compras | 3-> gastos y egresos | 4-> devoluciones  factura | 5-> pago cuentas por cobrar | 6-> pagos cuenta por pagar | 7- Pago cuentas por pagar del gasto/egreso | 8-> movimiento de bancos *Creado desde Totalizar Factura*',
+  `usuario_id` text DEFAULT '0' COMMENT ' *Creado desde Totalizar Comprobante*',
+  `tercero_id` text DEFAULT '0' COMMENT ' *Creado desde Totalizar Comprobante*',
+  `tipo_tercero` text DEFAULT '0' COMMENT ' 1-> cliente  | 2-> proveedor *Creado desde Totalizar Comprobante*',
+  `Hora` time DEFAULT current_timestamp() COMMENT ' *Creado desde Caja Mejor*',
+  PRIMARY KEY (`id`)
+);
+
+CREATE TABLE `Stransbanco` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `idBanco` int(11) DEFAULT NULL,
+  `fechaTrans` date DEFAULT '0000-00-00',
+  `Hora` time DEFAULT current_timestamp(),
+  `Documento` text DEFAULT NULL,
+  `tipo` text DEFAULT NULL,
+  `Concepto` text DEFAULT '0',
+  `DetalleMovimiento` text DEFAULT '' COMMENT '   *Creado desde Guardar Bancos*',
+  `MontoLetras` text DEFAULT '' COMMENT ' monto escrito en letras  *Creado desde Guardar operacion bancaria grabarOperacionBancaria.php*',
+  `debito` text DEFAULT '0',
+  `credito` text DEFAULT '0',
+  `Balance` text DEFAULT '0',
+  `id_beneficiario` text DEFAULT NULL COMMENT 'es el cliente_id o el id del proveedor',
+  `tipo_beneficiario` text DEFAULT '' COMMENT ' 1-> Cliente | 2->Proveedor *Creado desde Guardar operacion bancaria grabarOperacionBancaria.php*',
+  `fechaUC` date DEFAULT '0000-00-00' COMMENT 'fecha de ultima conciliacion',
+  `fechaCheque` date DEFAULT '0000-00-00',
+  `fechaChequeLibera` date DEFAULT '0000-00-00',
+  `idCuentaContable` text DEFAULT '0' COMMENT 'no aplica ya que las cuentas se guardaran en la tabla StransbancoDetalles',
+  `idCentroCosto` text DEFAULT '0',
+  `usuario_id` text DEFAULT '0' COMMENT ' usuario id *Creado desde Guardar Bancos*',
+  `Movimiento_id` text DEFAULT '0' COMMENT ' id de la tabla CCompDiario *Creado desde Guardar Bancos*',
+  `FechaDeposito` date DEFAULT '0000-00-00' COMMENT ' fecha solo para depositos  *Creado desde Guardar operacion bancaria grabarOperacionBancaria.php*',
+  `Conciliado` text DEFAULT '0' COMMENT '0-> no conciliado, 1-> conciliado*Creado desde Guardar Bancos*',
+  `conciliacion_id` text DEFAULT '0' COMMENT 'id de la tabla Stransbanco_Conciliado *Creado desde Guardar Bancos*',
+  `historial_tipopago_id` text DEFAULT '' COMMENT ' id de la tabla de tipos de pagos, en el campo tabla_tipopago se filtraran por 3 tablas descritas ahi en los comentarios *Creado desde Guardar Bancos*',
+  `tabla_tipopago` text DEFAULT '' COMMENT '1-> Tabla historialTipos | 2-> historialTipos_Compras | 3-> historialTipos_GastosEgresos *Creado desde Guardar Bancos*',
+  PRIMARY KEY (`id`)
+);
+
+CREATE TABLE `StransbancoDetalles` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `Stransbanco_id` int(11) NOT NULL,
+  `usuario_id` int(11) NOT NULL,
+  `cliente_id` text DEFAULT '',
+  `idCuentaContable` text DEFAULT '',
+  `Debe` text DEFAULT '',
+  `Haber` text DEFAULT '',
+  `Tipo` text DEFAULT '' COMMENT '0->tipo banco | 1-> demas conceptos',
+  `Concepto` text DEFAULT '' COMMENT 'id de la tabla ConceptosBanco',
+  `Fecha` datetime DEFAULT current_timestamp(),
+  `Creacion_Dinamica` text DEFAULT '',
+  `Activo` varchar(5) DEFAULT '1',
+  `tipo_cliente` text DEFAULT '' COMMENT ' 1-> Cliente | 2->Proveedor *Creado desde Guardar operacion bancaria grabarOperacionBancaria.php*',
+  PRIMARY KEY (`id`)
+);
+
+CREATE TABLE `Stransbanco_Conciliado` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `Fecha` datetime DEFAULT current_timestamp(),
+  `idBanco` int(11) NOT NULL,
+  `usuario_id` int(11) NOT NULL,
+  `Saldo_Banco` text DEFAULT '',
+  `Saldo_Conciliar` text DEFAULT '',
+  `Creacion_Dinamica` text DEFAULT '',
+  `Activo` varchar(5) DEFAULT '1',
+  PRIMARY KEY (`id`)
+);
+
+CREATE TABLE `Codigos_Movimientos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `usuario_id` int(11) NOT NULL,
+  `codigo` text DEFAULT '',
+  `Fecha` datetime DEFAULT current_timestamp(),
+  PRIMARY KEY (`id`)
+);
+
+CREATE TABLE `CCompDiario_ediciones` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `Fecha` datetime DEFAULT current_timestamp(),
+  `CCompDiario_id` text DEFAULT '',
+  `DatosAnteriores` text DEFAULT '',
+  `DatosNuevos` text DEFAULT '',
+  `ip` text DEFAULT '',
+  `usuario_id` int(11) DEFAULT 0,
+  PRIMARY KEY (`id`)
+);
+
+CREATE TABLE `CCompDiarioMov` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `numero` varchar(50) DEFAULT NULL,
+  `fecha` date DEFAULT '0000-00-00',
+  `tipo` int(11) DEFAULT 0,
+  `estado` int(11) DEFAULT 0,
+  `asiento` int(11) DEFAULT 0,
+  `cuenta` varchar(50) DEFAULT NULL,
+  `id_ccosto` int(11) DEFAULT NULL,
+  `descripcion` text DEFAULT NULL,
+  `monto_debe` text DEFAULT '0',
+  `monto_haber` text DEFAULT '0',
+  `referencia` text DEFAULT NULL,
+  `idComprobante` int(11) DEFAULT NULL,
+  `detalle_id_factura` text DEFAULT '0' COMMENT 'solo es para facturas apuntara al id de la tabla con los detalles *Creado desde Totalizar Factura*',
+  `detalle_id_compra` text DEFAULT '0' COMMENT 'solo es para compras apuntara al id de la tabla con los detalles *Creado desde Totalizar Factura*',
+  PRIMARY KEY (`id`)
+);
+
+CREATE TABLE `CCompDiarioMov_ediciones` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `Fecha` datetime DEFAULT current_timestamp(),
+  `CCompDiario_id` text DEFAULT '',
+  `DatosAnteriores` text DEFAULT '',
+  `DatosNuevos` text DEFAULT '',
+  `ip` text DEFAULT '',
+  `FechaMovimientoAntigua` text DEFAULT '',
+  `FechaMovimientoNueva` text DEFAULT '',
+  `usuario_id` int(11) DEFAULT 0,
+  PRIMARY KEY (`id`)
+);
+
+CREATE TABLE `CCompDiarioMov_Operacion` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `idUsuario` int(11) DEFAULT NULL,
+  `idOperacion` int(11) DEFAULT NULL,
+  `asientos` varchar(255) DEFAULT NULL,
+  `tipo` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+);
+
+CREATE TABLE `CCompDiarioMov_temp` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `numero` varchar(50) DEFAULT NULL,
+  `fecha` date DEFAULT '0000-00-00',
+  `tipo` int(11) DEFAULT 0,
+  `estado` int(11) DEFAULT 0,
+  `asiento` int(11) DEFAULT 0,
+  `cuenta` varchar(50) DEFAULT NULL,
+  `id_ccosto` int(11) DEFAULT NULL,
+  `descripcion` varchar(80) DEFAULT NULL,
+  `monto_debe` float DEFAULT 0,
+  `monto_haber` float DEFAULT 0,
+  `referencia` varchar(20) DEFAULT NULL,
+  `idComprobante` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+);
+
+CREATE TABLE `ConceptosBanco` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `usuario_id` int(11) NOT NULL,
+  `Codigo` text DEFAULT '',
+  `Descripcion` text DEFAULT '',
+  `Descripcion_Detallada` text DEFAULT '',
+  `Tipo_Concepto` text DEFAULT '',
+  `Categoria` text DEFAULT '',
+  `Activo` varchar(5) DEFAULT '1',
+  `Creacion_Dinamica` text DEFAULT '',
+  PRIMARY KEY (`id`)
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

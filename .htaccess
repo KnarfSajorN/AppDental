@@ -1,0 +1,1174 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On 
+RewriteBase /
+# bloquear la vista de rutas raices como archivos
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+Options -Indexes
+# bloquear la vista de rutas raices como HU_Historia_Urologiaarchivos - fin
+# ErrorDocument 404 https://medicalsoftplus.com/dentalsoft/error_404.php
+# ErrorDocument 403 https://medicalsoftplus.com/dentalsoft/error_404.php
+
+ 
+
+RewriteRule ^portada$ portada.php
+RewriteRule ^certificadolaboral/(.+)$ imprimirCertificado.php?historiaClinica1=$1 [L]
+RewriteRule ^soporte$ soporte.php
+RewriteRule ^agregarClientes$ agregarClientes.php
+RewriteRule ^verificarCliente$ verificarCliente.php
+RewriteRule ^SclienteAdministracion_facturas$ SclienteAdministracion_facturas.php
+#RewriteRule ^clienteAdministracion_VideoChat$ clienteAdministracion_VideoChat.php
+RewriteRule ^registroPaciente$ registroPaciente.php
+RewriteRule ^pacientes$ registroPacienteReferido.php
+RewriteRule ^historiaClinica1$ historiaClinica1.php
+RewriteRule ^ssWebRenovacion$ ssWebRenovacion.php
+RewriteRule ^ordersSlopes$ ordersSlopes.php
+RewriteRule ^agenda$ agenda.php
+RewriteRule ^patientes$ patientes.php
+RewriteRule ^SgenerarOrdenC$ SgenerarOrdenC.php
+RewriteRule ^clientesAdministracion_H1$ clientesAdministracion_H1.php
+RewriteRule ^ssWebRenovacion$ ssWebRenovacion.php
+RewriteRule ^calendarioagenda$ calendario.php
+RewriteRule ^clientesAdministracion_IMG$ clientesAdministracion_IMG.php
+RewriteRule ^SclienteAdministracion_facturas$ SclienteAdministracion_facturas.php
+RewriteRule ^SclienteAdministracion_Controlfacturas$ SclienteAdministracion_Controlfacturas.php
+RewriteRule ^DV_ControlDevoluciones$ DV_ControlDevoluciones.php
+RewriteRule ^DV_ImprimirDevolucion$ DV_ImprimirDevolucion.php
+RewriteRule ^DV_GenerarDevolucionFactura$ DV_GenerarDevolucionFactura.php
+RewriteRule ^DV_PreliminarDevolucion$ DV_PreliminarDevolucion.php
+RewriteRule ^DV_PreliminarDevolucionCompra$ DV_PreliminarDevolucionCompra.php
+RewriteRule ^enviarFactura$ enviarFactura.php
+RewriteRule ^SclienteAdministracion_cuentasAcobrar$ SclienteAdministracion_cuentasAcobrar.php
+RewriteRule ^SclienteAdministracion_compras$ SclienteAdministracion_compras.php
+RewriteRule ^SclienteAdministracion_Controlcompras$ SclienteAdministracion_Controlcompras.php
+RewriteRule ^SclienteAdministracion_cuentasApagar$ SclienteAdministracion_cuentasApagar.php
+#RewriteRule ^clienteAdministracion_VideoChat$ clienteAdministracion_VideoChat.php
+RewriteRule ^signup$ signup.php
+RewriteRule ^ofertanavidena$ signup99.php
+RewriteRule ^regalonavideno$ signup2.php
+RewriteRule ^comofunciona$ comofunciona.php
+RewriteRule ^controlCitas_admin$ controlCitas_admin.php
+RewriteRule ^autorizarCita$ autorizarCita.php
+RewriteRule ^NOautorizarCita$ NOautorizarCita.php
+RewriteRule ^verIncapacidad/(.+)$ verIncapacidad.php?historiaClinica1=$1
+RewriteRule ^verOrdendeExamenes/(.+)$ verOrdendeExamenes.php?historiaClinica1=$1
+RewriteRule ^verConsentimiento/(.+)$ verConsentimiento.php?historiaClinica1=$1
+RewriteRule ^recover$ recover.php
+RewriteRule ^comprar/(.+)$ comprar.php?monto=$1
+RewriteRule ^verpresupuesto/(.+)$ verpresupuesto.php?idOperacion=$1
+RewriteRule ^verLaboratorio/(.+)$ verLaboratorio.php?historiaClinica1=$1
+RewriteRule ^verImagenologia/(.+)$ verImagenologia.php?historiaClinica1=$1
+RewriteRule ^verHistoria/(.+)$ verHistoria.php?historiaClinica1=$1
+RewriteRule ^verReceta/(.*)/(.*)$ verReceta.php?idr=$1&cliente=$2
+RewriteRule ^config$ perfil.php
+RewriteRule ^SclienteAdministracion_cuentasAcobrarCliente$ SclienteAdministracion_cuentasAcobrarCliente.php
+RewriteRule ^buscarpaciente$ buscarpaciente.php
+RewriteRule ^inventario$ inventario.php
+RewriteRule ^tipoinventarios$ tipoinventarios.php
+RewriteRule ^salidadeinventario$ operacionInv.php
+RewriteRule ^entradadeinventario$ operacionInvE.php
+RewriteRule ^listaInventario$ listaInventario.php
+RewriteRule ^ReporteAsistencia$ reporte1.php
+RewriteRule ^ReporteEstadoCita$ ReporteEstadoCita.php
+RewriteRule ^ReporteEncuesta$ reporte11.php
+RewriteRule ^HerramientasA$ Herramientas.php
+RewriteRule ^ReporteCitasPorClientes$ ReporteCitasPorClientes.php
+RewriteRule ^ReporteFacturas$ reporte2.php
+RewriteRule ^ReporteCitasPorClientes$ ReporteCitasPorClientes.php
+RewriteRule ^ReporteCuentasaCobrar$ reporte3.php
+RewriteRule ^ReporteVentas$ ReporteVentas.php
+RewriteRule ^ReporteClientes$ reporte4.php
+RewriteRule ^ReporteClientesprimeraconsulta$ reporte5.php
+RewriteRule ^Reportesfacturacion$ reportes.php
+RewriteRule ^Reportesinventario$ Reportesinventarios.php
+RewriteRule ^Reporteinventarioportipo$ Reporteinventarioportipo.php
+RewriteRule ^Reportehistoriaclinica$ Reportehistoriaclinica.php
+RewriteRule ^Reportereferido$ Reportereferido.php
+RewriteRule ^Reportescitas$ Reportescitas.php
+RewriteRule ^cie10$ listacie10.php
+RewriteRule ^lista1$ listaldp.php
+RewriteRule ^lista2$ listaldp2.php
+RewriteRule ^proveedores$ sproveedores.php
+RewriteRule ^clientes$ sclientes.php
+RewriteRule ^Reportespacientes$ Reportespacientes.php
+RewriteRule ^ReporteClientesRegistrados$ ReporteClientesRegistrados.php
+RewriteRule ^masinformacion$ registro.php
+RewriteRule ^planes$ activarregistrod.php
+RewriteRule ^promocion$ activarregistrod2.php
+RewriteRule ^activarmisistema$ activarregistrod.php
+#RewriteRule ^clienteAdministracion_VideoChatPagadas$ clienteAdministracion_VideoChatPagadas.php
+RewriteRule ^free$ free.php
+RewriteRule ^planes/(.+)$ activarregistrod.php?email=$1
+RewriteRule ^activarregistro100.php/(.+)$ activarregistro100.php?email=$1
+RewriteRule ^anuncio$ c_anuncio.php
+RewriteRule ^articuloBlog$ c_post.php
+RewriteRule ^congresos$ c_congresos.php
+RewriteRule ^sucursales$ sucursales.php
+RewriteRule ^sucurSales$ sucursales2.php
+RewriteRule ^editarPaciente$ editarPaciente.php
+RewriteRule ^historiaClinica$ historiaClinica.php
+RewriteRule ^usuarios$ usuarios.php
+RewriteRule ^usuariosAdministrativos$ usuariosAdministrativos.php 
+RewriteRule ^acceso$ acceso.php
+RewriteRule ^servicios$ servicios.php
+RewriteRule ^historiaClinica2$ historiaClinica2.php
+RewriteRule ^empresa$ v_empresa.php
+RewriteRule ^pacientesVacunar$ v_pacientes.php
+RewriteRule ^nuevoPacienteVacunar$ v_PacienteVacunar.php
+RewriteRule ^historiaClinica3$ V_historiaClinica3.php
+RewriteRule ^serviciosVacunar$ v_serviciosVacunar.php
+RewriteRule ^v_SclienteAdministracion_facturas$ v_SclienteAdministracion_facturas.php
+RewriteRule ^v_SclienteAdministracion_Controlfacturas$ v_SclienteAdministracion_Controlfacturas.php
+RewriteRule ^v_SclienteAdministracion_cuentasAcobrar$ v_SclienteAdministracion_cuentasAcobrar.php
+RewriteRule ^v_Reportespacientes$ v_Reportespacientes.php
+RewriteRule ^ReporteGeneralVacunacion$ v_reporte4.php
+RewriteRule ^ReporteGeneralFacturacion$ v_reporte5.php
+RewriteRule ^registrosGastos$ v_gastos.php
+RewriteRule ^v_editarPaciente$ v_editarPaciente.php
+RewriteRule ^pacientesMedicinaEstetica$ clientesMedicinaEstetica.php 
+RewriteRule ^pacientes_ecografias$ pacientes_ecografias.php 
+RewriteRule ^consentimiento$ consentimiento.php 
+RewriteRule ^historiaClinica_ginecologia$ historiaClinica5_ginecologia.php
+RewriteRule ^historiaClinicaLaboral$ historiaClinica7_laboral.php
+RewriteRule ^historiaClinica_odonto$ historiaClinica_odonto.php
+RewriteRule ^historiaClinica_psicologo$ historiaClinica12_psicologo.php
+RewriteRule ^historiaClinica_psiquiatrico$ historiaClinica12_psiquiatrico.php
+RewriteRule ^SclienteAdministracion_presupuestos$ SclienteAdministracion_presupuestos_Estetica.php
+
+RewriteRule ^SclienteAdministracion_presupuestos_General$ SclienteAdministracion_presupuestos_General.php
+
+RewriteRule ^SclienteAdministracion_ControlPresupuesto$ SclienteAdministracion_ControlPresupuesto.php
+RewriteRule ^SclienteAdministracion_AgendarPresupuesto$ agendaPresupuesto.php
+RewriteRule ^pacientesLaboratorio$ pacientes_laboratorio.php
+RewriteRule ^registroDeExamenes$ demostracion.php
+RewriteRule ^pacientes$ registerPacientes.php
+RewriteRule ^misHistorias$ configTablas.php
+# -------------------
+# Favor colocar mascaras a todos los php de vistas o historias
+# -------------------
+RewriteRule ^nuevoPaciente$ CrearPaciente.php
+RewriteRule ^anexosPaciente$ historiaImagenes.php
+
+RewriteRule ^funciones/salir$ funciones/salir.php
+
+RewriteRule ^clienteNotaEnfermeria$ clienteNotaEnfermeria.php
+RewriteRule ^notaEnfermeria$ notaEnfermeria.php
+RewriteRule ^GO_Pacientes_Ecografias$ GO_Pacientes_Ecografias.php
+RewriteRule ^GO_PacientesControlPrenatal$ GO_PacientesControlPrenatal.php
+RewriteRule ^HA_Pacientes$ HA_Pacientes.php
+RewriteRule ^operacionInvTransferencia$ operacionInvTransferencia.php
+
+# historia clinica medicina estetica
+RewriteRule ^hcmePacientes$ historia_clinica_medicinaEstetica_pacientes.php
+RewriteRule ^hcmeVerPaciente$ historia_clinica_medicinaEstetica_consulta.php
+RewriteRule ^hcme$ historia_clinica_medicinaEstetica.php
+RewriteRule ^hcmeGuardar$ historia_clinica_medicinaEstetica_guardar.php
+RewriteRule ^hcmeFinalizado$ historia_clinica_medicinaEstetica_finalizado.php
+RewriteRule ^hcmeImprimir$ historia_clinica_medicinaEstetica_imprimir.php
+# historia clinica medicina estetica - fin
+
+# historias del creador
+RewriteRule ^cPacientes$ configPacientes.php
+RewriteRule ^cVerPaciente$ configConsultaCliente.php
+RewriteRule ^cHistoria$ configHistoriaClinica.php
+RewriteRule ^cEditar$ configHistoriaClinicaEditar.php
+RewriteRule ^cGuardar$ configProcesarFormulario.php
+RewriteRule ^cFinalizado$ configFinalizado.php
+RewriteRule ^cImprimir$ configImprimirConsulta.php
+RewriteRule ^PO_Periodontograma$ PO_Periodontograma.php
+
+RewriteRule ^ConfigEnviarConsulta$ ConfigEnviarConsulta.php
+
+# historias del creador Ocupacional Ecuador
+RewriteRule ^cPacientesOC$ configPacientesOC.php
+RewriteRule ^cVerPacienteOC$ configConsultaClienteOC.php
+RewriteRule ^cHistoriaOC$ configHistoriaClinicaOC.php
+RewriteRule ^cGuardarOC$ configProcesarFormularioOC.php
+RewriteRule ^cFinalizadoOC$ configFinalizadoOC.php
+
+#pruebas
+RewriteRule ^RecordatoriosForm$ ModuloRecordatorioJ/formulaRecordatorio.php
+RewriteRule ^Cron$ cron_alertaform.php
+#pruebas
+
+# Ginecologia 
+# Consulta Prenatal
+# Control Prenatal
+# Dermatologia
+#cirugia plastica
+# historias del creador - fin
+
+# historias del creador Ecuador
+RewriteRule ^cPacientesE$ configPacientesE.php
+RewriteRule ^cVerPacienteE$ configConsultaClienteE.php
+RewriteRule ^cHistoriaE$ configHistoriaClinicaE.php
+RewriteRule ^cGuardarE$ configProcesarFormularioE.php
+RewriteRule ^cFinalizadoE$ configFinalizadoE.php
+RewriteRule ^cImprimirE$ configImprimirConsultaE.php
+
+# Evoluciones
+RewriteRule ^evoluciones$ Evolucion_Historia.php
+RewriteRule ^verEvoluciones$ verEvolucion_Historia.php
+RewriteRule ^finalizadoEvolucion$ finalizadoEvolucion.php
+RewriteRule ^imprimirEvoluciones$ imprimir_evoluciones.php
+# Evoluciones - fin
+
+# EvolucionesSS
+RewriteRule ^evoluciones$ Evolucion_HistoriaE.php
+# Evoluciones - fin
+#Modulo KPI
+RewriteRule ^menu_KPI$ KPI/menu_KPI.php
+RewriteRule ^reportVentaPorDia$ KPI/Reporte_ventas_dia.php
+RewriteRule ^reporteClientes$ KPI/reporte_Cliente.php
+RewriteRule ^reporteCompras$ KPI/reporte_Compras.php
+RewriteRule ^reporteInventario$ KPI/reporte_Inventario.php
+RewriteRule ^reportePacientes$ KPI/reporte_Paciente.php
+RewriteRule ^CIE10$ KPI/CIE10.php
+#Modulo KPI - fin
+# historia spa
+RewriteRule ^hcspaPacientes$ historia_clinica_spa_pacientes.php
+RewriteRule ^hcspa$ historia_clinica_spa.php
+RewriteRule ^hcspaGuardar$ historia_clinica_spa_guardar.php
+RewriteRule ^hcspaFinalizado$ historia_clinica_spa_finalizado.php
+RewriteRule ^hcspaImprimir$ historia_clinica_spa_imprimir.php
+RewriteRule ^hcspaVerPaciente$ historia_clinica_spa_consulta.php
+# historia spa - fin
+
+# historia centro estetico
+RewriteRule ^HC_PacientesCentroEstetico$ clientesCentroEstetico.php
+RewriteRule ^HC_HistoriaCentroEstetico$ historiaClinica2_v2.php
+RewriteRule ^HC_HistorialCentroEstetico$ consultaCliente2.php
+RewriteRule ^HC_FinalizadoCentroEstetico$ finalizadoTratamiento.php
+RewriteRule ^HC_ImprimirCentroEstetico$ imprimir_historiaClinica2_v2.php
+# historia centro estetico
+
+RewriteRule ^RM_PaquetesMedicamentos$ RM_PaquetesMedicamentos.php
+RewriteRule ^RM_VerPaquete$ RM_VerPaquete.php
+# Informe quirurgico
+RewriteRule ^hciqPacientes$ historia_clinica_iq_pacientes.php
+RewriteRule ^hciq$ historia_clinica_iq.php
+RewriteRule ^hciqGuardar$ historia_clinica_iq_guardar.php
+RewriteRule ^hciqFinalizado$ historia_clinica_iq_finalizado.php
+RewriteRule ^hciqImprimir$ historia_clinica_iq_imprimir.php
+RewriteRule ^hciqVerPaciente$ historia_clinica_iq_consulta.php
+# Informe quirurgico - fin
+
+# historia Ficha Clinica
+RewriteRule ^HC_PacientesFichaClinica$ FichaPacientes.php
+RewriteRule ^HC_HistoriaFichaClinica$ fichaClinica.php
+RewriteRule ^HC_HistorialFichaClinica$ ConsultaFichaClinica.php
+RewriteRule ^HC_FinalizadoFichaClinica$ FinalizadoFichaClinica.php
+RewriteRule ^HC_ImprimirFichaClinica$ fichaClinica_Imprimir.php
+RewriteRule ^HC_ConsultaFicha$ consultaficha.php
+# historia Ficha Clinica
+
+# Historia Clínica Medicina General
+RewriteRule ^HC_PacientesGeneral$ Pacientes.php
+RewriteRule ^HC_HistoriaGeneral$ Historia_Clinica.php
+RewriteRule ^HC_Guardar$ Guardar_Historia_Clinica.php
+RewriteRule ^HC_FinalizadoGeneral$ Finalizado_Historia_Clinica.php
+RewriteRule ^HC_ImprimirGeneral$ Imprimir_Historia_Clinica.php
+RewriteRule ^HC_HistorialGeneral$ Historial_Clinico.php
+RewriteRule ^HC_Examenes$ modal.php
+RewriteRule ^HC_SignosV$ SignosVitales_Antropometricas.php
+# Historia Clínica Medicina General
+
+# visor de fotos antes y despues
+RewriteRule ^fotosPaciente$ imagenesAntesDespues.php
+RewriteRule ^visorFotos$ imgview.php
+# visor de fotos antes y despues - fin
+
+# historia clinica escalas dermatologicas
+RewriteRule ^hcedPacientes$ PacientesD.php
+RewriteRule ^hced$ Historia_ClinicaED.php
+RewriteRule ^hcedGuardar$ Historia_ClinicaED_guardar.php
+RewriteRule ^hcedImprimir$ Imprimir_Historia_ClinicaED.php
+RewriteRule ^hcedVerPaciente$ Historial_ClinicoED.php
+# historia clinica escalas dermatologicas - fin
+
+# consentimientos y documentos
+RewriteRule ^documentosPacientes$ PP_PacientesPlantilla.php
+RewriteRule ^documentosFormulario$ PP_FormularioPlantilla.php
+RewriteRule ^documentosGuardar$ Historia_ClinicaED_guardar.php
+RewriteRule ^documentosImprimir$ PP_ImprimirPlantilla.php
+RewriteRule ^documentoVerPaciente$ PP_HistorialPlantilla.php
+RewriteRule ^documentoEditar$ PP_EditarPlantilla.php
+RewriteRule ^administrarConsenimientos$ PP_CrearPlantilla.php
+RewriteRule ^editarConsentimiento$ PP_InformacionPlantilla.php
+RewriteRule ^ticketPrint$ ticketPrint.php
+# consentimientos - fin
+
+# CITAS
+RewriteRule ^agregarCitas$ agregarCitas.php
+RewriteRule ^guardar_Cita$ guardarCita.php
+RewriteRule ^controlCitas$ controlCitas.php
+RewriteRule ^Calendario_C$ CL_Calendario.php
+RewriteRule ^Guardar_C$ CL_GuardarCita.php
+
+RewriteRule ^CL_CalendarioComprasVentas$ CL_CalendarioComprasVentas.php
+
+# CITAS - fin
+
+# login por especialidad
+RewriteRule ^estetica(.+) index.php?especialidad=estetica$1
+RewriteRule ^estetica index.php?especialidad=estetica
+RewriteRule ^odontologia(.+) index.php?especialidad=odontologia$1
+RewriteRule ^odontologia index.php?especialidad=odontologia
+RewriteRule ^ginecologia(.+) index.php?especialidad=ginecologia$1
+RewriteRule ^ginecologia index.php?especialidad=ginecologia
+RewriteRule ^laboratorio(.+) index.php?especialidad=laboratorio$1
+RewriteRule ^laboratorio index.php?especialidad=laboratorio
+RewriteRule ^oftalmologia(.+) index.php?especialidad=oftalmologia$1
+RewriteRule ^oftalmologia index.php?especialidad=oftalmologia
+RewriteRule ^oftalmologica(.+) index.php?especialidad=oftalmologica$1
+RewriteRule ^oftalmologica index.php?especialidad=oftalmologica
+RewriteRule ^psicologia(.+) index.php?especialidad=psicologia$1
+RewriteRule ^psicologia index.php?especialidad=psicologia
+RewriteRule ^psiquiatria(.+) index.php?especialidad=psiquiatria$1
+RewriteRule ^psiquiatria index.php?especialidad=psiquiatria
+RewriteRule ^fisioterapia(.+) index.php?especialidad=fisioterapia$1
+RewriteRule ^fisioterapia index.php?especialidad=fisioterapia
+RewriteRule ^audiologia(.+) index.php?especialidad=audiologia$1
+RewriteRule ^audiologia index.php?especialidad=audiologia
+RewriteRule ^traumatologia(.+) index.php?especialidad=traumatologia$1
+RewriteRule ^traumatologia index.php?especialidad=traumatologia
+RewriteRule ^ortopedia(.+) index.php?especialidad=ortopedia$1
+RewriteRule ^ortopedia index.php?especialidad=ortopedia
+RewriteRule ^gastroenterologia(.+) index.php?especialidad=gastroenterologia$1
+RewriteRule ^gastroenterologia index.php?especialidad=gastroenterologia
+RewriteRule ^otorrino(.+) index.php?especialidad=otorrino$1
+RewriteRule ^otorrino index.php?especialidad=otorrino
+RewriteRule ^urologia(.+) index.php?especialidad=urologia$1
+RewriteRule ^urologia index.php?especialidad=urologia
+RewriteRule ^neurologia(.+) index.php?especialidad=neurologia$1
+RewriteRule ^neurologia index.php?especialidad=neurologia
+RewriteRule ^cardiologia(.+) index.php?especialidad=cardiologia$1
+RewriteRule ^cardiologia index.php?especialidad=cardiologia
+RewriteRule ^neumologia(.+) index.php?especialidad=neumologia$1
+RewriteRule ^neumologia index.php?especialidad=neumologia
+RewriteRule ^nefrologia(.+) index.php?especialidad=nefrologia$1
+RewriteRule ^nefrologia index.php?especialidad=nefrologia
+RewriteRule ^podologia(.+) index.php?especialidad=podologia$1
+RewriteRule ^podologia index.php?especialidad=podologia
+RewriteRule ^pediatria(.+) index.php?especialidad=pediatria$1
+RewriteRule ^pediatria index.php?especialidad=pediatria
+RewriteRule ^nutricion(.+) index.php?especialidad=nutricion$1
+RewriteRule ^nutricion index.php?especialidad=nutricion
+RewriteRule ^radiologia(.+) index.php?especialidad=radiologia$1
+RewriteRule ^radiologia index.php?especialidad=radiologia
+RewriteRule ^farmacia index.php?especialidad=farmacia
+
+RewriteRule ^anestesiologia(.+) index.php?especialidad=anestesiologia$1
+RewriteRule ^anestesiologia index.php?especialidad=anestesiologia
+# login por especialidad - fin
+
+# RECETARIO
+RewriteRule ^Medicamentos$ RM_Medicamentos.php
+RewriteRule ^PacientesReceta$ RM_PacientesRecetas.php
+RewriteRule ^Receta$ RM_ModuloReceta.php
+RewriteRule ^ImprimirReceta$ RM_ImprimirReceta.php
+RewriteRule ^RecetaEnviar$ RecetaEnviar.php
+RewriteRule ^HistorialReceta$ RM_HistorialReceta.php
+# RECETARIO- fin
+
+
+
+#Plan de Tratamiento INICIO
+RewriteRule ^PT_Pacientes$ Plan_Tratamiento/PT_Pacientes.php
+RewriteRule ^PT_Historia_Clinica$ Plan_Tratamiento/PT_Historia.php
+RewriteRule ^PT_Historia_Clinica_Editar$ Plan_Tratamiento/PT_Historia_Editar.php
+RewriteRule ^PT_ImprimirHistoria$ Plan_Tratamiento/PT_imprimirHistoria.php
+RewriteRule ^PT_FinalizadoHistoria$ Plan_Tratamiento/PT_FinalizadoHistoria.php
+RewriteRule ^PT_HistoricoOdontologia$ Plan_Tratamiento/PT_historicoConsultas.php
+RewriteRule ^PT_HistoricoOdontologiaCopia$ Plan_Tratamiento/PT_historicoConsultas_Copia2.php
+RewriteRule ^PT_NuevoPlanTratamiento$ Plan_Tratamiento/PT_planTratamientoNuevo.php
+RewriteRule ^PT_impresionPlanTratamiento$ Plan_Tratamiento/PT_imprimirPlanTratamiento.php
+RewriteRule ^PT_procedimientosPlan$ Plan_Tratamiento/PT_procedimientosPlan.php
+RewriteRule ^PT_finalizadoPlan$ Plan_Tratamiento/PT_finalizadoPlanTratamientos.php
+RewriteRule ^PT_imprimirProcedimientos$ Plan_Tratamiento/PT_ImprimirProcedimientosPlan.php
+RewriteRule ^PT_finalizadoProcedimientos$ Plan_Tratamiento/PT_finalizadoProcedimientos.php
+RewriteRule ^PT_Historia_Ortodoncia$ Plan_Tratamiento/BO_Historia2.php
+#Plan de Tratamiento FIN
+
+#Historia General
+RewriteRule ^Pacientes_GeneralNew$ Pacientes_GeneralNew.php
+
+RewriteRule ^Historia_General$ Historia_General.php
+RewriteRule ^Historial_General$ Historial_General.php
+
+#Historia Ortodoncia
+RewriteRule ^Pacientes_Ortodoncia$ Pacientes_Ortodoncia.php
+
+RewriteRule ^Historia_Ortodoncia$ Historia_Ortodoncia.php
+RewriteRule ^Historia_Ortodoncia_Editar$ Historia_Ortodoncia_Editar.php
+RewriteRule ^Historial_Ortodoncia$ Historial_Ortodoncia.php
+RewriteRule ^Finalizado_Historia_Ortodoncia$ Finalizado_Historia_Ortodoncia.php
+RewriteRule ^Imprimir_Historia_Ortodoncia$ Imprimir_Historia_Ortodoncia.php
+
+
+# historia pediatria
+RewriteRule ^hcpPacientes$ historia_clinica_pediatria_pacientes.php
+RewriteRule ^hcp$ historia_clinica_pediatria.php
+RewriteRule ^hcpGuardar$ historia_clinica_pediatria_guardar.php
+RewriteRule ^hcpFinalizado$ historia_clinica_pediatria_finalizado.php
+RewriteRule ^hcpImprimir$ historia_clinica_pediatria_imprimir.php
+RewriteRule ^hcpVerPaciente$ historia_clinica_pediatria_consulta.php
+# historia pediatria - fin
+
+# graficas crecimiento
+RewriteRule ^graficasCrecimientoOMS$ GC_GraficasCrecimiento_OMS.php
+RewriteRule ^graficasCrecimientoCDC$ GC_GraficasCrecimiento_CDC.php
+RewriteRule ^graficasCrecimientoSD$ GC_GraficasCrecimiento_SD.php
+RewriteRule ^graficasCrecimientoPacientes$ GC_PacientesGraficas.php
+# graficas crecimiento - fin
+
+# Vacunacion
+RewriteRule ^vacunacionPacientes$ PacientesVacunas.php
+RewriteRule ^vacunacionRegistroV$ RegistrarVacunas.php
+RewriteRule ^vacunacionRegistroVAG$ RegistrarVacunasAGrupo.php
+RewriteRule ^vacunacionAplicar$ AplicarVacuna.php
+RewriteRule ^vacunacionLotes$ lotes.php
+RewriteRule ^vacunacionEliminar$ EliminarVacuna.php
+RewriteRule ^vacunacionEliminarAplicada$ EliminarVacunas.php
+RewriteRule ^vacunacionGrupos$ grupos.php
+RewriteRule ^vacunacionEliminarVacunasGrupos$ eliminarVacunas_grupos.php
+RewriteRule ^ImprimirVacunacion$ ImprimirVacunacion.php
+RewriteRule ^HistorialVacunacion$ HistorialVacunacion.php
+RewriteRule ^enviarHistorial$ enviarHistorial.php
+RewriteRule ^verEsquemaVacunacion$ verEsquemaVacunacion.php
+RewriteRule ^ComprobanteVacunacion$ ComprobanteVacunacion.php
+RewriteRule ^enviarcertificado$ enviarcertificado.php
+RewriteRule ^certificadoVacunas$ certificadoVacunas.php
+RewriteRule ^vercertificado/(.+)$ vercertificado.php?iDv=$1
+RewriteRule ^verEsquemaVacunacion/(.+)$ HistorialVacunacion_Visual.php?cI=$1
+# Vacunacion - fin
+
+# mensajeria masiva
+RewriteRule ^masivoContactos$ moduloMasivos/ws_contactos.php
+RewriteRule ^masivoMensajesW$  moduloMasivos/ws_mensajes.php
+RewriteRule ^masivoMensajesC$  moduloMasivos/ws_mensajesC.php
+RewriteRule ^masivoFiltros$   moduloMasivos/ws_filtros.php
+RewriteRule ^masivoArchivos$  moduloMasivos/ws_archivos.php
+RewriteRule ^masivoActivarFiltro$  moduloMasivos/activarFiltro.php
+RewriteRule ^masivoEnviarWhatsApp$  moduloMasivos/ws_enviarMensaje.php
+RewriteRule ^masivoEnviarCorreo$  moduloMasivos/ws_enviarMensajeC.php
+RewriteRule ^r/(.*)$ moduloMasivos/ws_location.php?url=$1
+RewriteRule ^masivoConfig$  moduloMasivos/masivoConfig.php
+RewriteRule ^masivoWASaludo$  moduloMasivos/masivoWASaludo.php
+RewriteRule ^masivoWAMensajes$  moduloMasivos/masivoWAMensajes.php
+RewriteRule ^masivoWAChatConfig$  moduloMasivos/masivoWAChatConfig.php
+RewriteRule ^masivoWAChat$  moduloMasivos/masivoWAChat.php
+RewriteRule ^activarcontacto$  moduloMasivos/activarcontacto.php
+RewriteRule ^masivoWAChatConfigApi$  moduloMasivos/masivoWAChatConfigApi.php
+RewriteRule ^denysbot$  moduloMasivos/denysbot/index.php
+RewriteRule ^masivoWAFormularios$  moduloMasivos/masivoWAFormularios.php
+RewriteRule ^masivoWAFormulariosReporte$  moduloMasivos/masivoWAFormulariosReporte.php
+# mensajeria masiva - fin
+
+#Factura Odontograma
+RewriteRule ^SclienteAdministracion_facturas_Odontograma$ SclienteAdministracion_facturas_Odontograma.php
+RewriteRule ^OD_GenerarFactura$ OD_GenerarFactura.php
+RewriteRule ^OD_PreliminarFactura$ OD_PreliminarFactura.php
+RewriteRule ^OD_ImprimirFactura$ OD_ImprimirFactura.php
+#Factura Odontograma - Fin
+
+#Abono Cuentas Cobrar 
+RewriteRule ^AbonoCuentasC$ AbonoCuentasC.php
+RewriteRule ^AbonoRegistrarC$ AbonoRegistrarC.php
+RewriteRule ^ImprimirAbonoC$ ImprimirAbonoC.php
+RewriteRule ^HistorialAbonoC$ HistorialAbonoC.php
+
+RewriteRule ^AnularAbonoC$ AnularAbonoC.php
+RewriteRule ^EnviarAbonoC$ EnviarAbonoC.php
+#Abono Cuentas Cobrar  - Fin
+
+#Presupuesto Odontograma 
+RewriteRule ^SclienteAdministracion_presupuestos_Odontograma$ SclienteAdministracion_presupuestos_Odontograma.php
+RewriteRule ^OD_GenerarPresupuesto$ OD_GenerarPresupuesto.php
+RewriteRule ^OD_TotalizarPresupuesto$ OD_TotalizarPresupuesto.php
+RewriteRule ^OD_PreliminarPresupuesto$ OD_PreliminarPresupuesto.php
+RewriteRule ^OD_ImprimirPresupuesto$ OD_ImprimirPresupuesto.php
+#Presupuesto Odontograma - Fin
+
+#Presupuesto Odontograma Nuevo 
+RewriteRule ^OP_Clientes$ OdontoPresupuesto/OP_Pacientes.php
+RewriteRule ^OP_GenerarPresupuesto$ OdontoPresupuesto/OP_Odontopresupuesto.php
+RewriteRule ^OP_Presupuestos$ OdontoPresupuesto/OP_ListaPresupuestos.php
+RewriteRule ^OP_Autorizar/(.+)$ OdontoPresupuesto/OP_Autorizar.php?id=$1
+RewriteRule ^OP_GenerarPresupuestoCorriente$ OdontoPresupuesto/OP_CrearPresupuestoCorriente.php
+RewriteRule ^OP_PlanAtencion$ OdontoPresupuesto/OP_PlanAtencion.php
+RewriteRule ^OP_Preview$ OdontoPresupuesto/OP_Preview.php
+RewriteRule ^OP_Imprimir$ OdontoPresupuesto/OP_Imprimir.php
+#Presupuesto Odontograma Nuevo - Fin
+
+#Historia Placas
+RewriteRule ^OD_PacientesPlaca$ OD_PacientesPlaca.php
+RewriteRule ^OD_GenerarOdontogramaPlaca$ OD_GenerarOdontogramaPlaca.php
+RewriteRule ^OD_OdontogramaPlaca$ OD_OdontogramaPlaca.php
+RewriteRule ^OD_RegistrarPlaca$ OD_RegistrarPlaca.php
+RewriteRule ^OD_HistorialOdontogramaPlaca$ OD_HistorialOdontogramaPlaca.php
+#Historia Placas - Fin
+
+#Odontograma 
+RewriteRule ^OD_Pacientes$ OD_Pacientes.php
+RewriteRule ^OD_OdontogramaInicial$ OD_OdontogramaInicial.php
+RewriteRule ^OD_Impresion$ OD_Impresion.php
+RewriteRule ^OD_Odontograma$ OD_Odontograma.php
+RewriteRule ^OD_HistorialOdontograma$ OD_HistorialOdontograma.php
+
+#Mas Opciones Odontograma
+RewriteRule ^OD_Procedimientos$ OD_Procedimientos.php
+RewriteRule ^OD_SubirSVG$ OD_SubirSVG.php
+RewriteRule ^OD_Reportes$ OD_Reportes.php
+
+RewriteRule ^pacientesImagenologia$ pacientesImagenologia.php
+RewriteRule ^pacientes2$ pacientes2.php
+RewriteRule ^pacientes_cardiologia$ pacientes_cardiologia.php
+RewriteRule ^pacientes_ControlesPsiquiatria$ pacientes_ControlesPsiquiatria.php
+RewriteRule ^pacientes_trabajosocial$ pacientes_trabajosocial.php
+
+#Odontograma - Fin
+
+#Reporte Presupuesto   
+RewriteRule ^ReportePresupuestos$ ReportePresupuestos.php
+#Reporte Presupuesto - Fin
+
+# Rips Entidades
+RewriteRule ^Rips_Entidades$ Rips_Entidades.php
+RewriteRule ^Rips_Convenios$ Rips_Convenios.php
+RewriteRule ^Rips_Tarifas$ Rips_Tarifas.php
+RewriteRule ^rips$ Rips.php
+# Rips Entidades - Fin
+
+#Gasto y Egresos  
+RewriteRule ^S_GE_nuevo$ S_GE_nuevo.php
+RewriteRule ^registroS_GE_nuevo$ registroS_GE_nuevo.php
+RewriteRule ^S_GE_control$ S_GE_control.php
+RewriteRule ^ImprimirGasto$ ImprimirGasto.php
+RewriteRule ^S_GE_categorias$ S_GE_categorias.php
+RewriteRule ^S_GE_ReporteGeneral$ S_GE_ReporteGeneral.php
+#Gasto y Egresos - FIN
+
+#Panel de encuestas
+RewriteRule ^PanelC_Encuestas$ PanelC_Encuestas.php
+#Panel de encuestas - FIN
+
+#Presupuesto Facial  
+RewriteRule ^presupuestoFacial$ presupuestoFacial.php
+RewriteRule ^preliminarPresupuestoFacial$ preliminarPresupuestoFacial.php
+RewriteRule ^imprimirPresupuestoFacial$ imprimirPresupuestoFacial.php
+
+
+#Historia Psicologia 
+RewriteRule ^PS_Pacientes$ PS_Pacientes.php
+RewriteRule ^PS_Historia_Psicologia$ PS_Historia_Psicologia.php
+RewriteRule ^PS_Guardar_Historia_Psicologia$ PS_Guardar_Historia_Psicologia.php
+RewriteRule ^PS_Finalizado_Psicologia$ PS_Finalizado_Psicologia.php
+RewriteRule ^PS_Imprimir_Consulta_Psicologia$ PS_Imprimir_Consulta_Psicologia.php
+RewriteRule ^PS_Historial_Psicologia$ PS_Historial_Psicologia.php
+
+RewriteRule ^PS_Controles_Psicologia$ PS_Controles_Psicologia.php
+RewriteRule ^PS_Guardar_Controles_Psicologia$ PS_Guardar_Controles_Psicologia.php
+RewriteRule ^PS_Finalizado_Controles_Psicologia$ PS_Finalizado_Controles_Psicologia.php
+RewriteRule ^PS_Imprimir_Controles_Psicologia$ PS_Imprimir_Controles_Psicologia.php
+#Historia Psicologia FIN
+
+#Historia Psiquiatria 
+RewriteRule ^PSQ_Pacientes$ PSQ_Pacientes.php
+RewriteRule ^PSQ_Historia_Controles_Psiquiatria$ PSQ_Historia_Controles_Psiquiatria.php
+RewriteRule ^PSQ_Guardar_Controles$ PSQ_Guardar_Controles.php
+RewriteRule ^PSQ_Finalizado$ PSQ_Finalizado.php
+RewriteRule ^PSQ_Imprimir$ PSQ_Imprimir.php
+RewriteRule ^PSQ_Historial_Controles_Psiquiatria$ PSQ_Historial_Controles_Psiquiatria.php
+#Historia Psiquiatria FIN
+
+#Modulo Facturacion 
+RewriteRule ^SgenerarFactura$ SgenerarFactura.php
+RewriteRule ^totalizarFactura$ totalizarFactura.php
+RewriteRule ^preliminarFactura$ preliminarFactura.php
+RewriteRule ^imprimirFactura$ imprimirFactura.php
+#Modulo Facturacion FIN
+
+#Historia Psicologia Grupal 
+RewriteRule ^PS_Controles_Psicologia_Grupal$ PS_Controles_Psicologia_Grupal.php
+RewriteRule ^PS_Guardar_Controles_Psicologia_Grupal$ PS_Guardar_Controles_Psicologia_Grupal.php
+#Historia Psicologia Grupal FIN
+
+
+#Historia Ginecobstetrica  
+RewriteRule ^GO_Pacientes_Ginecobstetrica$ GO_Pacientes_Ginecobstetrica.php
+RewriteRule ^GO_Historia_Clinica_Ginecobstetrica$ GO_Historia_Clinica_Ginecobstetrica.php
+RewriteRule ^GO_Guardar_Historia_Ginecobstetrica$ GO_Guardar_Historia_Ginecobstetrica.php
+RewriteRule ^GO_Finalizado_Historia_Ginecobstetrica$ GO_Finalizado_Historia_Ginecobstetrica.php
+RewriteRule ^RM_ImprimirRecetaGinecobstetrica$ RM_ImprimirRecetaGinecobstetrica.php
+RewriteRule ^GO_Imprimir_Historia_Ginecobstetrica$ GO_Imprimir_Historia_Ginecobstetrica.php
+RewriteRule ^GO_Historial_Clinico_Ginecobstetrica$ GO_Historial_Clinico_Ginecobstetrica.php
+
+RewriteRule ^GO_Evolucion_Historia_Ginecobstetrica$ GO_Evolucion_Historia_Ginecobstetrica.php
+RewriteRule ^GO_Guardar_Evolucion_Ginecobstetrica$ GO_Guardar_Evolucion_Ginecobstetrica.php
+RewriteRule ^GO_Finalizado_Evolucion_Ginecobstetrica$ GO_Finalizado_Evolucion_Ginecobstetrica.php
+RewriteRule ^GO_Imprimir_Evoluciones_Ginecobstetricas$ GO_Imprimir_Evoluciones_Ginecobstetricas.php
+
+RewriteRule ^GO_Historial_Evolucion_Historia_Ginecobstetrica$ GO_Historial_Evolucion_Historia_Ginecobstetrica.php
+#Historia Ginecobstetrica
+
+# login por demo
+RewriteRule ^login$ index.php
+# login por demo - fin
+
+#Reporte Odontologia  
+RewriteRule ^ReporteOdontologia$ ReporteOdontologia.php
+#Reporte Odontologia FIN
+
+#Historia Otorrino  HO_Historia_Otorrino
+RewriteRule ^HO_Pacientes$ HO_Pacientes.php
+RewriteRule ^HO_Historia_Otorrino$ HO_Historia_Otorrino.php
+RewriteRule ^HO_Guardar_Historia_Otorrino$ HO_Guardar_Historia_Otorrino.php
+RewriteRule ^HO_Finalizado_Historia_Otorrino$ HO_Finalizado_Historia_Otorrino.php
+RewriteRule ^HO_Imprimir_Historia$ HO_Imprimir_Historia.php
+RewriteRule ^HO_Historial_Otorrino$ HO_Historial_Otorrino.php
+
+#Historia Otorrino  HU_Historia_Urologia
+RewriteRule ^HU_Pacientes$ HU_Pacientes.php
+RewriteRule ^HU_Historia_Urologia$ HU_Historia_Urologia.php
+RewriteRule ^HU_Guardar_Historia_Urologia$ HU_Guardar_Historia_Urologia.php
+RewriteRule ^HU_Finalizado_Historia_Urologia$ HU_Finalizado_Historia_Urologia.php
+RewriteRule ^HU_Imprimir_Historia$ HU_Imprimir_Historia.php
+RewriteRule ^HU_Historial_Urologia$ HU_Historial_Urologia.php
+
+#Historia Fisioterapia 1
+RewriteRule ^HFT1_Pacientes$ HFT1_Pacientes.php
+RewriteRule ^HFT1_Historia_Fisioterapia$ HFT1_Historia_Fisioterapia.php
+RewriteRule ^HFT1_Guardar_Fisioterapia$ HFT1_Guardar_Fisioterapia.php
+RewriteRule ^HFT1_Finalizado_Historia_Fisioterapia$ HFT1_Finalizado_Historia_Fisioterapia.php
+RewriteRule ^HFT1_Imprimir_Historia_Fisioterapia$ HFT1_Imprimir_Historia_Fisioterapia.php
+RewriteRule ^HFT1_Historial_Fisioterapia$ HFT1_Historial_Fisioterapia.php
+
+
+#Historia Fisioterapia
+RewriteRule ^HFT_Pacientes$ HFT_Pacientes.php
+RewriteRule ^HFT_Historia_Fisioterapia$ HFT_Historia_Fisioterapia.php
+RewriteRule ^HFT_Guardar_Fisioterapia$ HFT_Guardar_Fisioterapia.php
+RewriteRule ^HFT_Finalizado_Historia_Fisioterapia$ HFT_Finalizado_Historia_Fisioterapia.php
+RewriteRule ^HFT_Imprimir_Historia_Fisioterapia$ HFT_Imprimir_Historia_Fisioterapia.php
+RewriteRule ^HFT_Historial_Fisioterapia$ HFT_Historial_Fisioterapia.php
+
+#Historia Tratamiento de Onda de Choque y Choque Bilateral
+RewriteRule ^TCB_Pacientes$ TCB_Pacientes.php
+RewriteRule ^TCB_Historia_Tratamiento$ TCB_Historia_Tratamiento.php
+RewriteRule ^TCB_Guardar_Historias$ TCB_Guardar_Historias.php
+RewriteRule ^TCB_Finalizado_Historias$ TCB_Finalizado_Historias.php
+RewriteRule ^TCB_Imprimir_Historias$ TCB_Imprimir_Historias.php
+RewriteRule ^TCB_Imprimir_Evoluciones_Tratamientos$ TCB_Imprimir_Evoluciones_Tratamientos.php
+RewriteRule ^TCB_Historial_Tratamiento$ TCB_Historial_Tratamiento.php
+
+#Historia Cardologia
+RewriteRule ^HC_Pacientes$ HC_Pacientes.php
+RewriteRule ^HC_Historia_Cardiologia$ HC_Historia_Cardiologia.php
+RewriteRule ^HC_Guardar_Cardiologia$ HC_Guardar_Cardiologia.php
+RewriteRule ^HC_Finalizado_Historias$ HC_Finalizado_Historias.php
+RewriteRule ^HC_Imprimir_Historias$ HC_Imprimir_Historias.php
+RewriteRule ^HC_Historial_Cardiologia$ HC_Historial_Cardiologia.php
+
+#Historia Nutricion
+RewriteRule ^HN_Pacientes$ HN_Pacientes.php
+RewriteRule ^HN_Historia_Nutricion$ HN_Historia_Nutricion.php
+RewriteRule ^HN_Guardar_Nutricion$ HN_Guardar_Nutricion.php
+RewriteRule ^HN_Finalizado_Historias$ HN_Finalizado_Historias.php
+RewriteRule ^HN_Imprimir_Historias$ HN_Imprimir_Historias.php
+RewriteRule ^HN_Imprimir_Historias_Examenes$ HN_Imprimir_Historias_Examenes.php
+RewriteRule ^HN_Historial_Nutricion$ HN_Historial_Nutricion.php
+
+#Modulo Dicom DC_SubirArchivos
+RewriteRule ^DC_Pacientes$ DC_Pacientes.php
+RewriteRule ^DC_SubirArchivos$ DC_SubirArchivos.php
+
+#Modulo Laboratorio 
+RewriteRule ^LB_PacientesOrdenes$ LB_PacientesOrdenes.php
+RewriteRule ^LB_GenerarOrdenLaboratorio$ LB_GenerarOrdenLaboratorio.php
+RewriteRule ^LB_TotalizarOrden$ LB_TotalizarOrden.php
+RewriteRule ^LB_PreliminarOrden$ LB_PreliminarOrden.php
+RewriteRule ^LB_ImpresionResultadoOrden$ LB_ImpresionResultadoOrden.php
+RewriteRule ^LB_ImprimirEtiqueta$ LB_ImprimirEtiqueta.php
+RewriteRule ^LB_ImprimirEtiquetaCategorias$ LB_ImprimirEtiquetaCategorias.php
+RewriteRule ^LB_ImpresionOrden$ LB_ImpresionOrden.php
+RewriteRule ^LB_HistorialPaciente$ LB_HistorialPaciente.php
+
+RewriteRule ^LB_CargarOrden$ LB_CargarOrden.php
+RewriteRule ^LB_ResultadoOrden$ LB_ResultadoOrden.php
+RewriteRule ^LB_EditarOrden$ LB_EditarOrden.php
+RewriteRule ^LB_OrdenDeLaOrden$ LB_OrdenDeLaOrden.php
+
+RewriteRule ^LB_CrearCategorias$ LB_CrearCategorias.php
+RewriteRule ^LB_CrearExamenes$ LB_CrearExamenes.php
+RewriteRule ^LB_OrderExamenCaracteristicas$ LB_OrderExamenCaracteristicas.php
+
+RewriteRule ^LB_CrearPaquetes$ LB_CrearPaquetes.php
+RewriteRule ^LB_MedicosAsociados$ LB_MedicosAsociados.php
+RewriteRule ^LB_MedicosAsociados_HistorialPagos$ LB_MedicosAsociados_HistorialPagos.php
+
+RewriteRule ^LB_CrearExamenesDirectos$ LB_CrearExamenesDirectos.php
+#Modulo Pacientes
+RewriteRule ^TablaInformacionPacientes$ TablaInformacionPacientes.php
+
+# videoConsulta
+RewriteRule ^videoConsultas$ videoConsulta/vc_consultasAgendadas.php
+RewriteRule ^videoConsultasCrearSala$ videoConsulta/vc_crearSala.php
+RewriteRule ^videoConsultasReporte$ ReporteVideoconsultas.php
+RewriteRule ^clienteAdministracion_VideoChat$ videoConsulta/vc_consultasAgendadas.php
+RewriteRule ^videoConsultasCargarVideo$ videoConsulta/vc_consultasCargarVideo.php
+# videoConsulta - fin
+
+# Factura electronica ecuador
+RewriteRule ^configFacturaElectronicaEC$ moduloFacturaEcuador/configfe.php
+# Factura electronica ecuador - fin
+
+#Modulo Auditor
+RewriteRule ^AD_Auditor$ AD_TablaInformacion.php
+# [FIN] Modulo Auditor
+
+#Modulo Paquetes Procedimientos
+RewriteRule ^ES_PaquetesProcedimiento$ ES_PaquetesProcedimiento.php
+RewriteRule ^ES_VerFormula$ ES_VerFormula.php
+# [FIN] Modulo Paquetes Procedimientos
+
+#Modulo Auditor Whatsapp
+RewriteRule ^ADW_TablaInformacion$ ADW_TablaInformacion.php
+# [FIN] Modulo Auditor Whatsapp
+
+#Modulo POS
+RewriteRule ^pos$ pos.php
+
+RewriteRule ^POS_CrearPunto$ POS_CrearPunto.php
+# [FIN] Modulo POS
+
+#Modulo Medios de Pago
+RewriteRule ^Medios_Pago$ Medios_Pago.php
+# [FIN] Modulo Medios de Pago
+
+#Modulo de Caja
+RewriteRule ^POS_CorteX_Admin$ POS_CorteX_Admin.php
+RewriteRule ^POS_CorteX$ POS_CorteX.php
+RewriteRule ^POS_ImprimirCorte$ POS_ImprimirCorte.php
+RewriteRule ^POS_ImprimirCortePOS$ POS_ImprimirCortePOS.php
+RewriteRule ^POS_CajasInformacionDetallada$ POS_CajasInformacionDetallada.php
+
+# [FIN] Modulo de Caja
+
+#Modulo Inventario Nuevo 
+RewriteRule ^IN_dep$ IN_dep.php
+RewriteRule ^IN_tipo_inventarios$ IN_tipo_inventarios.php
+RewriteRule ^IN_Inventario$ IN_Inventario.php
+RewriteRule ^IN_InventarioCategoria$ IN_InventarioCategoria.php
+
+RewriteRule ^IN_ListaInventarios$ IN_ListaInventarios.php
+
+RewriteRule ^ControlMedicamentos$ ControlMedicamentos.php
+RewriteRule ^ConsultarExistencias$ ConsultarExistencias.php
+
+RewriteRule ^IN_Ivas$ IN_Ivas.php
+# [FIN] Modulo Inventario Nuevo
+
+# Generador de qr
+
+RewriteRule ^generarQrsGeneral$ generarQr/qrGeneral.php
+# Generador de qr - fin
+
+#Modulo de QR para registro de pacientes
+RewriteRule ^generarQrs$ generarQr/index.php
+RewriteRule ^configQR$ QR_RegistroPaciente/configQR.php
+RewriteRule ^registroPaciente_QR$ QR_RegistroPaciente/registrarPacienteQR.php
+#Modulo de QR para registro de pacientes
+
+
+#Modulo Salud Ocupacional
+
+RewriteRule ^SO_Pacientes$ SO_Pacientes.php
+RewriteRule ^SO_SalaControl$ SO_SalaControl.php
+RewriteRule ^SO_AsignarExamenes$ SO_AsignarExamenes.php
+RewriteRule ^SO_historiaClinicaLaboral$ SO_historiaClinica7_laboral.php
+RewriteRule ^guardarHistoriaClinica_laboral$ guardarHistoriaClinica_laboral.php
+RewriteRule ^SO_HistoriaConceptoLaboral$ SO_HistoriaConceptoLaboral.php
+RewriteRule ^SO_Guardar_Concepto_Laboral$ SO_Guardar_Concepto_Laboral.php
+RewriteRule ^SO_Finalizado$ SO_Finalizado.php
+RewriteRule ^SO_Imprimir_Historia$ SO_Imprimir_Historia.php
+
+
+
+RewriteRule ^SO_PacientesConceptoLaboral$ SO_PacientesConceptoLaboral.php
+RewriteRule ^SO_HistorialConceptoLaboral$ SO_HistorialConceptoLaboral.php
+
+RewriteRule ^SO_EmpresasAfiliadas$ SO_EmpresasAfiliadas.php
+RewriteRule ^SO_EmpresaAfiliarServicios$ SO_EmpresaAfiliarServicios.php
+
+
+RewriteRule ^SO_CrearExamenes$ SO_CrearExamenes.php
+
+
+
+RewriteRule ^verHistorias$ panel.php
+RewriteRule ^panelempresa$ panelempresa.php
+RewriteRule ^consultarPaciente$ consultarPaciente.php
+
+# [FIN] Modulo Salud Ocupacional
+
+
+# Configuración de impresiones
+RewriteRule ^configImpresiones$ creadorImpresiones/index.php
+RewriteRule ^configImpresionesLista$ creadorImpresiones/lista.php
+RewriteRule ^configImpresionesTest$ creadorImpresiones/downloadPDF.php
+RewriteRule ^visualizarDocumento$ creadorImpresiones/downloadPDF.php
+# Configuración de impresiones - fin
+
+
+RewriteRule ^PacientesPortalWeb$ PacientesPortalWeb.php
+
+
+# bancos
+RewriteRule ^bancosRegistro$ bancos/bancosRegistro.php
+RewriteRule ^bancosTransferencias$ bancos/bancosTransferencias.php
+RewriteRule ^bancosConceptos$ bancos/bancosConceptos.php
+RewriteRule ^bancosConciliaciones$ bancos/bancosConciliaciones.php
+# bancos - fin
+
+# cuentas contables
+RewriteRule ^ccPlandeCuentas$ cuentasContables/ccPlandeCuentas.php
+RewriteRule ^ccCentros$ cuentasContables/ccCentros.php
+RewriteRule ^ccComprobantes$ cuentasContables/ccComprobantes.php
+RewriteRule ^ccComprobantesM$ cuentasContables/ccComprobantesM.php
+RewriteRule ^ccImprimirComprobante$ cuentasContables/ccImprimirComprobante.php
+RewriteRule ^ccComprobantesEditarC$ cuentasContables/ccComprobantesEditarC.php
+RewriteRule ^ccComprobantesEditarT$ cuentasContables/ccComprobantesEditarT.php
+# cuentas contables - fin
+
+#Modulo Caja Menor 
+RewriteRule ^Caja_Menor$ Caja_Menor.php
+RewriteRule ^Caja_Menor_historico$ Caja_Menor_historico.php
+RewriteRule ^Reporte_CajaMenor$ Reporte_CajaMenor.php
+RewriteRule ^ReporteGeneral$ ReporteGeneral.php
+RewriteRule ^Caja_Menor_Categorias$ Caja_Menor_Categorias.php
+
+# [FIN] Modulo Caja Menor
+
+#Modulo Inyectologia 
+RewriteRule ^AplicarInyeccion$ AplicarInyeccion.php
+RewriteRule ^ImprimirInyeccion$ ImprimirInyeccion.php
+RewriteRule ^HistorialInyeccion$ HistorialInyeccion.php
+RewriteRule ^enviarHistorialInyeccion$ enviarHistorialInyeccion.php
+RewriteRule ^RegistrarInyecciones$ RegistrarInyecciones.php
+RewriteRule ^lotesInyeccion$ lotesInyeccion.php
+
+RewriteRule ^RegistrarInyeccionesAGrupo$ RegistrarInyeccionesAGrupo.php
+RewriteRule ^vacunacionInyeccionGrupos$ vacunacionInyeccionGrupos.php
+
+RewriteRule ^PacientesInyecciones$ PacientesInyecciones.php
+
+RewriteRule ^ComprobanteInyeccion$ ComprobanteInyeccion.php
+RewriteRule ^certificadoInyeccion$ certificadoInyeccion.php
+RewriteRule ^vercertificadoinyeccion/(.+)$ vercertificadoinyeccion.php?iDv=$1
+
+# [FIN] Modulo Inyectologia
+
+#Modulo Control de pacientes Farmacia
+RewriteRule ^CF_PacientesControlFarmacia$ CF_PacientesControlFarmacia.php
+RewriteRule ^CF_ControlPacientesFarmacia$ CF_ControlPacientesFarmacia.php
+
+RewriteRule ^RF_ReportesFarmacia$ RF_ReportesFarmacia.php
+# [FIN] Modulo Control de pacientes Farmacia
+
+
+
+# ordenes de compra
+RewriteRule ^ordenesCompraIngreso$ ordenesCompra/ordenesCompraIngreso.php
+RewriteRule ^ordenesCompraControl$ ordenesCompra/ordenesCompraControl.php
+RewriteRule ^ordenesCompraVer$ ordenesCompra/ordenesCompraVer.php
+RewriteRule ^ordenesCompraVerHistorial$ ordenesCompra/ordenesCompraVerHistorial.php
+RewriteRule ^ordenesCompraReportes$ ordenesCompra/ordenesCompraReportes.php
+RewriteRule ^ordenesCompraReportesVer$ ordenesCompra/ordenesCompraReportesVer.php
+# ordenes de compra - fin
+
+#Modulo Control Contabilidad 
+RewriteRule ^CTB_ModuloContabilidad$ CTB_ModuloContabilidad.php
+RewriteRule ^CTB_CentroCostos$ CTB_CentroCostos.php
+RewriteRule ^CTB_InventarioCuentaC$ CTB_InventarioCuentaC.php
+
+RewriteRule ^CTB_IvaCuentaC$ CTB_IvaCuentaC.php
+RewriteRule ^CTB_MedioPagoCuentaC$ CTB_MedioPagoCuentaC.php
+
+RewriteRule ^CTB_CuentaCostoVenta$ CTB_CuentaCostoVenta.php
+RewriteRule ^CTB_Retenciones$ CTB_Retenciones.php
+
+# [FIN] Modulo Control Contabilidad 
+
+#Modulo Proveedor Modulos
+RewriteRule ^PV_TipoPersona$ PV_TipoPersona.php
+RewriteRule ^PV_Documentos$ PV_Documentos.php
+# [FIN] Modulo Proveedor Modulos
+
+#Modulo Menus
+RewriteRule ^Perfiles_RegistrarNuevoMenu$ Perfiles_RegistrarNuevoMenu.php
+# [FIN] Modulo Menus
+
+
+# Modulo nomina (depende de bancos / contabilidad general)
+RewriteRule ^nominaEmpresas$ nomina/nominaEmpresas.php
+RewriteRule ^nominaEmpresasCargos$ nomina/nominaEmpresasCargos.php
+RewriteRule ^nominaEmpresasNiveles$ nomina/nominaEmpresasNiveles.php
+RewriteRule ^nominaEmpresasProfesiones$ nomina/nominaEmpresasProfesiones.php
+RewriteRule ^nominaTipos$ nomina/nominaTipos.php
+RewriteRule ^nominaPersonal$ nomina/nominaPersonal.php
+RewriteRule ^nominaPersonalReferencia$ nomina/nominaPersonalReferencia.php
+RewriteRule ^nominaPersonalExperiencia$ nomina/nominaPersonalExperiencia.php
+RewriteRule ^nominaPersonalInfLaboral$ nomina/nominaPersonalInfLaboral.php
+RewriteRule ^nominaPersonalNovedades$ nomina/nominaPersonalNovedades.php
+RewriteRule ^nominaPersonalContratos$ nomina/nominaPersonalContratos.php
+RewriteRule ^nominaReportes$ nomina/nominaReportes.php
+RewriteRule ^nominaReportesVer$ nomina/nominaReportesVer.php
+RewriteRule ^nominaSeleccionarEmpresa$ nomina/nominaSeleccionarEmpresa.php
+# Modulo nomina - fin
+
+#Modulo Recordatorio Eventos
+RewriteRule ^CL_Recordatorio$ CL_Recordatorio.php
+# [FIN] Modulo Recordatorio Eventos
+
+#Modulo STL
+RewriteRule ^STL_CA$ STL_CargarArchivos.php
+RewriteRule ^STL_PC$ STL_Pacientes.php
+RewriteRule ^STL_G$ STL_GuardarArchivo.php
+# [FIN] Modulo STL
+
+#Modulo Quiropracticia
+RewriteRule ^QP_Pacientes$ Pacientes_Quiropracticia.php
+RewriteRule ^QP_Consulta$ historiaClinica17_quiropractia.php
+
+# [FIN] Modulo Quiropracticia
+
+#Modulo Documento Soporte
+RewriteRule ^Docso_ControlProveedores$ Docso_ControlProveedores.php
+RewriteRule ^Docso_GenerarDocumento$ Docso_GenerarDocumento.php
+RewriteRule ^Docso_PreliminarDocumento$ Docso_PreliminarDocumento.php
+RewriteRule ^Docso_Impresion$ Docso_Impresion.php
+
+RewriteRule ^Docso_InformacioUsuario$ Docso_InformacioUsuario.php
+RewriteRule ^Docso_DatosProveedor$ Docso_DatosProveedor.php
+
+RewriteRule ^Docso_ControlDocumentosSoporte$ Docso_ControlDocumentosSoporte.php
+RewriteRule ^Docso_Reportes$ Docso_Reportes.php
+
+# [FIN] Modulo Documento Soporte
+
+
+#Modulo Documento Soporte
+RewriteRule ^Rips_Paquetes$ Rips_Paquetes.php
+RewriteRule ^EN_TablaPacientes$ EN_TablaPacientes.php
+# [FIN] Modulo Documento Soporte
+
+#Modulo Entidad Facturacion
+RewriteRule ^EN_FacturacionCliente$ EN_FacturacionCliente.php
+RewriteRule ^EN_PreliminarFactura$ EN_PreliminarFactura.php
+
+RewriteRule ^EN_TablaEntidad$ EN_TablaEntidad.php
+RewriteRule ^EN_FacturacionEntidad$ EN_FacturacionEntidad.php
+RewriteRule ^EN_PreliminarEntidadFactura$ EN_PreliminarEntidadFactura.php
+
+RewriteRule ^EN_ImprimirEntidadFactura$ EN_ImprimirEntidadFactura.php
+RewriteRule ^EN_ControlFacturasEntidad$ EN_ControlFacturasEntidad.php
+RewriteRule ^EN_ImprimirClienteFactura$ EN_ImprimirClienteFactura.php
+
+RewriteRule ^EN_GenerarDevolucion$ EN_GenerarDevolucion.php
+RewriteRule ^EN_PreliminarDevolucionEntidad$ EN_PreliminarDevolucionEntidad.php
+RewriteRule ^EN_ImprimirDevolucionEntidad$ EN_ImprimirDevolucionEntidad.php
+
+RewriteRule ^EN_ControlDevoluciones$ EN_ControlDevoluciones.php
+
+RewriteRule ^EN_ControlFacturasPaciente$ EN_ControlFacturasPaciente.php
+
+
+# [FIN] Modulo Entidad Facturacion
+
+#Modulo Lista Maestros Entidades
+RewriteRule ^S_Select_AE$ S_Select_AE.php
+RewriteRule ^S_Select_Vendedor$ S_Select_Vendedor.php
+
+RewriteRule ^S_Select_TipoCliente$ S_Select_TipoCliente.php
+RewriteRule ^S_Select_Rips$ S_Select_Rips.php
+RewriteRule ^S_Select_RegimenSalud$ S_Select_RegimenSalud.php
+RewriteRule ^S_Select_Regimen$ S_Select_Regimen.php
+
+RewriteRule ^Rips$ Rips.php
+RewriteRule ^pacientesTest$ pacientesTest.php
+
+RewriteRule ^S_Select_ConceptoICA$ S_Select_ConceptoICA.php
+RewriteRule ^S_Select_ResponsabilidadFiscal$ S_Select_ResponsabilidadFiscal.php
+RewriteRule ^S_Select_Tributo$ S_Select_Tributo.php
+
+
+RewriteRule ^S_Select_Categoria$ S_Select_Categoria.php
+RewriteRule ^S_Select_ModalidadContratacion$ S_Select_ModalidadContratacion.php
+RewriteRule ^S_Select_CoberturaPlan$ S_Select_CoberturaPlan.php
+
+RewriteRule ^S_Select_EspecialidadProcedimiento$ S_Select_EspecialidadProcedimiento.php
+RewriteRule ^S_Select_FinalidadProcedimiento$ S_Select_FinalidadProcedimiento.php
+RewriteRule ^S_Select_PersonalAtiende$ S_Select_PersonalAtiende.php
+# [FIN] Modulo Lista Maestros Entidades
+
+
+# Modulo plan de atencion
+RewriteRule ^actualizarEstadoPlan$ planAtencion/actualizarEstadoPlan.php
+RewriteRule ^verPlanAtencion$ planAtencion/verPlanAtencion.php
+# Modulo plan de atencion - fin
+
+
+#sala de espera v2.
+RewriteRule ^SE_indexv2$ salaEsperav2/SE_index.php
+RewriteRule ^SE_index$ SE_index.php
+
+RewriteRule ^SE_ControlCitas$ SE_ControlCitas.php
+RewriteRule ^RC_ReportesContabilidad$ RC_ReportesContabilidad.php
+RewriteRule ^pacientesHospitalizacionDV$ pacientesHospitalizacionDV.php
+RewriteRule ^salaHospitalizacion$ salaHospitalizacion.php
+RewriteRule ^pacientesPreHospitalizacion$ pacientesPreHospitalizacion.php
+RewriteRule ^GO_PacientesQuiropractica$ GO_PacientesQuiropractica.php
+RewriteRule ^IN_ActivosDescargar$ IN_ActivosDescargar.php
+RewriteRule ^IN_ActivosCargar$ IN_ActivosCargar.php
+RewriteRule ^IN_AsignarSerialEmpleado$ IN_AsignarSerialEmpleado.php
+RewriteRule ^calendarioHospitalizacion$ calendarioHospitalizacion.php
+RewriteRule ^ReportesGenerales$ ReportesGenerales.php
+RewriteRule ^RA_Pacientes$ RA_Pacientes.php
+RewriteRule ^epicCrisisPaciente$ epicCrisisPaciente.php
+RewriteRule ^PO_Pacientes$ PO_Pacientes.php
+RewriteRule ^reportesR$ reportesR.php
+#fin sala de esperav2
+
+# Modulo Chat AI
+RewriteRule ^ChatAI$ AI/AIChatPanel.php
+# Modulo Chat AI - fin
+
+#Pacientes en atencion
+RewriteRule ^pacientesAtencion$ pacientesAtencion.php
+#Pacientes en atencion
+
+
+# Asistente virtual
+RewriteRule ^asistente$ asistenteVirtual/asistenteVirtualConfig.php
+# Asistente virtual - fin
+
+# Piegrama
+RewriteRule ^PD_Pacientes$ PD_Pacientes.php
+RewriteRule ^PD_Procedimientos$ PD_Procedimientos.php
+RewriteRule ^PD_SubirSVG$ PD_SubirSVG.php
+RewriteRule ^PD_Podologia$ PD_Podologia.php
+RewriteRule ^PD_Impresion$ PD_Impresion.php
+RewriteRule ^PD_ModuloFirma$ PD_ModuloFirma.php
+RewriteRule ^CargarCompraXML$ CargarCompraXML.php
+
+# Piegrama - fin
+
+# Familiograma
+RewriteRule ^FM_Pacientes$ FM_Pacientes.php
+RewriteRule ^FM_Familiograma$ FM_Familiograma.php
+RewriteRule ^FM_GuardarFamiliograma$ FM_GuardarFamiliograma.php
+RewriteRule ^FM_Finalizado$ FM_Finalizado.php
+RewriteRule ^FM_ImprimirFamiliograma$ FM_ImprimirFamiliograma.php
+RewriteRule ^FM_Historial$ FM_Historial.php
+# Familiograma - fin
+
+# Ecomapa
+RewriteRule ^EC_Pacientes$ EC_Pacientes.php
+RewriteRule ^EC_Ecomapa$ EC_Ecomapa.php
+RewriteRule ^EC_GuardarEcomapa$ EC_GuardarEcomapa.php
+RewriteRule ^EC_Finalizado$ EC_Finalizado.php
+RewriteRule ^EC_ImprimirEcomapa$ EC_ImprimirEcomapa.php
+RewriteRule ^EC_Historial$ EC_Historial.php
+# Ecomapa - fin
+
+# Asistente virtual
+RewriteRule ^asistente$ asistenteVirtual/asistenteVirtualConfig.php
+RewriteRule ^asistenteConfig$ asistenteVirtual/asistenteVirtualConfigOpcion.php
+RewriteRule ^asistenteV$ asistenteVirtual/asistenteVisual.php
+# Asistente virtual - fin
+
+# sistema vencido
+RewriteRule ^vencido$ vencido.php
+# sistema vencido - fin
+
+# calendario de tareas
+RewriteRule ^calendarioTareasRegistro$ TS_RegistrarTareas.php
+RewriteRule ^calendarioTareas$ TS_Calendario.php
+RewriteRule ^calendarioTareasGestion$ TS_GestionarTareas.php
+RewriteRule ^calendarioTareasAuxiliares$ TS_Tarea_Auxiliares.php
+# calendario de tareas - fin
+
+# Odontopediatria
+RewriteRule ^ODP_Pacientes$ ODP_Pacientes.php
+RewriteRule ^ODP_Procedimientos$ ODP_Procedimientos.php
+RewriteRule ^ODP_SubirSVG$ ODP_SubirSVG.php
+RewriteRule ^ODP_Odontopediatria$ ODP_Odontopediatria.php
+RewriteRule ^ODP_Impresion$ ODP_Impresion.php
+RewriteRule ^ODP_ModuloFirma$ ODP_ModuloFirma.php
+RewriteRule ^ODP_HistorialOdontogramaPediatrico$ ODP_HistorialOdontogramaPediatrico.php
+RewriteRule ^ODP_HistoriaOdontoPediatria$ ODP_HistoriaOdontoPediatria.php
+RewriteRule ^ODP_Finalizado$ ODP_Finalizado.php
+RewriteRule ^ODP_ImpresionHistoria$ ODP_ImpresionHistoria.php
+RewriteRule ^ODP_HistorialOdontoPediatria$ ODP_HistorialOdontoPediatria.php
+RewriteRule ^ODP_PacientesHistoria$ ODP_PacientesHistoria.php
+# Odontopediatria - fin.
+
+# Odontologia Bolivia
+RewriteRule ^OB_Pacientes$ OdontologiaBolivia/pacientes.php
+RewriteRule ^OB_VerPaciente$ OdontologiaBolivia/consultaCliente.php
+RewriteRule ^OB_Historia$ OdontologiaBolivia/historiaClinica.php
+RewriteRule ^OB_Editar$ OdontologiaBolivia/historiaClinicaEditar.php
+RewriteRule ^OB_Guardar$ OdontologiaBolivia/procesarFormulario.php
+RewriteRule ^OB_Finalizado$ OdontologiaBolivia/finalizado.php
+RewriteRule ^OB_Imprimir$ OdontologiaBolivia/imprimirConsulta.php
+RewriteRule ^OB_ImprimirPlantilla$ OdontologiaBolivia/imprimirPlantilla.php
+
+RewriteRule ^OBO_Pacientes$ OdontologiaOdontograma/pacientes.php
+RewriteRule ^OBO_VerPaciente$ OdontologiaOdontograma/consultaCliente.php
+RewriteRule ^OBO_Historia$ OdontologiaOdontograma/historiaClinica.php
+RewriteRule ^OBO_Editar$ OdontologiaOdontograma/historiaClinicaEditar.php
+RewriteRule ^OBO_Guardar$ OdontologiaOdontograma/procesarFormulario.php
+RewriteRule ^OBO_Finalizado$ OdontologiaOdontograma/finalizado.php
+RewriteRule ^OBO_Imprimir$ OdontologiaOdontograma/imprimirConsulta.php
+RewriteRule ^OBO_ImprimirPlantilla$ OdontologiaOdontograma/imprimirPlantilla.php
+RewriteRule ^OBO_Odontograma$ OdontologiaOdontograma/OD_Odontograma_Bolivia.php
+
+RewriteRule ^OBT_Pacientes$ Odontologia_bo1329/pacientes.php
+RewriteRule ^OBT_VerPaciente$ Odontologia_bo1329/consultaCliente.php
+RewriteRule ^OBT_Editar$ Odontologia_bo1329/historiaClinicaEditar.php
+RewriteRule ^OBT_Historia$ Odontologia_bo1329/historiaClinica.php
+RewriteRule ^OBT_Guardar$ Odontologia_bo1329/procesarFormulario.php
+RewriteRule ^OBT_Finalizado$ Odontologia_bo1329/finalizado.php
+RewriteRule ^OBT_Imprimir$ Odontologia_bo1329/imprimirConsulta.php
+RewriteRule ^OBT_ImprimirPlantilla$ Odontologia_bo1329/imprimirPlantilla.php
+
+RewriteRule ^OBT_Seguimiento$ Odontologia_bo1329/seguimiento.php
+RewriteRule ^OBT_SeguimientoHistorial$ Odontologia_bo1329/seguimientoHistorial.php
+RewriteRule ^OBT_SeguimientoImprimir$ Odontologia_bo1329/imprimirPlantillaSeguimiento.php
+RewriteRule ^OBT_SeguimientoGuardar$ Odontologia_bo1329/seguimientoguardar.php
+RewriteRule ^OBT_FinalizadoSeguimiento$ Odontologia_bo1329/seguimientoFinalizado.php
+RewriteRule ^OBT_FirmarSeguimiento/(.+)$ Odontologia_bo1329/seguimientoFirmar.php?id=$1
+
+RewriteRule ^OBT_Imagenes$ Odontologia_bo1329/OBT_Imagenes.php
+RewriteRule ^OBT_ImagenesView$ Odontologia_bo1329/OBT_View.php
+RewriteRule ^OBT_ImagenesMostrar$ Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php
+RewriteRule ^OBT_ImagenesGuardar$ Odontologia_bo1329/OBT_Ajax_ImagenesGuardar.php
+
+
+# Odontologia Bolivia [FIN]
+
+RewriteRule ^ImprimirAbonoF2$ ImprimirAbono_Plantilla2.php
+
+
+
+# Agenda multiple
+RewriteRule ^citasM$ agendaMultiple/agenda.php
+# Agenda multiple
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php80” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php80 .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

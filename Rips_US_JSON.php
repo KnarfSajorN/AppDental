@@ -1,0 +1,250 @@
+<?php
+
+header('Content-Type: application/json');
+header('Content-Disposition: attachment; filename="Reporte_US.json"');
+header('Pragma: no-cache');
+header('Expires: 0');
+include 'funciones/conn3.php';
+include 'funciones/funciones.php';
+function reem1($texto1) 
+{
+
+//Rememplazamos caracteres especiales latinos minusculas
+$find = array('á', 'é', 'í', 'ó', 'ú', 'ñ', '\"', '€', 'ü');
+//$repl = array('&aacute;', '&eacute;', '&iacute;', '&oacute;', '&uacute;', 'n', '&quot;', '&euro;', '&uuml;');
+$repl = array('a', 'e', 'i', 'o', 'u', 'n', ' ', ' ', 'u');
+$texto1 = str_replace ($find, $repl, $texto1);
+
+
+//Rememplazamos caracteres especiales latinos mayusculas
+$find = array('Á', 'É', 'Í', 'Ó', 'Ú', 'Ñ', 'Ü');
+//$repl = array('&Aacute;', '&Eacute;', '&Iacute;', '&Oacute;', '&Uacute;', 'N', '&Uuml;', '&ccedil;', '&Ccedil;');
+$repl = array('A', 'E', 'I;', 'O', 'U', 'N', 'U');
+$texto1 = str_replace ($find, $repl, $texto1);
+
+return $texto1;
+
+}  
+
+
+$desde = $_POST['desde'];
+$hasta = $_POST['hasta'];
+
+//$doctor = $_POST['doctor'];
+$fechaRemision = $_POST['fechaRemision'];
+$tipoUsuario = $_POST['tipoUsuario'];
+  $paciente = $_POST['paciente'];
+  $convenio = $_POST['convenio'];
+ 
+
+  if ($convenio > 0) {
+  $where = 'and  convenio_id = '. $convenio. ' ';
+} else {
+  $where = '';
+}
+
+
+if ($tipoUsuario == 0)
+ { $entidadSalud ='SDS001';
+$entidadSaludN= 'PARTICULAR';
+
+} else {
+$entidadSalud= funcionMaster($tipoUsuario,'id', 'Codigo' ,'Rips_Entidades');
+$entidadSaludN= funcionMaster($tipoUsuario,'id', 'Nombre' ,'Rips_Entidades');
+}
+
+$cantidadRegistros = 0;
+$fechaHoy = date("Y-m-d");
+// consulta para datos de usuario rips
+$doctor = $_POST['doctor'];
+
+$queryU = mysqli_query($conn3, "SELECT * FROM usuarios where ID='$doctor'");
+$nrowU = mysqli_num_rows($queryU);
+while ($rowListaU = mysqli_fetch_array($queryU)) {
+    $NOMBRE_USUARIO = $rowListaU['NOMBRE_USUARIO'];
+    $codigoPrestador = $rowListaU['codigoPrestador'];
+    $nit = $rowListaU['nit'];
+}
+
+if ($doctor == 0) {
+    $queryListaH = mysqli_query($conn3, "SELECT * FROM Rips_Informacion where fecha BETWEEN '$desde 00:00:00' and '$hasta 23:59:59'");
+
+}
+else {
+ 
+    $queryListaH = mysqli_query($conn3, "SELECT * FROM Rips_Informacion where (fecha BETWEEN '$desde 00:00:00' and '$hasta 23:59:59') AND usuario_id= 1");
+}
+
+
+
+$nrow = mysqli_num_rows($queryListaH);
+while ($rowListaH = mysqli_fetch_array($queryListaH)) {
+
+    $arregloCliente[$rowListaH["cliente_id"]] = $arregloCliente[$rowListaH["cliente_id"]]+1;
+}
+
+$dataArray = [];
+foreach ($arregloCliente as $key => $value) {
+
+
+
+ if($paciente == 1) {
+
+    
+    $queryListaW = mysqli_query($conn3, "SELECT * FROM cliente where cliente_id = '$key'  and  (tipo_cliente = 'CC' OR tipo_cliente = 'TI' OR tipo_cliente = 'RC') and entidad_id='$tipoUsuario' $where");
+}
+
+    else  {
+     
+    $queryListW = mysqli_query($conn3, "SELECT * FROM  cliente where cliente_id='$key' and  (tipo_cliente <> 'CC' and  tipo_cliente <> 'TI' and tipo_cliente <> 'RC') and entidad_id='$tipoUsuario' $where ");
+      
+}
+    
+    while ($rowListaW = mysqli_fetch_array($queryListaW)) {       
+       
+        $Tipo_Identificacion = $rowListaW["tipo_cliente"];
+        $Numero_Identificacion = $rowListaW["CODI_CLIENTE"];
+
+        $Codigo_Entidad_Administradora = "SDS001";
+        $Tipo_Usuario = $rowListaW["tipoUsuario"];
+        // tipo usuario cambiar a 1 = Contributivo , 2 = Subsidiado ,3 = Vinculado , 4 = Particular , 5 = Otro
+        if ($Tipo_Usuario == "Contributivo") {
+            $Tipo_Usuario = 1;
+        } elseif ($Tipo_Usuario == "Subsidiado") {
+            $Tipo_Usuario = 2;
+        } elseif ($Tipo_Usuario == "Vinculado") {
+            $Tipo_Usuario = 3;
+        } elseif ($Tipo_Usuario == "Particular") {
+            $Tipo_Usuario = 4;
+        } elseif ($Tipo_Usuario == "Otro") {
+            $Tipo_Usuario = 5;
+        }
+
+        $Primer_Nombre = reem1($rowListaW["primer_nombre"]);
+        $Segundo_Nombre =reem1($rowListaW["segundo_nombre"]);
+        $Primer_Apellido = reem1($rowListaW["primer_apellido"]);
+        $Segundo_Apellido =reem1($rowListaW["segundo_apellido"]);
+        $fechaNacimiento = $rowListaW["fechaNacimiento"];
+        list($anyo, $mes, $dia) = explode("-", $fechaNacimiento);
+        $anyo_dif  = date("Y") - $anyo;
+        $mes_dif = date("m") - $mes;
+        $dia_dif   = date("d") - $dia;
+
+        if (($mes_dif < 1 and $mes_dif >= 0) and ($mes_dif < 1 and $mes_dif >= 0) and ($anyo_dif < 2 and $anyo_dif >= 0)) {
+            $edad =  $dia_dif;
+            $unidad = 3;
+        }
+
+        if ($anyo_dif < 1 and $mes_dif > 0) {
+            $edad =  $mes_dif;
+            $unidad = 2;
+        }
+        if ($anyo_dif > 0 and $anyo_dif < 2) {
+            $mes_dif2 = $mes_dif + 12;
+            $edad =  $mes_dif2;
+            $unidad = 2;
+        }
+        if ($anyo_dif >= 2) {
+            if ($mes_dif < 0) {
+                $mes_dif = 12 - ($mes_dif * -1);
+                $anyo_dif--;
+            }
+            $edad =  $anyo_dif;
+            $unidad = 1;
+        }
+
+        $Edad = $edad;
+        $Unidad_Edad = $unidad;
+
+     
+        $Sexo = $rowListaW["genero"];
+        $Codigo_Departamento = $rowListaW["codigo_departamento"];
+  
+        if (strlen($Codigo_Departamento) == 1) {
+            $Codigo_Departamento = "0".$Codigo_Departamento;
+        }
+
+        $Codigo_Municipio = $rowListaW["codigo_ciudad"];
+        $Codigo_Municipio = funcionMaster($Codigo_Municipio,'id','Codigo_Ciudad','Ciudades');
+        $Zona_Residencial = $rowListaW["zona"];
+
+        if ($Zona_Residencial == "Urbana") {
+            $Zona_Residencial = "U";
+        }
+        if ($Zona_Residencial == "Rural") {
+            $Zona_Residencial = "R";
+        }
+
+        $cliente_id = $rowListaW["cliente_id"];
+        $queryListaCliente = mysqli_query($conn3, "SELECT * FROM cliente where cliente_id = '$cliente_id'");
+        while ($rowListaC = mysqli_fetch_array($queryListaCliente)){
+            $tipoUsuarioSistema = $rowListaC["tipoUsuario"];
+         
+        }        
+      
+        $data = array(
+            "Tipo Identificacion" => $Tipo_Identificacion,
+            "Numero Identificacion" => $Numero_Identificacion,
+            "Entidad Salud" => $entidadSaludN,
+            "Tipo Usuario" => $Tipo_Usuario,
+            "Primer Nombre" => $Primer_Nombre,
+            "Segundo Nombre" => $Segundo_Nombre,
+            "Primer Apellido" => $Primer_Apellido,
+            "Segundo Apellido" => $Segundo_Apellido,
+            "Edad" => $Edad,
+            "Unidad Edad" => $Unidad_Edad,
+            "Sexo" => $Sexo,
+            "Codigo Departamento" => $Codigo_Departamento,
+            "Codigo Municipio" => $Codigo_Municipio,
+            "Zona Residencial" => $Zona_Residencial,
+        );    
+       
+        $dataArray[] = $data;
+       
+        $cantidadRegistros = $cantidadRegistros + 1;
+    }
+
+}
+
+
+$fechaHoy = date("Y-m-d");
+
+$QueryRipControl = mysqli_query($conn3, "SELECT count(ID) as cuantos,ID FROM  informacion_rips2 where 
+    usuario_id='$doctor' and
+    Fecha='$fechaHoy' and
+    nombrePrestador='$NOMBRE_USUARIO' and
+    codigoPrestador='$codigoPrestador' and
+    TipoId='CC' and
+    numeroId='$nit' and
+    fechaRemision='$fechaRemision' and
+    codArchivo='US' and
+    paciente='$paciente' and
+     convenio='$convenio' and
+
+    codigoEntidad='$entidadSalud';");
+while ($rowListaZ = mysqli_fetch_array($QueryRipControl)) {
+    $existe = $rowListaZ['cuantos'];
+    $id_rips = $rowListaZ['ID'];
+}
+
+if ($existe == 0) {
+    mysqli_query($conn3, "INSERT into informacion_rips2 
+        (usuario_id, Fecha, nombrePrestador, codigoPrestador, TipoId, numeroId, fechaRemision, codArchivo, totalRegistros, codigoEntidad, paciente, convenio)
+        values
+        ('$doctor','$fechaHoy','$NOMBRE_USUARIO','$codigoPrestador','CC','$nit','$fechaRemision','US','$cantidadRegistros','$entidadSalud', '$paciente' ,'$convenio');");
+} elseif ($existe > 0) {
+    mysqli_query($conn3, "UPDATE  informacion_rips2 set
+    usuario_id='$doctor' ,
+    Fecha='$fechaHoy' ,
+    nombrePrestador='$NOMBRE_USUARIO' ,
+    codigoPrestador='$codigoPrestador' ,
+    TipoId='CC' ,
+    numeroId='$nit' ,
+    fechaRemision='$fechaRemision' ,
+    codArchivo='US' ,
+    paciente='$paciente',
+     convenio='$convenio',
+    totalRegistros='$cantidadRegistros' ,
+    codigoEntidad='$entidadSalud'
+    where ID='$id_rips';");
+}

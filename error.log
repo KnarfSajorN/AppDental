@@ -1,0 +1,22 @@
+[06-Mar-2024 21:22:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in /home3/medicasoerp/public_html/baseDev/connSQL.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/medicasoerp/public_html/baseDev/connSQL.php on line 22
+[06-Mar-2024 21:22:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in /home3/medicasoerp/public_html/baseDev/connSQL.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/medicasoerp/public_html/baseDev/connSQL.php on line 22
+[06-Mar-2024 21:22:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in /home3/medicasoerp/public_html/baseDev/connSQL.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/medicasoerp/public_html/baseDev/connSQL.php on line 22
+[06-Mar-2024 21:22:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in /home3/medicasoerp/public_html/baseDev/connSQL.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/medicasoerp/public_html/baseDev/connSQL.php on line 22
+[06-Mar-2024 21:23:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in /home3/medicasoerp/public_html/baseDev/connSQL.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/medicasoerp/public_html/baseDev/connSQL.php on line 22
+[06-Mar-2024 21:26:23 UTC] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=5875 in /home3/medicasoerp/public_html/baseDev/connSQL.php on line 15
+[06-Mar-2024 21:26:23 UTC] PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /home3/medicasoerp/public_html/baseDev/connSQL.php on line 15

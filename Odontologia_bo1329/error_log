@@ -1,0 +1,1171 @@
+[07-Mar-2025 08:22:51 America/Bogota] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php:10
+Stack trace:
+#0 /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php(10): mysqli_fetch_array(false)
+#1 {main}
+  thrown in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 10
+[07-Mar-2025 08:22:52 America/Bogota] PHP Warning:  Undefined array key "idEliminar" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesGuardar.php on line 18
+[07-Mar-2025 08:26:32 America/Bogota] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php:10
+Stack trace:
+#0 /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php(10): mysqli_fetch_array(false)
+#1 {main}
+  thrown in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 10
+[07-Mar-2025 08:26:32 America/Bogota] PHP Warning:  Undefined array key "idEliminar" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesGuardar.php on line 19
+[07-Mar-2025 08:27:00 America/Bogota] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php:10
+Stack trace:
+#0 /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php(10): mysqli_fetch_array(false)
+#1 {main}
+  thrown in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 10
+[07-Mar-2025 08:27:00 America/Bogota] PHP Warning:  Undefined array key "idEliminar" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesGuardar.php on line 19
+[07-Mar-2025 13:28:42 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 13:28:42 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 13:28:42 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 13:28:42 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 13:28:42 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 13:28:42 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 13:28:42 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 13:28:42 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 08:28:42 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 08:28:42 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 08:28:42 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 08:28:42 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 08:28:42 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 08:28:42 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 08:28:42 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 08:28:42 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 08:28:42 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 08:28:42 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 08:28:42 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 08:28:45 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 08:28:45 America/Bogota] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 723
+[07-Mar-2025 08:28:45 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 08:28:45 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 08:28:45 America/Bogota] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php:10
+Stack trace:
+#0 /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php(10): mysqli_fetch_array(false)
+#1 {main}
+  thrown in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 10
+[07-Mar-2025 08:29:58 America/Bogota] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php:10
+Stack trace:
+#0 /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php(10): mysqli_fetch_array(false)
+#1 {main}
+  thrown in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 10
+[07-Mar-2025 08:29:58 America/Bogota] PHP Warning:  Undefined array key "idEliminar" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesGuardar.php on line 19
+[07-Mar-2025 13:32:14 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 13:32:14 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 13:32:14 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 13:32:14 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 13:32:14 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 13:32:14 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 13:32:14 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 13:32:14 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 08:32:14 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 08:32:14 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 08:32:14 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 08:32:14 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 08:32:14 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 08:32:14 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 08:32:14 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 08:32:14 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 08:32:14 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 08:32:14 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 08:32:14 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 08:32:16 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 08:32:16 America/Bogota] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 723
+[07-Mar-2025 08:32:16 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 08:32:16 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 08:32:17 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 43
+[07-Mar-2025 08:32:17 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 48
+[07-Mar-2025 08:32:17 America/Bogota] PHP Warning:  Undefined variable $antes in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 51
+[07-Mar-2025 08:32:17 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 56
+[07-Mar-2025 08:32:17 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 70
+[07-Mar-2025 08:32:17 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 43
+[07-Mar-2025 08:32:17 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 48
+[07-Mar-2025 08:32:17 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 56
+[07-Mar-2025 08:32:17 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 70
+[07-Mar-2025 08:32:17 America/Bogota] PHP Warning:  Undefined variable $Durante in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 90
+[07-Mar-2025 08:32:17 America/Bogota] PHP Warning:  Undefined variable $despues in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 93
+[07-Mar-2025 13:37:30 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 13:37:30 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 13:37:30 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 13:37:30 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 13:37:30 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 13:37:30 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 13:37:30 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 13:37:30 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 08:37:30 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 08:37:30 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 08:37:30 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 08:37:30 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 08:37:30 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 08:37:30 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 08:37:30 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 08:37:30 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 08:37:30 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 08:37:30 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 08:37:30 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 08:37:33 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 08:37:33 America/Bogota] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 723
+[07-Mar-2025 08:37:33 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 08:37:33 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 08:37:34 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 104
+[07-Mar-2025 08:37:34 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 107
+[07-Mar-2025 08:37:34 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 110
+[07-Mar-2025 08:37:34 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 113
+[07-Mar-2025 13:38:31 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 13:38:31 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 13:38:31 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 13:38:31 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 13:38:31 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 13:38:31 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 13:38:31 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 13:38:31 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 08:38:31 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 08:38:31 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 08:38:31 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 08:38:31 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 08:38:31 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 08:38:31 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 08:38:31 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 08:38:31 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 08:38:31 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 08:38:31 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 08:38:31 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 08:38:33 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 08:38:33 America/Bogota] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 723
+[07-Mar-2025 08:38:33 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 08:38:33 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 08:38:34 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 104
+[07-Mar-2025 08:38:34 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 107
+[07-Mar-2025 08:38:34 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 110
+[07-Mar-2025 08:38:34 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 113
+[07-Mar-2025 08:39:02 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 104
+[07-Mar-2025 08:39:02 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 107
+[07-Mar-2025 08:39:02 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 110
+[07-Mar-2025 08:39:02 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 113
+[07-Mar-2025 08:39:02 America/Bogota] PHP Warning:  Undefined array key "idEliminar" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesGuardar.php on line 19
+[07-Mar-2025 13:46:08 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 13:46:08 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 13:46:08 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 13:46:08 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 13:46:08 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 13:46:08 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 13:46:08 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 13:46:08 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 08:46:08 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 08:46:08 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 08:46:08 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 08:46:08 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 08:46:08 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 08:46:08 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 08:46:08 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 08:46:08 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 08:46:08 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 08:46:08 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 08:46:08 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 08:46:11 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 08:46:11 America/Bogota] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 723
+[07-Mar-2025 08:46:11 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 08:46:11 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 08:46:12 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 104
+[07-Mar-2025 08:46:12 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 107
+[07-Mar-2025 08:46:12 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 110
+[07-Mar-2025 08:46:12 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 113
+[07-Mar-2025 13:49:53 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 13:49:53 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 13:49:53 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 13:49:53 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 13:49:53 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 13:49:53 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 13:49:53 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 13:49:53 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 08:49:53 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 08:49:53 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 08:49:53 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 08:49:53 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 08:49:53 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 08:49:53 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 08:49:53 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 08:49:53 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 08:49:53 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 08:49:53 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 08:49:53 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 08:49:55 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 08:49:55 America/Bogota] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 723
+[07-Mar-2025 08:49:55 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 08:49:55 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 08:49:56 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 65
+[07-Mar-2025 08:49:56 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 68
+[07-Mar-2025 08:49:56 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 65
+[07-Mar-2025 08:49:56 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 105
+[07-Mar-2025 08:49:56 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 111
+[07-Mar-2025 08:49:56 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 114
+[07-Mar-2025 14:00:18 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 14:00:18 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 14:00:18 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 14:00:18 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 14:00:18 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 14:00:18 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 14:00:18 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 14:00:18 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 09:00:18 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 09:00:18 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:00:18 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:00:18 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 09:00:18 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 09:00:18 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:00:18 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:00:18 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 09:00:18 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 09:00:18 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:00:18 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:00:20 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 09:00:20 America/Bogota] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 723
+[07-Mar-2025 09:00:20 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 09:00:20 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 09:00:21 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 09:00:21 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 67
+[07-Mar-2025 09:00:21 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 09:00:21 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 104
+[07-Mar-2025 09:00:21 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 110
+[07-Mar-2025 09:00:21 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 113
+[07-Mar-2025 09:00:39 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 09:00:39 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 67
+[07-Mar-2025 09:00:39 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 09:00:39 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 104
+[07-Mar-2025 09:00:39 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 110
+[07-Mar-2025 09:00:39 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 113
+[07-Mar-2025 14:07:11 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 14:07:11 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 14:07:11 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 14:07:11 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 14:07:11 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 14:07:11 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 14:07:11 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 14:07:11 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 09:07:11 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 09:07:11 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:07:11 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:07:11 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 09:07:11 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 09:07:11 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:07:11 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:07:11 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 09:07:11 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 09:07:11 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:07:11 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:07:13 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 09:07:13 America/Bogota] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 723
+[07-Mar-2025 09:07:13 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 09:07:13 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 09:07:14 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 09:07:14 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 67
+[07-Mar-2025 09:07:14 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 09:07:14 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 104
+[07-Mar-2025 09:07:14 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 110
+[07-Mar-2025 09:07:14 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 113
+[07-Mar-2025 14:07:17 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 14:07:17 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 14:07:17 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 14:07:17 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 14:07:17 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 14:07:17 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 14:07:17 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 14:07:17 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 09:07:17 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 09:07:17 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:07:17 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:07:17 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 09:07:17 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 09:07:17 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:07:17 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:07:17 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 09:07:17 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 09:07:17 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:07:17 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:07:19 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 09:07:19 America/Bogota] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 723
+[07-Mar-2025 09:07:19 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 09:07:19 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 09:07:20 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 09:07:20 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 67
+[07-Mar-2025 09:07:20 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 09:07:20 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 104
+[07-Mar-2025 09:07:20 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 110
+[07-Mar-2025 09:07:20 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 113
+[07-Mar-2025 14:07:39 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 14:07:39 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 14:07:39 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 14:07:39 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 14:07:39 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 14:07:39 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 14:07:39 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 14:07:39 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 09:07:39 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 09:07:39 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:07:39 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:07:39 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 09:07:39 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 09:07:39 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:07:39 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:07:39 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 09:07:39 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 09:07:39 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:07:39 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:07:42 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 09:07:42 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 09:07:42 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 09:07:42 America/Bogota] PHP Warning:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/pacientes.php on line 140
+[07-Mar-2025 09:07:42 America/Bogota] PHP Warning:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/pacientes.php on line 140
+[07-Mar-2025 09:07:42 America/Bogota] PHP Warning:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/pacientes.php on line 140
+[07-Mar-2025 09:07:42 America/Bogota] PHP Warning:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/pacientes.php on line 140
+[07-Mar-2025 09:07:42 America/Bogota] PHP Warning:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/pacientes.php on line 140
+[07-Mar-2025 09:07:42 America/Bogota] PHP Warning:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/pacientes.php on line 140
+[07-Mar-2025 09:07:42 America/Bogota] PHP Warning:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/pacientes.php on line 140
+[07-Mar-2025 14:07:50 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 14:07:50 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 14:07:50 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 14:07:50 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 14:07:50 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 14:07:50 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 14:07:50 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 14:07:50 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 09:07:50 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 09:07:50 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:07:50 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:07:50 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 09:07:50 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 09:07:50 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:07:50 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:07:50 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 09:07:50 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 09:07:50 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:07:50 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:07:52 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 09:07:52 America/Bogota] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 721
+[07-Mar-2025 09:07:52 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 14:07:53 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 14:07:53 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 14:07:53 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 14:07:53 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 14:07:53 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 14:07:53 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 14:07:53 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 14:07:53 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 09:07:53 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 09:07:53 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:07:53 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:07:53 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 09:07:53 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 09:07:53 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:07:53 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:07:53 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 09:07:53 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 09:07:53 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:07:53 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:07:55 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 09:07:55 America/Bogota] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 723
+[07-Mar-2025 09:07:55 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 09:07:55 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 09:07:56 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 09:07:56 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 67
+[07-Mar-2025 09:07:56 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 09:07:56 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 104
+[07-Mar-2025 09:07:56 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 110
+[07-Mar-2025 09:07:56 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 113
+[07-Mar-2025 14:07:57 UTC] PHP Warning:  include(funciones/funciones.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 1
+[07-Mar-2025 14:07:57 UTC] PHP Warning:  include(): Failed opening 'funciones/funciones.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 1
+[07-Mar-2025 14:07:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function decrypt() in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 3
+[07-Mar-2025 09:08:36 America/Bogota] PHP Warning:  Undefined array key "iC" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 4
+[07-Mar-2025 09:08:36 America/Bogota] PHP Warning:  mime_content_type(img/historiaImg/3/20250307_082958_odonto1.jpg): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 284
+[07-Mar-2025 09:08:36 America/Bogota] PHP Warning:  Undefined array key 0 in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 292
+[07-Mar-2025 09:08:36 America/Bogota] PHP Warning:  Undefined array key 1 in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 292
+[07-Mar-2025 09:08:36 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 295
+[07-Mar-2025 09:08:36 America/Bogota] PHP Warning:  mime_content_type(img/historiaImg/3/20250307_082958_odonto2.jpg): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 284
+[07-Mar-2025 09:08:36 America/Bogota] PHP Warning:  Undefined array key 0 in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 292
+[07-Mar-2025 09:08:36 America/Bogota] PHP Warning:  Undefined array key 1 in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 292
+[07-Mar-2025 09:08:36 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 295
+[07-Mar-2025 09:16:25 America/Bogota] PHP Warning:  Undefined array key "iC" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 4
+[07-Mar-2025 09:16:25 America/Bogota] PHP Warning:  mime_content_type(&lt;?=https://app.dentalsoftplus.com/?&gt;Odontologia_bo1329/OBT_Images/3/20250307_083902_odonto3.png): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 258
+[07-Mar-2025 09:16:25 America/Bogota] PHP Warning:  Undefined array key 0 in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 266
+[07-Mar-2025 09:16:25 America/Bogota] PHP Warning:  Undefined array key 1 in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 266
+[07-Mar-2025 09:16:25 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 269
+[07-Mar-2025 09:16:25 America/Bogota] PHP Warning:  mime_content_type(&lt;?=https://app.dentalsoftplus.com/?&gt;Odontologia_bo1329/OBT_Images/3/20250307_082958_odonto1.jpg): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 286
+[07-Mar-2025 09:16:25 America/Bogota] PHP Warning:  Undefined array key 0 in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 294
+[07-Mar-2025 09:16:25 America/Bogota] PHP Warning:  Undefined array key 1 in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 294
+[07-Mar-2025 09:16:25 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 297
+[07-Mar-2025 09:16:25 America/Bogota] PHP Warning:  mime_content_type(&lt;?=https://app.dentalsoftplus.com/?&gt;Odontologia_bo1329/OBT_Images/3/20250307_082958_odonto2.jpg): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 286
+[07-Mar-2025 09:16:25 America/Bogota] PHP Warning:  Undefined array key 0 in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 294
+[07-Mar-2025 09:16:25 America/Bogota] PHP Warning:  Undefined array key 1 in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 294
+[07-Mar-2025 09:16:25 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 297
+[07-Mar-2025 09:19:59 America/Bogota] PHP Warning:  Undefined array key "iC" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 5
+[07-Mar-2025 09:19:59 America/Bogota] PHP Warning:  mime_content_type(): Failed identify data 0:(null) in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 43
+[07-Mar-2025 09:19:59 America/Bogota] PHP Warning:  Undefined array key 1 in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 51
+[07-Mar-2025 09:19:59 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 54
+[07-Mar-2025 09:19:59 America/Bogota] PHP Warning:  mime_content_type(): Failed identify data 0:(null) in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 43
+[07-Mar-2025 09:19:59 America/Bogota] PHP Warning:  Undefined array key 1 in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 51
+[07-Mar-2025 09:19:59 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 54
+[07-Mar-2025 09:20:14 America/Bogota] PHP Warning:  Undefined array key "iC" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 4
+[07-Mar-2025 09:20:14 America/Bogota] PHP Warning:  mime_content_type(&lt;?=https://app.dentalsoftplus.com/?&gt;Odontologia_bo1329/OBT_Images/3/20250307_083902_odonto3.png): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 258
+[07-Mar-2025 09:20:14 America/Bogota] PHP Warning:  Undefined array key 0 in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 266
+[07-Mar-2025 09:20:14 America/Bogota] PHP Warning:  Undefined array key 1 in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 266
+[07-Mar-2025 09:20:14 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 269
+[07-Mar-2025 09:20:14 America/Bogota] PHP Warning:  mime_content_type(&lt;?=https://app.dentalsoftplus.com/?&gt;Odontologia_bo1329/OBT_Images/3/20250307_082958_odonto1.jpg): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 286
+[07-Mar-2025 09:20:14 America/Bogota] PHP Warning:  Undefined array key 0 in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 294
+[07-Mar-2025 09:20:14 America/Bogota] PHP Warning:  Undefined array key 1 in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 294
+[07-Mar-2025 09:20:14 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 297
+[07-Mar-2025 09:20:14 America/Bogota] PHP Warning:  mime_content_type(&lt;?=https://app.dentalsoftplus.com/?&gt;Odontologia_bo1329/OBT_Images/3/20250307_082958_odonto2.jpg): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 286
+[07-Mar-2025 09:20:14 America/Bogota] PHP Warning:  Undefined array key 0 in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 294
+[07-Mar-2025 09:20:14 America/Bogota] PHP Warning:  Undefined array key 1 in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 294
+[07-Mar-2025 09:20:14 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 297
+[07-Mar-2025 09:22:03 America/Bogota] PHP Warning:  Undefined array key "iC" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 4
+[07-Mar-2025 09:22:03 America/Bogota] PHP Warning:  mime_content_type(): Failed identify data 0:(null) in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 258
+[07-Mar-2025 09:22:03 America/Bogota] PHP Warning:  Undefined array key 0 in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 266
+[07-Mar-2025 09:22:03 America/Bogota] PHP Warning:  Undefined array key 1 in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 266
+[07-Mar-2025 09:22:03 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 269
+[07-Mar-2025 09:22:03 America/Bogota] PHP Warning:  mime_content_type(): Failed identify data 0:(null) in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 286
+[07-Mar-2025 09:22:03 America/Bogota] PHP Warning:  Undefined array key 0 in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 294
+[07-Mar-2025 09:22:03 America/Bogota] PHP Warning:  Undefined array key 1 in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 294
+[07-Mar-2025 09:22:03 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 297
+[07-Mar-2025 09:22:03 America/Bogota] PHP Warning:  mime_content_type(): Failed identify data 0:(null) in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 286
+[07-Mar-2025 09:22:03 America/Bogota] PHP Warning:  Undefined array key 0 in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 294
+[07-Mar-2025 09:22:03 America/Bogota] PHP Warning:  Undefined array key 1 in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 294
+[07-Mar-2025 09:22:03 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 297
+[07-Mar-2025 09:26:39 America/Bogota] PHP Warning:  Undefined array key "iC" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 4
+[07-Mar-2025 09:26:39 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 251
+[07-Mar-2025 09:26:39 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 269
+[07-Mar-2025 09:26:39 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 269
+[07-Mar-2025 09:30:40 America/Bogota] PHP Warning:  Undefined array key "iC" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 4
+[07-Mar-2025 09:30:40 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 273
+[07-Mar-2025 09:30:40 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 291
+[07-Mar-2025 09:30:40 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 291
+[07-Mar-2025 09:32:03 America/Bogota] PHP Warning:  Undefined array key "iC" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 4
+[07-Mar-2025 09:32:03 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 273
+[07-Mar-2025 09:32:03 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 291
+[07-Mar-2025 09:32:03 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 291
+[07-Mar-2025 09:32:46 America/Bogota] PHP Warning:  Undefined array key "iC" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 4
+[07-Mar-2025 09:32:46 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 279
+[07-Mar-2025 09:32:46 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 297
+[07-Mar-2025 09:32:46 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 297
+[07-Mar-2025 14:33:30 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 14:33:30 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 14:33:30 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 14:33:30 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 14:33:30 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 14:33:30 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 14:33:30 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 14:33:30 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 09:33:30 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 09:33:30 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:33:30 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:33:30 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 09:33:30 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 09:33:30 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:33:30 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:33:30 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 09:33:30 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 09:33:30 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:33:30 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:33:32 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 09:33:32 America/Bogota] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 723
+[07-Mar-2025 09:33:32 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 09:33:32 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 09:33:34 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 09:33:34 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 67
+[07-Mar-2025 09:33:34 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 09:33:34 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 104
+[07-Mar-2025 09:33:34 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 110
+[07-Mar-2025 09:33:34 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 113
+[07-Mar-2025 09:35:30 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 09:35:30 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 67
+[07-Mar-2025 09:35:30 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 09:35:30 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 104
+[07-Mar-2025 09:35:30 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 110
+[07-Mar-2025 09:35:30 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 113
+[07-Mar-2025 14:37:42 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 14:37:42 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 14:37:42 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 14:37:42 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 14:37:42 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 14:37:42 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 14:37:42 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 14:37:42 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 09:37:42 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 09:37:42 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:37:42 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:37:42 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 09:37:42 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 09:37:42 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:37:42 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:37:42 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 09:37:42 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 09:37:42 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:37:42 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:37:45 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 09:37:45 America/Bogota] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 723
+[07-Mar-2025 09:37:45 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 09:37:45 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 09:37:46 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 09:37:46 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 67
+[07-Mar-2025 09:37:46 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 09:37:46 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 104
+[07-Mar-2025 09:37:46 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 110
+[07-Mar-2025 09:37:46 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 113
+[07-Mar-2025 09:37:50 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 09:37:50 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 67
+[07-Mar-2025 09:37:50 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 09:37:50 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 104
+[07-Mar-2025 09:37:50 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 110
+[07-Mar-2025 09:37:50 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 113
+[07-Mar-2025 09:38:36 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 09:38:36 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 67
+[07-Mar-2025 09:38:36 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 104
+[07-Mar-2025 09:38:36 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 110
+[07-Mar-2025 09:38:36 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 113
+[07-Mar-2025 09:39:48 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 09:39:48 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 67
+[07-Mar-2025 09:39:48 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 104
+[07-Mar-2025 09:39:48 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 110
+[07-Mar-2025 09:39:48 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 113
+[07-Mar-2025 09:39:48 America/Bogota] PHP Warning:  Undefined array key "idEliminar" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesGuardar.php on line 19
+[07-Mar-2025 14:42:04 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 14:42:04 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 14:42:04 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 14:42:04 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 14:42:04 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 14:42:04 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 14:42:04 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 14:42:04 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 09:42:04 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 09:42:04 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:42:04 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:42:04 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 09:42:04 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 09:42:04 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:42:04 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:42:04 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 09:42:04 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 09:42:04 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:42:04 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:42:06 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 09:42:06 America/Bogota] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 723
+[07-Mar-2025 09:42:06 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 09:42:06 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 09:42:07 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 09:42:07 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 67
+[07-Mar-2025 09:42:07 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 104
+[07-Mar-2025 09:42:07 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 110
+[07-Mar-2025 09:42:07 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 113
+[07-Mar-2025 14:42:28 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 14:42:28 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 14:42:28 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 14:42:28 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 14:42:28 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 14:42:28 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 14:42:28 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 14:42:28 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 09:42:28 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 09:42:28 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:42:28 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:42:28 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 09:42:28 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 09:42:28 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:42:28 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:42:28 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 09:42:28 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 09:42:28 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:42:28 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:42:31 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 09:42:31 America/Bogota] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 723
+[07-Mar-2025 09:42:31 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 09:42:31 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 09:42:32 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 09:42:32 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 67
+[07-Mar-2025 09:42:32 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 104
+[07-Mar-2025 09:42:32 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 110
+[07-Mar-2025 09:42:32 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 113
+[07-Mar-2025 14:43:22 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 14:43:22 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 14:43:22 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 14:43:22 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 14:43:22 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 14:43:22 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 14:43:22 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 14:43:22 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 09:43:22 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 09:43:22 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:43:22 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:43:22 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 09:43:22 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 09:43:22 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:43:22 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:43:22 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 09:43:22 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 09:43:22 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:43:22 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:43:24 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 09:43:24 America/Bogota] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 723
+[07-Mar-2025 09:43:24 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 09:43:24 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 09:43:25 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 09:43:25 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 67
+[07-Mar-2025 09:43:25 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 104
+[07-Mar-2025 09:43:25 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 110
+[07-Mar-2025 09:43:25 America/Bogota] PHP Warning:  Undefined variable $img_fotos_modelos in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 113
+[07-Mar-2025 14:46:57 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 14:46:57 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 14:46:57 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 14:46:57 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 14:46:57 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 14:46:57 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 14:46:57 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 14:46:57 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 09:46:57 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 09:46:57 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:46:57 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:46:57 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 09:46:57 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 09:46:57 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:46:57 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:46:57 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 09:46:57 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 09:46:57 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:46:57 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:46:59 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 09:46:59 America/Bogota] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 723
+[07-Mar-2025 09:46:59 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 09:46:59 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 09:47:00 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 67
+[07-Mar-2025 09:47:00 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 70
+[07-Mar-2025 09:47:00 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 107
+[07-Mar-2025 09:47:00 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 113
+[07-Mar-2025 09:47:00 America/Bogota] PHP Warning:  Undefined variable $img_fotos_modelos in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 116
+[07-Mar-2025 14:47:57 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 14:47:57 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 14:47:57 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 14:47:57 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 14:47:57 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 14:47:57 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 14:47:57 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 14:47:57 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 09:47:57 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 09:47:57 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:47:57 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:47:57 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 09:47:57 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 09:47:57 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:47:57 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:47:57 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 09:47:57 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 09:47:57 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:47:57 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:48:00 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 09:48:00 America/Bogota] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 723
+[07-Mar-2025 09:48:00 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 09:48:00 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 09:48:00 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 68
+[07-Mar-2025 09:48:00 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 71
+[07-Mar-2025 09:48:00 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 108
+[07-Mar-2025 09:48:00 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 114
+[07-Mar-2025 09:48:00 America/Bogota] PHP Warning:  Undefined variable $img_fotos_modelos in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 117
+[07-Mar-2025 14:50:44 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 14:50:44 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 14:50:44 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 14:50:44 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 14:50:44 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 14:50:44 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 14:50:44 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 14:50:44 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 09:50:44 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 09:50:44 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:50:44 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:50:44 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 09:50:44 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 09:50:44 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:50:44 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:50:44 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 09:50:44 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 09:50:44 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:50:44 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:50:47 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 09:50:47 America/Bogota] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 723
+[07-Mar-2025 09:50:47 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 09:50:47 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 09:50:48 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 67
+[07-Mar-2025 09:50:48 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 70
+[07-Mar-2025 09:50:48 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 81
+[07-Mar-2025 09:50:48 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 84
+[07-Mar-2025 09:50:48 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 95
+[07-Mar-2025 09:50:48 America/Bogota] PHP Warning:  Undefined variable $img_fotos_modelos in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 98
+[07-Mar-2025 09:50:48 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 95
+[07-Mar-2025 09:50:48 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 110
+[07-Mar-2025 14:51:46 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 14:51:46 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 14:51:46 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 14:51:46 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 14:51:46 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 14:51:46 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 14:51:46 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 14:51:46 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 09:51:46 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 09:51:46 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:51:46 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:51:46 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 09:51:46 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 09:51:46 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:51:46 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:51:46 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 09:51:46 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 09:51:46 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:51:46 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:51:48 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 09:51:48 America/Bogota] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 723
+[07-Mar-2025 09:51:48 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 09:51:48 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 09:51:49 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 09:51:49 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 67
+[07-Mar-2025 09:51:49 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 78
+[07-Mar-2025 09:51:49 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 81
+[07-Mar-2025 09:51:49 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 92
+[07-Mar-2025 09:51:49 America/Bogota] PHP Warning:  Undefined variable $img_fotos_modelos in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 95
+[07-Mar-2025 09:51:49 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 92
+[07-Mar-2025 09:51:49 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 106
+[07-Mar-2025 09:51:49 America/Bogota] PHP Warning:  Undefined variable $text_Debug in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 117
+[07-Mar-2025 09:52:12 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 09:52:12 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 67
+[07-Mar-2025 09:52:12 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 78
+[07-Mar-2025 09:52:12 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 81
+[07-Mar-2025 09:52:12 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 92
+[07-Mar-2025 09:52:12 America/Bogota] PHP Warning:  Undefined variable $img_fotos_modelos in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 95
+[07-Mar-2025 09:52:12 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 92
+[07-Mar-2025 09:52:12 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 106
+[07-Mar-2025 09:52:12 America/Bogota] PHP Warning:  Undefined variable $text_Debug in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 117
+[07-Mar-2025 09:52:12 America/Bogota] PHP Warning:  Undefined array key "idEliminar" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesGuardar.php on line 19
+[07-Mar-2025 09:52:13 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 09:52:13 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 67
+[07-Mar-2025 09:52:13 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 78
+[07-Mar-2025 09:52:13 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 81
+[07-Mar-2025 09:52:13 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 92
+[07-Mar-2025 09:52:13 America/Bogota] PHP Warning:  Undefined variable $img_fotos_modelos in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 95
+[07-Mar-2025 09:52:13 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 92
+[07-Mar-2025 09:52:13 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 51
+[07-Mar-2025 09:52:13 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 54
+[07-Mar-2025 09:52:13 America/Bogota] PHP Warning:  Undefined variable $text_Debug in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 117
+[07-Mar-2025 14:55:04 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 14:55:04 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 14:55:04 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 14:55:04 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 14:55:04 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 14:55:04 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 14:55:04 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 14:55:04 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 09:55:04 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 09:55:04 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:55:04 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:55:04 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 09:55:04 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 09:55:04 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:55:04 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:55:04 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 09:55:04 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 09:55:04 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:55:04 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:55:06 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 09:55:06 America/Bogota] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 723
+[07-Mar-2025 09:55:06 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 09:55:06 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 09:55:07 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 09:55:07 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 67
+[07-Mar-2025 09:55:07 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 78
+[07-Mar-2025 09:55:07 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 81
+[07-Mar-2025 09:55:07 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 92
+[07-Mar-2025 09:55:07 America/Bogota] PHP Warning:  Undefined variable $img_fotos_modelos in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 95
+[07-Mar-2025 09:55:07 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 92
+[07-Mar-2025 09:55:07 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 51
+[07-Mar-2025 09:55:07 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 54
+[07-Mar-2025 09:55:07 America/Bogota] PHP Warning:  Undefined variable $text_Debug in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 121
+[07-Mar-2025 14:57:00 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 14:57:00 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 14:57:00 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 14:57:00 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 14:57:00 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 14:57:00 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 14:57:00 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 14:57:00 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 09:57:00 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 09:57:00 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:57:00 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:57:00 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 09:57:00 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 09:57:00 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:57:00 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:57:00 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 09:57:00 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 09:57:00 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:57:00 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:57:03 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 09:57:03 America/Bogota] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 723
+[07-Mar-2025 09:57:03 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 09:57:03 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 09:57:04 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 09:57:04 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 67
+[07-Mar-2025 09:57:04 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 78
+[07-Mar-2025 09:57:04 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 81
+[07-Mar-2025 09:57:04 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 92
+[07-Mar-2025 09:57:04 America/Bogota] PHP Warning:  Undefined variable $img_fotos_modelos in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 95
+[07-Mar-2025 09:57:04 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 92
+[07-Mar-2025 09:57:04 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 51
+[07-Mar-2025 09:57:04 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 54
+[07-Mar-2025 09:57:04 America/Bogota] PHP Warning:  Undefined variable $text_Debug in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 121
+[07-Mar-2025 14:59:04 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 14:59:04 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 14:59:04 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 14:59:04 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 14:59:04 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 14:59:04 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 14:59:04 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 14:59:04 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 09:59:04 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 09:59:04 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:59:04 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 09:59:04 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 09:59:04 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 09:59:04 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:59:04 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 09:59:04 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 09:59:04 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 09:59:04 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:59:04 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 09:59:06 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 09:59:06 America/Bogota] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 723
+[07-Mar-2025 09:59:06 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 09:59:06 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 09:59:07 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 09:59:07 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 67
+[07-Mar-2025 09:59:07 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 78
+[07-Mar-2025 09:59:07 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 81
+[07-Mar-2025 09:59:07 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 92
+[07-Mar-2025 09:59:07 America/Bogota] PHP Warning:  Undefined variable $img_fotos_modelos in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 95
+[07-Mar-2025 09:59:07 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 92
+[07-Mar-2025 09:59:07 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 51
+[07-Mar-2025 09:59:07 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 54
+[07-Mar-2025 09:59:07 America/Bogota] PHP Warning:  Undefined variable $text_Debug in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 121
+[07-Mar-2025 15:01:43 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 15:01:43 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 15:01:43 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 15:01:43 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 15:01:43 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 15:01:43 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 15:01:43 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 15:01:43 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 10:01:43 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 10:01:43 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 10:01:43 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 10:01:43 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 10:01:43 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 10:01:43 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 10:01:43 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 10:01:43 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 10:01:43 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 10:01:43 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 10:01:43 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 10:01:46 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 10:01:46 America/Bogota] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 723
+[07-Mar-2025 10:01:46 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 10:01:46 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 10:01:46 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 10:01:46 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 67
+[07-Mar-2025 10:01:46 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 78
+[07-Mar-2025 10:01:46 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 81
+[07-Mar-2025 10:01:46 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 92
+[07-Mar-2025 10:01:46 America/Bogota] PHP Warning:  Undefined variable $img_fotos_modelos in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 95
+[07-Mar-2025 10:01:46 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 92
+[07-Mar-2025 10:01:46 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 51
+[07-Mar-2025 10:01:46 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 54
+[07-Mar-2025 10:01:46 America/Bogota] PHP Warning:  Undefined variable $text_Debug in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 121
+[07-Mar-2025 15:02:02 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 15:02:02 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 15:02:02 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 15:02:02 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 15:02:02 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 15:02:02 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 15:02:02 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 15:02:02 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 10:02:02 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 10:02:02 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 10:02:02 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 10:02:02 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 10:02:02 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 10:02:02 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 10:02:02 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 10:02:02 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 10:02:02 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 10:02:02 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 10:02:02 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 10:02:05 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 10:02:05 America/Bogota] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 723
+[07-Mar-2025 10:02:05 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 10:02:05 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 10:02:05 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 10:02:05 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 67
+[07-Mar-2025 10:02:05 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 78
+[07-Mar-2025 10:02:05 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 81
+[07-Mar-2025 10:02:05 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 92
+[07-Mar-2025 10:02:05 America/Bogota] PHP Warning:  Undefined variable $img_fotos_modelos in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 95
+[07-Mar-2025 10:02:05 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 92
+[07-Mar-2025 10:02:05 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 51
+[07-Mar-2025 10:02:05 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 54
+[07-Mar-2025 10:02:05 America/Bogota] PHP Warning:  Undefined variable $text_Debug in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 121
+[07-Mar-2025 10:02:08 America/Bogota] PHP Warning:  Undefined array key "iC" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 4
+[07-Mar-2025 10:02:08 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 261
+[07-Mar-2025 10:02:08 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 279
+[07-Mar-2025 10:02:08 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 297
+[07-Mar-2025 10:02:08 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 315
+[07-Mar-2025 10:02:08 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 315
+[07-Mar-2025 10:02:55 America/Bogota] PHP Warning:  Undefined array key "iC" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 4
+[07-Mar-2025 10:02:55 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 261
+[07-Mar-2025 10:02:55 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 279
+[07-Mar-2025 10:02:55 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 297
+[07-Mar-2025 10:02:55 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 315
+[07-Mar-2025 10:02:55 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 315
+[07-Mar-2025 10:03:14 America/Bogota] PHP Warning:  Undefined array key "iC" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 4
+[07-Mar-2025 10:03:14 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 261
+[07-Mar-2025 10:03:14 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 279
+[07-Mar-2025 10:03:14 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 297
+[07-Mar-2025 10:03:14 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 315
+[07-Mar-2025 10:03:14 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 315
+[07-Mar-2025 15:07:39 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 15:07:39 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 15:07:39 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 15:07:39 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 15:07:39 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 15:07:39 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 15:07:39 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 15:07:39 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 10:07:39 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 10:07:39 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 10:07:39 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 10:07:39 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 10:07:39 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 10:07:39 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 10:07:39 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 10:07:39 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 10:07:39 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 10:07:39 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 10:07:39 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 10:07:41 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 10:07:41 America/Bogota] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 723
+[07-Mar-2025 10:07:41 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 10:07:41 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 10:07:42 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 107
+[07-Mar-2025 10:07:42 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 111
+[07-Mar-2025 10:07:42 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 115
+[07-Mar-2025 10:07:42 America/Bogota] PHP Warning:  Undefined variable $img_fotos_modelos in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 119
+[07-Mar-2025 10:07:42 America/Bogota] PHP Warning:  Undefined variable $text_Debug in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 121
+[07-Mar-2025 15:11:43 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 15:11:43 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 15:11:43 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 15:11:43 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 15:11:43 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 15:11:43 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 15:11:43 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 15:11:43 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 10:11:43 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 10:11:43 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 10:11:43 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 10:11:43 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 10:11:43 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 10:11:43 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 10:11:43 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 10:11:43 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 10:11:43 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 10:11:43 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 10:11:43 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 10:11:45 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 10:11:45 America/Bogota] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 723
+[07-Mar-2025 10:11:45 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 10:11:45 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 10:11:46 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 64
+[07-Mar-2025 10:11:46 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 67
+[07-Mar-2025 10:11:46 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 78
+[07-Mar-2025 10:11:46 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 81
+[07-Mar-2025 10:11:46 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 92
+[07-Mar-2025 10:11:46 America/Bogota] PHP Warning:  Undefined variable $img_fotos_modelos in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 95
+[07-Mar-2025 10:11:46 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 92
+[07-Mar-2025 10:11:46 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 51
+[07-Mar-2025 10:11:46 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 54
+[07-Mar-2025 10:11:46 America/Bogota] PHP Warning:  Undefined variable $text_Debug in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 121
+[07-Mar-2025 10:12:25 America/Bogota] PHP Warning:  Undefined array key "iC" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 4
+[07-Mar-2025 10:12:25 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 261
+[07-Mar-2025 10:12:25 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 279
+[07-Mar-2025 10:12:25 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 297
+[07-Mar-2025 10:12:25 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 315
+[07-Mar-2025 10:12:25 America/Bogota] PHP Warning:  Undefined array key "fechaRef" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_View.php on line 315
+[07-Mar-2025 16:16:56 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 16:16:56 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 16:16:56 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 16:16:56 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 16:16:56 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 16:16:56 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 16:16:56 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 16:16:56 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 11:16:56 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 11:16:56 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 11:16:56 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 11:16:56 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 11:16:56 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 11:16:56 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 11:16:56 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 11:16:56 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 11:16:56 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 11:16:56 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 11:16:56 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 11:16:59 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 11:16:59 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 11:16:59 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 11:16:59 America/Bogota] PHP Warning:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/pacientes.php on line 140
+[07-Mar-2025 11:16:59 America/Bogota] PHP Warning:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/pacientes.php on line 140
+[07-Mar-2025 11:16:59 America/Bogota] PHP Warning:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/pacientes.php on line 140
+[07-Mar-2025 11:16:59 America/Bogota] PHP Warning:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/pacientes.php on line 140
+[07-Mar-2025 11:16:59 America/Bogota] PHP Warning:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/pacientes.php on line 140
+[07-Mar-2025 11:16:59 America/Bogota] PHP Warning:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/pacientes.php on line 140
+[07-Mar-2025 11:16:59 America/Bogota] PHP Warning:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/pacientes.php on line 140
+[07-Mar-2025 16:20:07 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 16:20:07 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 16:20:07 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 16:20:07 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 16:20:07 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 16:20:07 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 16:20:07 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 16:20:07 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 11:20:07 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 11:20:07 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 11:20:07 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 11:20:07 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 11:20:07 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 11:20:07 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 11:20:07 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 11:20:07 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 11:20:07 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 11:20:07 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 11:20:07 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 11:20:09 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 11:20:09 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 11:20:09 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 11:20:09 America/Bogota] PHP Warning:  Undefined variable $opciones in /home/dentalroot/app.dentalsoftplus.com/plantilla.php on line 38
+[07-Mar-2025 16:23:22 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 16:23:22 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 16:23:22 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 16:23:22 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 16:23:22 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 16:23:22 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 16:23:22 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 16:23:22 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 11:23:22 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 11:23:22 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 11:23:22 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 11:23:22 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 11:23:22 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 11:23:22 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 11:23:22 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 11:23:22 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 11:23:22 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 11:23:22 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 11:23:22 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 11:23:25 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 11:23:25 America/Bogota] PHP Warning:  Undefined variable $ruta in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/finalizado.php on line 95
+[07-Mar-2025 11:23:25 America/Bogota] PHP Warning:  Undefined variable $whatsapp in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/finalizado.php on line 98
+[07-Mar-2025 11:23:25 America/Bogota] PHP Warning:  Undefined variable $correo_cliente in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/finalizado.php on line 100
+[07-Mar-2025 11:23:25 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 11:23:25 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 11:23:29 America/Bogota] PHP Warning:  Undefined array key "geoData" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 23
+[07-Mar-2025 08:23:29 America/Los_Angeles] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 49
+[07-Mar-2025 11:23:29 America/Bogota] PHP Warning:  Undefined array key "lugarNacimiento" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/imprimirPlantilla.php on line 53
+[07-Mar-2025 11:23:29 America/Bogota] PHP Warning:  Undefined array key "direccion" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/imprimirPlantilla.php on line 55
+[07-Mar-2025 11:23:29 America/Bogota] PHP Warning:  Undefined array key "telefono" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/imprimirPlantilla.php on line 56
+[07-Mar-2025 11:23:29 America/Bogota] PHP Warning:  Undefined array key "relacion_labial " in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/imprimirPlantilla.php on line 336
+[07-Mar-2025 11:23:29 America/Bogota] PHP Warning:  Undefined array key "fonacion " in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/imprimirPlantilla.php on line 385
+[07-Mar-2025 11:23:29 America/Bogota] PHP Warning:  Undefined array key "tercera fase_superior" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/imprimirPlantilla.php on line 594
+[07-Mar-2025 11:23:29 America/Bogota] PHP Warning:  Undefined array key "tercera fase_inferior" in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/imprimirPlantilla.php on line 595
+[07-Mar-2025 16:28:29 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 16:28:29 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 16:28:29 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 16:28:29 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 16:28:29 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 16:28:29 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 16:28:29 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 16:28:29 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 11:28:29 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 11:28:29 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 11:28:29 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 11:28:29 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 11:28:29 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 11:28:29 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 11:28:29 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 11:28:29 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 11:28:29 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 11:28:29 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 11:28:29 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 11:28:32 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 11:28:32 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 11:28:32 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 11:28:32 America/Bogota] PHP Warning:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/pacientes.php on line 140
+[07-Mar-2025 11:28:32 America/Bogota] PHP Warning:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/pacientes.php on line 140
+[07-Mar-2025 11:28:32 America/Bogota] PHP Warning:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/pacientes.php on line 140
+[07-Mar-2025 11:28:32 America/Bogota] PHP Warning:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/pacientes.php on line 140
+[07-Mar-2025 11:28:32 America/Bogota] PHP Warning:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/pacientes.php on line 140
+[07-Mar-2025 11:28:32 America/Bogota] PHP Warning:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/pacientes.php on line 140
+[07-Mar-2025 11:28:32 America/Bogota] PHP Warning:  openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/pacientes.php on line 140
+[07-Mar-2025 16:28:46 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 16:28:46 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 16:28:46 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 16:28:46 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 16:28:46 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 16:28:46 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 16:28:46 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 16:28:46 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 11:28:46 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 11:28:46 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 11:28:46 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 11:28:46 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 11:28:46 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 11:28:46 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 11:28:46 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 11:28:46 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 11:28:46 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 11:28:46 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 11:28:46 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 11:28:48 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 11:28:48 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 11:28:48 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 11:28:48 America/Bogota] PHP Warning:  Undefined variable $opciones in /home/dentalroot/app.dentalsoftplus.com/plantilla.php on line 38
+[07-Mar-2025 16:28:59 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[07-Mar-2025 16:28:59 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[07-Mar-2025 16:28:59 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[07-Mar-2025 16:28:59 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[07-Mar-2025 16:28:59 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[07-Mar-2025 16:28:59 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[07-Mar-2025 16:28:59 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[07-Mar-2025 16:28:59 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[07-Mar-2025 11:28:59 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[07-Mar-2025 11:28:59 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 11:28:59 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[07-Mar-2025 11:28:59 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[07-Mar-2025 11:28:59 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[07-Mar-2025 11:28:59 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 11:28:59 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 18
+[07-Mar-2025 11:28:59 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 19
+[07-Mar-2025 11:28:59 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 32
+[07-Mar-2025 11:28:59 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 11:28:59 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 235
+[07-Mar-2025 11:29:01 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[07-Mar-2025 11:29:01 America/Bogota] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 723
+[07-Mar-2025 11:29:01 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[07-Mar-2025 11:29:01 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[07-Mar-2025 11:29:03 America/Bogota] PHP Warning:  Undefined variable $img_postura_corporal in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 107
+[07-Mar-2025 11:29:03 America/Bogota] PHP Warning:  Undefined variable $img_fotos_cara in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 111
+[07-Mar-2025 11:29:03 America/Bogota] PHP Warning:  Undefined variable $img_fotos_boca in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 115
+[07-Mar-2025 11:29:03 America/Bogota] PHP Warning:  Undefined variable $img_fotos_modelos in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 119
+[07-Mar-2025 11:29:03 America/Bogota] PHP Warning:  Undefined variable $text_Debug in /home/dentalroot/app.dentalsoftplus.com/Odontologia_bo1329/OBT_Ajax_ImagenesMostrar.php on line 121

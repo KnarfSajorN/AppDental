@@ -1,0 +1,908 @@
+[11-Nov-2024 19:54:13 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[11-Nov-2024 19:54:13 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[11-Nov-2024 19:54:13 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[11-Nov-2024 19:54:13 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[11-Nov-2024 19:54:13 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[11-Nov-2024 19:54:13 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[11-Nov-2024 19:54:13 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[11-Nov-2024 19:54:13 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[11-Nov-2024 19:54:13 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[11-Nov-2024 19:54:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[11-Nov-2024 19:54:13 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[11-Nov-2024 19:54:13 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[11-Nov-2024 19:54:13 UTC] PHP Warning:  Undefined array key 18 in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[11-Nov-2024 19:54:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[11-Nov-2024 19:54:13 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[11-Nov-2024 19:54:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[11-Nov-2024 19:54:13 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[11-Nov-2024 19:54:13 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[11-Nov-2024 19:54:13 UTC] PHP Warning:  Undefined array key 18 in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[11-Nov-2024 19:54:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[11-Nov-2024 15:54:13 America/Caracas] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[11-Nov-2024 14:54:13 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[11-Nov-2024 14:54:13 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[11-Nov-2024 14:54:13 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[11-Nov-2024 14:54:13 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[11-Nov-2024 14:54:14 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 69
+[12-Nov-2024 17:21:32 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[12-Nov-2024 17:21:32 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[12-Nov-2024 17:21:32 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[12-Nov-2024 17:21:32 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[12-Nov-2024 17:21:32 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[12-Nov-2024 17:21:32 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[12-Nov-2024 17:21:32 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[12-Nov-2024 17:21:32 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[12-Nov-2024 17:21:32 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[12-Nov-2024 17:21:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[12-Nov-2024 17:21:32 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[12-Nov-2024 17:21:32 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[12-Nov-2024 17:21:32 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[12-Nov-2024 17:21:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[12-Nov-2024 17:21:32 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[12-Nov-2024 17:21:32 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[12-Nov-2024 12:21:32 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[12-Nov-2024 12:21:32 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[12-Nov-2024 12:21:32 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[12-Nov-2024 12:21:32 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[12-Nov-2024 12:21:32 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[12-Nov-2024 12:21:32 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 69
+[12-Nov-2024 17:21:36 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[12-Nov-2024 17:21:36 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[12-Nov-2024 17:21:36 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[12-Nov-2024 17:21:36 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[12-Nov-2024 17:21:36 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[12-Nov-2024 17:21:36 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[12-Nov-2024 17:21:36 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[12-Nov-2024 17:21:36 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[12-Nov-2024 17:21:36 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[12-Nov-2024 17:21:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[12-Nov-2024 17:21:36 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[12-Nov-2024 17:21:36 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[12-Nov-2024 17:21:36 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[12-Nov-2024 17:21:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[12-Nov-2024 17:21:36 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[12-Nov-2024 17:21:36 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[12-Nov-2024 12:21:36 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[12-Nov-2024 12:21:36 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[12-Nov-2024 12:21:36 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[12-Nov-2024 12:21:36 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[12-Nov-2024 12:21:36 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[12-Nov-2024 12:21:36 America/Bogota] PHP Warning:  include(../../masterFunciones.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/videoConsulta/vc_crearSala.php on line 4
+[12-Nov-2024 12:21:36 America/Bogota] PHP Warning:  include(): Failed opening '../../masterFunciones.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/videoConsulta/vc_crearSala.php on line 4
+[12-Nov-2024 12:21:36 America/Bogota] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'medicaso_rootBase'@'localhost' (using password: YES) in /home/dentalroot/app.dentalsoftplus.com/videoConsulta/vc_crearSala.php on line 22
+[12-Nov-2024 12:21:36 America/Bogota] PHP Fatal error:  Uncaught TypeError: mysqli_error(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/dentalroot/app.dentalsoftplus.com/videoConsulta/vc_crearSala.php:22
+Stack trace:
+#0 /home/dentalroot/app.dentalsoftplus.com/videoConsulta/vc_crearSala.php(22): mysqli_error(false)
+#1 {main}
+  thrown in /home/dentalroot/app.dentalsoftplus.com/videoConsulta/vc_crearSala.php on line 22
+[13-Nov-2024 20:14:54 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[13-Nov-2024 20:14:54 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[13-Nov-2024 20:14:54 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[13-Nov-2024 20:14:54 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[13-Nov-2024 20:14:54 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[13-Nov-2024 20:14:54 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[13-Nov-2024 20:14:54 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[13-Nov-2024 20:14:54 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[13-Nov-2024 20:14:54 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[13-Nov-2024 20:14:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[13-Nov-2024 20:14:54 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[13-Nov-2024 20:14:54 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[13-Nov-2024 20:14:54 UTC] PHP Warning:  Undefined array key 18 in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[13-Nov-2024 20:14:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[13-Nov-2024 20:14:54 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[13-Nov-2024 20:14:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[13-Nov-2024 20:14:54 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[13-Nov-2024 20:14:54 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[13-Nov-2024 20:14:54 UTC] PHP Warning:  Undefined array key 18 in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[13-Nov-2024 20:14:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[13-Nov-2024 17:14:54 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[13-Nov-2024 15:14:54 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[13-Nov-2024 15:14:54 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[13-Nov-2024 15:14:54 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[13-Nov-2024 15:14:54 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[13-Nov-2024 15:14:55 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 69
+[24-Nov-2024 23:00:04 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[24-Nov-2024 23:00:04 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[24-Nov-2024 23:00:04 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[24-Nov-2024 23:00:04 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[24-Nov-2024 23:00:04 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[24-Nov-2024 23:00:04 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[24-Nov-2024 23:00:04 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[24-Nov-2024 23:00:04 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[24-Nov-2024 23:00:04 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[24-Nov-2024 23:00:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[24-Nov-2024 23:00:04 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[24-Nov-2024 23:00:04 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[24-Nov-2024 23:00:04 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[24-Nov-2024 23:00:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[24-Nov-2024 23:00:04 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[24-Nov-2024 23:00:04 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[24-Nov-2024 19:00:04 America/Caracas] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[24-Nov-2024 18:00:04 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[24-Nov-2024 18:00:04 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[24-Nov-2024 18:00:04 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[24-Nov-2024 18:00:04 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[24-Nov-2024 18:00:05 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 69
+[26-Nov-2024 17:44:07 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[26-Nov-2024 17:44:07 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[26-Nov-2024 17:44:07 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[26-Nov-2024 17:44:07 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[26-Nov-2024 17:44:07 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[26-Nov-2024 17:44:07 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[26-Nov-2024 17:44:07 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[26-Nov-2024 17:44:07 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[26-Nov-2024 17:44:07 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[26-Nov-2024 17:44:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[26-Nov-2024 17:44:07 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[26-Nov-2024 17:44:07 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[26-Nov-2024 17:44:07 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[26-Nov-2024 17:44:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[26-Nov-2024 17:44:07 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[26-Nov-2024 17:44:07 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[26-Nov-2024 12:44:07 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[26-Nov-2024 12:44:07 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[26-Nov-2024 12:44:07 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[26-Nov-2024 12:44:07 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[26-Nov-2024 12:44:07 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[26-Nov-2024 12:44:08 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 69
+[05-Dec-2024 18:33:04 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[05-Dec-2024 18:33:04 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[05-Dec-2024 18:33:04 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[05-Dec-2024 18:33:04 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[05-Dec-2024 18:33:04 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[05-Dec-2024 18:33:04 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[05-Dec-2024 18:33:04 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[05-Dec-2024 18:33:04 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[05-Dec-2024 18:33:04 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[05-Dec-2024 18:33:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[05-Dec-2024 18:33:04 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[05-Dec-2024 18:33:04 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[05-Dec-2024 18:33:04 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[05-Dec-2024 18:33:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[05-Dec-2024 18:33:04 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[05-Dec-2024 18:33:04 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[05-Dec-2024 13:33:04 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[05-Dec-2024 13:33:04 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[05-Dec-2024 13:33:04 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[05-Dec-2024 13:33:04 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[05-Dec-2024 13:33:04 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[05-Dec-2024 13:33:05 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 69
+[09-Dec-2024 21:35:16 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[09-Dec-2024 21:35:16 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[09-Dec-2024 21:35:16 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[09-Dec-2024 21:35:16 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[09-Dec-2024 21:35:16 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[09-Dec-2024 21:35:16 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[09-Dec-2024 21:35:16 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[09-Dec-2024 21:35:16 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[09-Dec-2024 21:35:16 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[09-Dec-2024 21:35:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[09-Dec-2024 21:35:16 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[09-Dec-2024 21:35:16 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[09-Dec-2024 21:35:16 UTC] PHP Warning:  Undefined array key 18 in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[09-Dec-2024 21:35:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[09-Dec-2024 21:35:16 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[09-Dec-2024 21:35:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[09-Dec-2024 21:35:16 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[09-Dec-2024 21:35:16 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[09-Dec-2024 21:35:16 UTC] PHP Warning:  Undefined array key 18 in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[09-Dec-2024 21:35:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[09-Dec-2024 16:35:16 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[09-Dec-2024 16:35:16 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[09-Dec-2024 16:35:16 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[09-Dec-2024 16:35:16 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[09-Dec-2024 16:35:16 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[09-Dec-2024 16:35:17 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 69
+[09-Dec-2024 21:40:58 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[09-Dec-2024 21:40:58 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[09-Dec-2024 21:40:58 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[09-Dec-2024 21:40:58 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[09-Dec-2024 21:40:58 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[09-Dec-2024 21:40:58 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[09-Dec-2024 21:40:58 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[09-Dec-2024 21:40:58 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[09-Dec-2024 21:40:58 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[09-Dec-2024 21:40:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[09-Dec-2024 21:40:58 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[09-Dec-2024 21:40:58 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[09-Dec-2024 21:40:58 UTC] PHP Warning:  Undefined array key 18 in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[09-Dec-2024 21:40:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[09-Dec-2024 21:40:58 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[09-Dec-2024 21:40:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[09-Dec-2024 21:40:58 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[09-Dec-2024 21:40:58 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[09-Dec-2024 21:40:58 UTC] PHP Warning:  Undefined array key 18 in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[09-Dec-2024 21:40:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[09-Dec-2024 16:40:58 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[09-Dec-2024 16:40:58 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[09-Dec-2024 16:40:58 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[09-Dec-2024 16:40:58 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[09-Dec-2024 16:40:58 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[09-Dec-2024 16:40:59 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 69
+[11-Dec-2024 19:31:21 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[11-Dec-2024 19:31:21 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[11-Dec-2024 19:31:21 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[11-Dec-2024 19:31:21 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[11-Dec-2024 19:31:21 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[11-Dec-2024 19:31:21 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[11-Dec-2024 19:31:21 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[11-Dec-2024 19:31:21 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[11-Dec-2024 19:31:21 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[11-Dec-2024 19:31:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[11-Dec-2024 19:31:21 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[11-Dec-2024 19:31:21 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[11-Dec-2024 19:31:21 UTC] PHP Warning:  Undefined array key 18 in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[11-Dec-2024 19:31:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[11-Dec-2024 19:31:21 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[11-Dec-2024 19:31:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[11-Dec-2024 19:31:21 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[11-Dec-2024 19:31:21 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[11-Dec-2024 19:31:21 UTC] PHP Warning:  Undefined array key 18 in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[11-Dec-2024 19:31:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[11-Dec-2024 14:31:21 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[11-Dec-2024 14:31:21 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[11-Dec-2024 14:31:21 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[11-Dec-2024 14:31:21 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[11-Dec-2024 14:31:21 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[11-Dec-2024 14:31:22 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[11-Dec-2024 14:31:22 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[11-Dec-2024 14:31:22 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[11-Dec-2024 19:32:07 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[11-Dec-2024 19:32:07 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[11-Dec-2024 19:32:07 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[11-Dec-2024 19:32:07 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[11-Dec-2024 19:32:07 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[11-Dec-2024 19:32:07 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[11-Dec-2024 19:32:07 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[11-Dec-2024 19:32:07 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[11-Dec-2024 19:32:07 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[11-Dec-2024 19:32:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[11-Dec-2024 19:32:07 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[11-Dec-2024 19:32:07 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[11-Dec-2024 19:32:07 UTC] PHP Warning:  Undefined array key 18 in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[11-Dec-2024 19:32:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[11-Dec-2024 19:32:07 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[11-Dec-2024 19:32:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[11-Dec-2024 19:32:07 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[11-Dec-2024 19:32:07 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[11-Dec-2024 19:32:07 UTC] PHP Warning:  Undefined array key 18 in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[11-Dec-2024 19:32:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[11-Dec-2024 14:32:07 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[11-Dec-2024 14:32:07 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[11-Dec-2024 14:32:07 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[11-Dec-2024 14:32:07 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[11-Dec-2024 14:32:07 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[11-Dec-2024 14:32:08 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[11-Dec-2024 14:32:08 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[11-Dec-2024 14:32:08 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[11-Dec-2024 21:37:58 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[11-Dec-2024 21:37:58 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[11-Dec-2024 21:37:58 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[11-Dec-2024 21:37:58 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[11-Dec-2024 21:37:58 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[11-Dec-2024 21:37:58 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[11-Dec-2024 21:37:58 UTC] PHP Warning:  Undefined array key "fechaVenceLic" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 273
+[11-Dec-2024 21:37:58 UTC] PHP Warning:  Undefined array key "vencido" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 274
+[11-Dec-2024 21:37:58 UTC] PHP Warning:  Undefined array key "ACTIVO" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 275
+[11-Dec-2024 21:37:58 UTC] PHP Warning:  Undefined array key "idBitacora" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 276
+[11-Dec-2024 21:37:58 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[11-Dec-2024 21:37:58 UTC] PHP Warning:  Undefined array key "vencido" in /home/dentalroot/app.dentalsoftplus.com/permisosUsuariosVencidos.php on line 21
+[11-Dec-2024 21:37:58 UTC] PHP Warning:  Undefined array key "ACTIVO" in /home/dentalroot/app.dentalsoftplus.com/permisosUsuariosVencidos.php on line 21
+[11-Dec-2024 21:37:58 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[11-Dec-2024 21:37:58 UTC] PHP Warning:  Undefined array key "expire" in /home/dentalroot/app.dentalsoftplus.com/funciones/seguridad.php on line 2
+[11-Dec-2024 21:37:58 UTC] PHP Warning:  Undefined variable $prueba in /home/dentalroot/app.dentalsoftplus.com/funciones/seguridad.php on line 9
+[11-Dec-2024 21:37:58 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[11-Dec-2024 21:37:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[11-Dec-2024 21:37:58 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[11-Dec-2024 21:37:58 UTC] PHP Warning:  Undefined array key "ID_principal" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 21
+[11-Dec-2024 21:37:58 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[11-Dec-2024 21:37:58 UTC] PHP Warning:  Undefined array key "" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[11-Dec-2024 21:37:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[11-Dec-2024 21:37:58 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[11-Dec-2024 21:37:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[11-Dec-2024 21:37:58 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[11-Dec-2024 21:37:58 UTC] PHP Warning:  Undefined array key "ID_principal" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 21
+[11-Dec-2024 21:37:58 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[11-Dec-2024 21:37:58 UTC] PHP Warning:  Undefined array key "" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[11-Dec-2024 21:37:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[11-Dec-2024 16:37:58 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 49
+[11-Dec-2024 16:37:58 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 34
+[11-Dec-2024 16:37:58 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 35
+[11-Dec-2024 16:37:58 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[11-Dec-2024 16:37:58 America/Bogota] PHP Warning:  Undefined array key "sucursal" in /home/dentalroot/app.dentalsoftplus.com/SeleccionSucursal.php on line 51
+[11-Dec-2024 16:37:58 America/Bogota] PHP Warning:  Undefined array key "sucursal" in /home/dentalroot/app.dentalsoftplus.com/SeleccionSucursal.php on line 51
+[11-Dec-2024 16:37:58 America/Bogota] PHP Warning:  Undefined array key "sucursal" in /home/dentalroot/app.dentalsoftplus.com/SeleccionSucursal.php on line 73
+[11-Dec-2024 16:37:58 America/Bogota] PHP Warning:  Undefined array key "sucursal" in /home/dentalroot/app.dentalsoftplus.com/SeleccionSucursal.php on line 73
+[11-Dec-2024 16:37:58 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[11-Dec-2024 16:37:58 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[11-Dec-2024 16:37:58 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/SeleccionSucursal.php on line 77
+[11-Dec-2024 16:37:58 America/Bogota] PHP Warning:  Undefined array key "ID_principal" in /home/dentalroot/app.dentalsoftplus.com/SeleccionSucursal.php on line 82
+[11-Dec-2024 16:37:58 America/Bogota] PHP Warning:  Undefined array key "sucursal" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 53
+[11-Dec-2024 16:37:58 America/Bogota] PHP Warning:  Undefined array key "sucursal" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 54
+[11-Dec-2024 16:37:58 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 63
+[11-Dec-2024 16:37:58 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 66
+[11-Dec-2024 16:37:58 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[11-Dec-2024 16:37:58 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[11-Dec-2024 16:37:58 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[11-Dec-2024 16:37:58 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 20
+[11-Dec-2024 16:37:58 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 21
+[11-Dec-2024 16:37:58 America/Bogota] PHP Warning:  Undefined array key "ID_principal" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 21
+[11-Dec-2024 16:37:58 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[11-Dec-2024 16:37:58 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 49
+[11-Dec-2024 16:37:58 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/li_HeaderClientes.php on line 3
+[11-Dec-2024 16:37:58 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 33
+[11-Dec-2024 16:37:58 America/Bogota] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/dentalroot/app.dentalsoftplus.com/menu.php:36
+Stack trace:
+#0 /home/dentalroot/app.dentalsoftplus.com/menu.php(36): mysqli_num_rows(false)
+#1 /home/dentalroot/app.dentalsoftplus.com/videoConsulta/vc_consultasAgendadas.php(3): include('/home/dentalroo...')
+#2 {main}
+  thrown in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 36
+[13-Dec-2024 22:34:08 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[13-Dec-2024 22:34:08 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[13-Dec-2024 22:34:08 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[13-Dec-2024 22:34:08 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[13-Dec-2024 22:34:08 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[13-Dec-2024 22:34:08 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[13-Dec-2024 22:34:08 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[13-Dec-2024 22:34:08 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[13-Dec-2024 22:34:08 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[13-Dec-2024 22:34:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[13-Dec-2024 22:34:08 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[13-Dec-2024 22:34:08 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[13-Dec-2024 22:34:08 UTC] PHP Warning:  Undefined array key 18 in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[13-Dec-2024 22:34:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[13-Dec-2024 22:34:08 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[13-Dec-2024 22:34:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[13-Dec-2024 22:34:08 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[13-Dec-2024 22:34:08 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[13-Dec-2024 22:34:08 UTC] PHP Warning:  Undefined array key 18 in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[13-Dec-2024 22:34:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[13-Dec-2024 17:34:08 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[13-Dec-2024 17:34:08 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[13-Dec-2024 17:34:08 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[13-Dec-2024 17:34:08 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[13-Dec-2024 17:34:08 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[13-Dec-2024 17:34:09 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[13-Dec-2024 17:34:09 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[13-Dec-2024 17:34:09 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[21-Jan-2025 21:04:42 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[21-Jan-2025 21:04:42 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[21-Jan-2025 21:04:42 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[21-Jan-2025 21:04:42 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[21-Jan-2025 21:04:42 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[21-Jan-2025 21:04:42 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[21-Jan-2025 21:04:42 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[21-Jan-2025 21:04:42 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[21-Jan-2025 21:04:42 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[21-Jan-2025 21:04:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[21-Jan-2025 21:04:42 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[21-Jan-2025 21:04:42 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[21-Jan-2025 21:04:42 UTC] PHP Warning:  Undefined array key 110 in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[21-Jan-2025 21:04:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[21-Jan-2025 21:04:42 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[21-Jan-2025 21:04:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[21-Jan-2025 21:04:42 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[21-Jan-2025 21:04:42 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[21-Jan-2025 21:04:42 UTC] PHP Warning:  Undefined array key 110 in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[21-Jan-2025 21:04:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[21-Jan-2025 16:04:42 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[21-Jan-2025 16:04:42 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[21-Jan-2025 16:04:42 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[21-Jan-2025 16:04:42 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[21-Jan-2025 16:04:42 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[21-Jan-2025 16:04:44 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[21-Jan-2025 16:04:44 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[21-Jan-2025 16:04:44 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[21-Jan-2025 21:05:12 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[21-Jan-2025 21:05:12 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[21-Jan-2025 21:05:12 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[21-Jan-2025 21:05:12 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[21-Jan-2025 21:05:12 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[21-Jan-2025 21:05:12 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[21-Jan-2025 21:05:12 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[21-Jan-2025 21:05:12 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[21-Jan-2025 21:05:12 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[21-Jan-2025 21:05:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[21-Jan-2025 21:05:12 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[21-Jan-2025 21:05:12 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[21-Jan-2025 21:05:12 UTC] PHP Warning:  Undefined array key 110 in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[21-Jan-2025 21:05:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[21-Jan-2025 21:05:12 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[21-Jan-2025 21:05:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[21-Jan-2025 21:05:12 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[21-Jan-2025 21:05:12 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[21-Jan-2025 21:05:12 UTC] PHP Warning:  Undefined array key 110 in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[21-Jan-2025 21:05:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[21-Jan-2025 16:05:12 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[21-Jan-2025 16:05:12 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[21-Jan-2025 16:05:12 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[21-Jan-2025 16:05:12 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[21-Jan-2025 16:05:12 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[21-Jan-2025 16:05:14 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[21-Jan-2025 16:05:14 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[21-Jan-2025 16:05:14 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[22-Jan-2025 17:13:14 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[22-Jan-2025 17:13:14 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[22-Jan-2025 17:13:14 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[22-Jan-2025 17:13:14 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[22-Jan-2025 17:13:14 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[22-Jan-2025 17:13:14 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[22-Jan-2025 17:13:14 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[22-Jan-2025 17:13:14 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[22-Jan-2025 17:13:14 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[22-Jan-2025 17:13:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[22-Jan-2025 17:13:14 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[22-Jan-2025 17:13:14 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[22-Jan-2025 17:13:14 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[22-Jan-2025 17:13:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[22-Jan-2025 17:13:14 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[22-Jan-2025 17:13:14 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[22-Jan-2025 12:13:14 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[22-Jan-2025 12:13:14 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[22-Jan-2025 12:13:14 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[22-Jan-2025 12:13:14 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[22-Jan-2025 12:13:14 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[22-Jan-2025 12:13:17 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[22-Jan-2025 12:13:17 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[22-Jan-2025 12:13:17 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[22-Jan-2025 17:13:34 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[22-Jan-2025 17:13:34 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[22-Jan-2025 17:13:34 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[22-Jan-2025 17:13:34 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[22-Jan-2025 17:13:34 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[22-Jan-2025 17:13:34 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[22-Jan-2025 17:13:34 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[22-Jan-2025 17:13:34 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[22-Jan-2025 17:13:34 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[22-Jan-2025 17:13:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[22-Jan-2025 17:13:34 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[22-Jan-2025 17:13:34 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[22-Jan-2025 17:13:34 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[22-Jan-2025 17:13:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[22-Jan-2025 17:13:34 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[22-Jan-2025 17:13:34 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[22-Jan-2025 12:13:34 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[22-Jan-2025 12:13:34 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[22-Jan-2025 12:13:34 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[22-Jan-2025 12:13:34 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[22-Jan-2025 12:13:34 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[22-Jan-2025 12:13:37 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[22-Jan-2025 12:13:37 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[22-Jan-2025 12:13:37 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[22-Jan-2025 17:13:39 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[22-Jan-2025 17:13:39 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[22-Jan-2025 17:13:39 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[22-Jan-2025 17:13:39 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[22-Jan-2025 17:13:39 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[22-Jan-2025 17:13:39 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[22-Jan-2025 17:13:39 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[22-Jan-2025 17:13:39 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[22-Jan-2025 17:13:39 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[22-Jan-2025 17:13:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[22-Jan-2025 17:13:39 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[22-Jan-2025 17:13:39 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[22-Jan-2025 17:13:39 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[22-Jan-2025 17:13:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[22-Jan-2025 17:13:39 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[22-Jan-2025 17:13:39 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[22-Jan-2025 12:13:39 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[22-Jan-2025 12:13:39 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[22-Jan-2025 12:13:39 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[22-Jan-2025 12:13:39 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[22-Jan-2025 12:13:39 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[22-Jan-2025 12:13:42 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[22-Jan-2025 12:13:42 America/Bogota] PHP Warning:  include(../../masterFunciones.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/videoConsulta/vc_crearSala.php on line 4
+[22-Jan-2025 12:13:42 America/Bogota] PHP Warning:  include(): Failed opening '../../masterFunciones.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/videoConsulta/vc_crearSala.php on line 4
+[22-Jan-2025 12:13:42 America/Bogota] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'medicaso_rootBase'@'localhost' (using password: YES) in /home/dentalroot/app.dentalsoftplus.com/videoConsulta/vc_crearSala.php on line 22
+[22-Jan-2025 12:13:42 America/Bogota] PHP Fatal error:  Uncaught TypeError: mysqli_error(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/dentalroot/app.dentalsoftplus.com/videoConsulta/vc_crearSala.php:22
+Stack trace:
+#0 /home/dentalroot/app.dentalsoftplus.com/videoConsulta/vc_crearSala.php(22): mysqli_error(false)
+#1 {main}
+  thrown in /home/dentalroot/app.dentalsoftplus.com/videoConsulta/vc_crearSala.php on line 22
+[22-Jan-2025 17:13:51 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[22-Jan-2025 17:13:51 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[22-Jan-2025 17:13:51 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[22-Jan-2025 17:13:51 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[22-Jan-2025 17:13:51 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[22-Jan-2025 17:13:51 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[22-Jan-2025 17:13:51 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[22-Jan-2025 17:13:51 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[22-Jan-2025 17:13:51 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[22-Jan-2025 17:13:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[22-Jan-2025 17:13:51 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[22-Jan-2025 17:13:51 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[22-Jan-2025 17:13:51 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[22-Jan-2025 17:13:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[22-Jan-2025 17:13:51 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[22-Jan-2025 17:13:51 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[22-Jan-2025 12:13:51 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[22-Jan-2025 12:13:51 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[22-Jan-2025 12:13:51 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[22-Jan-2025 12:13:51 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[22-Jan-2025 12:13:51 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[22-Jan-2025 12:13:53 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[22-Jan-2025 12:13:53 America/Bogota] PHP Warning:  include(../../masterFunciones.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/videoConsulta/vc_crearSala.php on line 4
+[22-Jan-2025 12:13:53 America/Bogota] PHP Warning:  include(): Failed opening '../../masterFunciones.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/videoConsulta/vc_crearSala.php on line 4
+[22-Jan-2025 12:13:53 America/Bogota] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'medicaso_rootBase'@'localhost' (using password: YES) in /home/dentalroot/app.dentalsoftplus.com/videoConsulta/vc_crearSala.php on line 22
+[22-Jan-2025 12:13:53 America/Bogota] PHP Fatal error:  Uncaught TypeError: mysqli_error(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/dentalroot/app.dentalsoftplus.com/videoConsulta/vc_crearSala.php:22
+Stack trace:
+#0 /home/dentalroot/app.dentalsoftplus.com/videoConsulta/vc_crearSala.php(22): mysqli_error(false)
+#1 {main}
+  thrown in /home/dentalroot/app.dentalsoftplus.com/videoConsulta/vc_crearSala.php on line 22
+[23-Jan-2025 12:16:26 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[23-Jan-2025 12:16:26 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[23-Jan-2025 12:16:26 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[23-Jan-2025 12:16:26 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[23-Jan-2025 12:16:26 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[23-Jan-2025 12:16:26 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[23-Jan-2025 12:16:26 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[23-Jan-2025 12:16:26 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[23-Jan-2025 12:16:26 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[23-Jan-2025 12:16:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[23-Jan-2025 12:16:26 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[23-Jan-2025 12:16:26 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[23-Jan-2025 12:16:26 UTC] PHP Warning:  Undefined array key 110 in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[23-Jan-2025 12:16:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[23-Jan-2025 12:16:26 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[23-Jan-2025 12:16:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[23-Jan-2025 12:16:26 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[23-Jan-2025 12:16:26 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[23-Jan-2025 12:16:26 UTC] PHP Warning:  Undefined array key 110 in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[23-Jan-2025 12:16:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[23-Jan-2025 07:16:26 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[23-Jan-2025 07:16:26 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[23-Jan-2025 07:16:26 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[23-Jan-2025 07:16:26 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[23-Jan-2025 07:16:26 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[23-Jan-2025 07:16:29 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[23-Jan-2025 07:16:29 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[23-Jan-2025 07:16:29 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "fechaVenceLic" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 273
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "vencido" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 274
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "ACTIVO" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 275
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "idBitacora" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 276
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "vencido" in /home/dentalroot/app.dentalsoftplus.com/permisosUsuariosVencidos.php on line 21
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "ACTIVO" in /home/dentalroot/app.dentalsoftplus.com/permisosUsuariosVencidos.php on line 21
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "expire" in /home/dentalroot/app.dentalsoftplus.com/funciones/seguridad.php on line 2
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined variable $prueba in /home/dentalroot/app.dentalsoftplus.com/funciones/seguridad.php on line 9
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "ID_principal" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 21
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "ID_principal" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 21
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "geoData" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 23
+[23-Jan-2025 04:16:31 America/Los_Angeles] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 49
+[23-Jan-2025 04:16:31 America/Los_Angeles] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 34
+[23-Jan-2025 04:16:31 America/Los_Angeles] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 35
+[23-Jan-2025 04:16:31 America/Los_Angeles] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "sucursal" in /home/dentalroot/app.dentalsoftplus.com/SeleccionSucursal.php on line 51
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "sucursal" in /home/dentalroot/app.dentalsoftplus.com/SeleccionSucursal.php on line 51
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "sucursal" in /home/dentalroot/app.dentalsoftplus.com/SeleccionSucursal.php on line 73
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "sucursal" in /home/dentalroot/app.dentalsoftplus.com/SeleccionSucursal.php on line 73
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/SeleccionSucursal.php on line 77
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "ID_principal" in /home/dentalroot/app.dentalsoftplus.com/SeleccionSucursal.php on line 82
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "sucursal" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 53
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "sucursal" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 54
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 63
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 66
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 20
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 21
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "ID_principal" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 21
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 49
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/li_HeaderClientes.php on line 3
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 33
+[23-Jan-2025 07:16:31 America/Bogota] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/dentalroot/app.dentalsoftplus.com/menu.php:36
+Stack trace:
+#0 /home/dentalroot/app.dentalsoftplus.com/menu.php(36): mysqli_num_rows(false)
+#1 /home/dentalroot/app.dentalsoftplus.com/videoConsulta/vc_consultasAgendadas.php(3): include('/home/dentalroo...')
+#2 {main}
+  thrown in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 36
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "fechaVenceLic" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 273
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "vencido" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 274
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "ACTIVO" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 275
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "idBitacora" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 276
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "vencido" in /home/dentalroot/app.dentalsoftplus.com/permisosUsuariosVencidos.php on line 21
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "ACTIVO" in /home/dentalroot/app.dentalsoftplus.com/permisosUsuariosVencidos.php on line 21
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "expire" in /home/dentalroot/app.dentalsoftplus.com/funciones/seguridad.php on line 2
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined variable $prueba in /home/dentalroot/app.dentalsoftplus.com/funciones/seguridad.php on line 9
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "ID_principal" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 21
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "ID_principal" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 21
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[23-Jan-2025 12:16:31 UTC] PHP Warning:  Undefined array key "geoData" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 23
+[23-Jan-2025 04:16:31 America/Los_Angeles] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 49
+[23-Jan-2025 04:16:31 America/Los_Angeles] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 34
+[23-Jan-2025 04:16:31 America/Los_Angeles] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 35
+[23-Jan-2025 04:16:31 America/Los_Angeles] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "sucursal" in /home/dentalroot/app.dentalsoftplus.com/SeleccionSucursal.php on line 51
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "sucursal" in /home/dentalroot/app.dentalsoftplus.com/SeleccionSucursal.php on line 51
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "sucursal" in /home/dentalroot/app.dentalsoftplus.com/SeleccionSucursal.php on line 73
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "sucursal" in /home/dentalroot/app.dentalsoftplus.com/SeleccionSucursal.php on line 73
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/SeleccionSucursal.php on line 77
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "ID_principal" in /home/dentalroot/app.dentalsoftplus.com/SeleccionSucursal.php on line 82
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "sucursal" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 53
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "sucursal" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 54
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 63
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 66
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 20
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 21
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "ID_principal" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 21
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 49
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/li_HeaderClientes.php on line 3
+[23-Jan-2025 07:16:31 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 33
+[23-Jan-2025 07:16:31 America/Bogota] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/dentalroot/app.dentalsoftplus.com/menu.php:36
+Stack trace:
+#0 /home/dentalroot/app.dentalsoftplus.com/menu.php(36): mysqli_num_rows(false)
+#1 /home/dentalroot/app.dentalsoftplus.com/videoConsulta/vc_consultasAgendadas.php(3): include('/home/dentalroo...')
+#2 {main}
+  thrown in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 36
+[23-Jan-2025 12:16:32 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[23-Jan-2025 12:16:32 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[23-Jan-2025 12:16:32 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[23-Jan-2025 12:16:32 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[23-Jan-2025 12:16:32 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[23-Jan-2025 12:16:32 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[23-Jan-2025 12:16:32 UTC] PHP Warning:  Undefined array key "fechaVenceLic" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 273
+[23-Jan-2025 12:16:32 UTC] PHP Warning:  Undefined array key "vencido" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 274
+[23-Jan-2025 12:16:32 UTC] PHP Warning:  Undefined array key "ACTIVO" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 275
+[23-Jan-2025 12:16:32 UTC] PHP Warning:  Undefined array key "idBitacora" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 276
+[23-Jan-2025 12:16:32 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[23-Jan-2025 12:16:32 UTC] PHP Warning:  Undefined array key "vencido" in /home/dentalroot/app.dentalsoftplus.com/permisosUsuariosVencidos.php on line 21
+[23-Jan-2025 12:16:32 UTC] PHP Warning:  Undefined array key "ACTIVO" in /home/dentalroot/app.dentalsoftplus.com/permisosUsuariosVencidos.php on line 21
+[23-Jan-2025 12:16:32 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[23-Jan-2025 12:16:32 UTC] PHP Warning:  Undefined array key "expire" in /home/dentalroot/app.dentalsoftplus.com/funciones/seguridad.php on line 2
+[23-Jan-2025 12:16:32 UTC] PHP Warning:  Undefined variable $prueba in /home/dentalroot/app.dentalsoftplus.com/funciones/seguridad.php on line 9
+[23-Jan-2025 12:16:32 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[23-Jan-2025 12:16:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[23-Jan-2025 12:16:32 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[23-Jan-2025 12:16:32 UTC] PHP Warning:  Undefined array key "ID_principal" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 21
+[23-Jan-2025 12:16:32 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[23-Jan-2025 12:16:32 UTC] PHP Warning:  Undefined array key "" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[23-Jan-2025 12:16:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[23-Jan-2025 12:16:32 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[23-Jan-2025 12:16:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[23-Jan-2025 12:16:32 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[23-Jan-2025 12:16:32 UTC] PHP Warning:  Undefined array key "ID_principal" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 21
+[23-Jan-2025 12:16:32 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[23-Jan-2025 12:16:32 UTC] PHP Warning:  Undefined array key "" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[23-Jan-2025 12:16:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[23-Jan-2025 12:16:32 UTC] PHP Warning:  Undefined array key "geoData" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 23
+[23-Jan-2025 04:16:32 America/Los_Angeles] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 49
+[23-Jan-2025 04:16:32 America/Los_Angeles] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 34
+[23-Jan-2025 04:16:32 America/Los_Angeles] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 35
+[23-Jan-2025 04:16:32 America/Los_Angeles] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[23-Jan-2025 07:16:32 America/Bogota] PHP Warning:  Undefined array key "sucursal" in /home/dentalroot/app.dentalsoftplus.com/SeleccionSucursal.php on line 51
+[23-Jan-2025 07:16:32 America/Bogota] PHP Warning:  Undefined array key "sucursal" in /home/dentalroot/app.dentalsoftplus.com/SeleccionSucursal.php on line 51
+[23-Jan-2025 07:16:32 America/Bogota] PHP Warning:  Undefined array key "sucursal" in /home/dentalroot/app.dentalsoftplus.com/SeleccionSucursal.php on line 73
+[23-Jan-2025 07:16:32 America/Bogota] PHP Warning:  Undefined array key "sucursal" in /home/dentalroot/app.dentalsoftplus.com/SeleccionSucursal.php on line 73
+[23-Jan-2025 07:16:32 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[23-Jan-2025 07:16:32 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[23-Jan-2025 07:16:32 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/SeleccionSucursal.php on line 77
+[23-Jan-2025 07:16:32 America/Bogota] PHP Warning:  Undefined array key "ID_principal" in /home/dentalroot/app.dentalsoftplus.com/SeleccionSucursal.php on line 82
+[23-Jan-2025 07:16:32 America/Bogota] PHP Warning:  Undefined array key "sucursal" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 53
+[23-Jan-2025 07:16:32 America/Bogota] PHP Warning:  Undefined array key "sucursal" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 54
+[23-Jan-2025 07:16:32 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 63
+[23-Jan-2025 07:16:32 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 66
+[23-Jan-2025 07:16:32 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[23-Jan-2025 07:16:32 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[23-Jan-2025 07:16:32 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[23-Jan-2025 07:16:32 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 20
+[23-Jan-2025 07:16:32 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 21
+[23-Jan-2025 07:16:32 America/Bogota] PHP Warning:  Undefined array key "ID_principal" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 21
+[23-Jan-2025 07:16:32 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[23-Jan-2025 07:16:32 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 49
+[23-Jan-2025 07:16:32 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/li_HeaderClientes.php on line 3
+[23-Jan-2025 07:16:32 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 33
+[23-Jan-2025 07:16:32 America/Bogota] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/dentalroot/app.dentalsoftplus.com/menu.php:36
+Stack trace:
+#0 /home/dentalroot/app.dentalsoftplus.com/menu.php(36): mysqli_num_rows(false)
+#1 /home/dentalroot/app.dentalsoftplus.com/videoConsulta/vc_consultasAgendadas.php(3): include('/home/dentalroo...')
+#2 {main}
+  thrown in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 36
+[23-Jan-2025 12:16:33 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[23-Jan-2025 12:16:33 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[23-Jan-2025 12:16:33 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[23-Jan-2025 12:16:33 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[23-Jan-2025 12:16:33 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[23-Jan-2025 12:16:33 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[23-Jan-2025 12:16:33 UTC] PHP Warning:  Undefined array key "fechaVenceLic" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 273
+[23-Jan-2025 12:16:33 UTC] PHP Warning:  Undefined array key "vencido" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 274
+[23-Jan-2025 12:16:33 UTC] PHP Warning:  Undefined array key "ACTIVO" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 275
+[23-Jan-2025 12:16:33 UTC] PHP Warning:  Undefined array key "idBitacora" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 276
+[23-Jan-2025 12:16:33 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[23-Jan-2025 12:16:33 UTC] PHP Warning:  Undefined array key "vencido" in /home/dentalroot/app.dentalsoftplus.com/permisosUsuariosVencidos.php on line 21
+[23-Jan-2025 12:16:33 UTC] PHP Warning:  Undefined array key "ACTIVO" in /home/dentalroot/app.dentalsoftplus.com/permisosUsuariosVencidos.php on line 21
+[23-Jan-2025 12:16:33 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[23-Jan-2025 12:16:33 UTC] PHP Warning:  Undefined array key "expire" in /home/dentalroot/app.dentalsoftplus.com/funciones/seguridad.php on line 2
+[23-Jan-2025 12:16:33 UTC] PHP Warning:  Undefined variable $prueba in /home/dentalroot/app.dentalsoftplus.com/funciones/seguridad.php on line 9
+[23-Jan-2025 12:16:33 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[23-Jan-2025 12:16:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[23-Jan-2025 12:16:33 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[23-Jan-2025 12:16:33 UTC] PHP Warning:  Undefined array key "ID_principal" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 21
+[23-Jan-2025 12:16:33 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[23-Jan-2025 12:16:33 UTC] PHP Warning:  Undefined array key "" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[23-Jan-2025 12:16:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[23-Jan-2025 12:16:33 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[23-Jan-2025 12:16:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[23-Jan-2025 12:16:33 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[23-Jan-2025 12:16:33 UTC] PHP Warning:  Undefined array key "ID_principal" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 21
+[23-Jan-2025 12:16:33 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[23-Jan-2025 12:16:33 UTC] PHP Warning:  Undefined array key "" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[23-Jan-2025 12:16:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[23-Jan-2025 12:16:33 UTC] PHP Warning:  Undefined array key "geoData" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 23
+[23-Jan-2025 07:16:33 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 49
+[23-Jan-2025 07:16:33 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 34
+[23-Jan-2025 07:16:33 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 35
+[23-Jan-2025 07:16:33 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[23-Jan-2025 07:16:33 America/Bogota] PHP Warning:  Undefined array key "sucursal" in /home/dentalroot/app.dentalsoftplus.com/SeleccionSucursal.php on line 51
+[23-Jan-2025 07:16:33 America/Bogota] PHP Warning:  Undefined array key "sucursal" in /home/dentalroot/app.dentalsoftplus.com/SeleccionSucursal.php on line 51
+[23-Jan-2025 07:16:33 America/Bogota] PHP Warning:  Undefined array key "sucursal" in /home/dentalroot/app.dentalsoftplus.com/SeleccionSucursal.php on line 73
+[23-Jan-2025 07:16:33 America/Bogota] PHP Warning:  Undefined array key "sucursal" in /home/dentalroot/app.dentalsoftplus.com/SeleccionSucursal.php on line 73
+[23-Jan-2025 07:16:33 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[23-Jan-2025 07:16:33 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[23-Jan-2025 07:16:33 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/SeleccionSucursal.php on line 77
+[23-Jan-2025 07:16:33 America/Bogota] PHP Warning:  Undefined array key "ID_principal" in /home/dentalroot/app.dentalsoftplus.com/SeleccionSucursal.php on line 82
+[23-Jan-2025 07:16:33 America/Bogota] PHP Warning:  Undefined array key "sucursal" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 53
+[23-Jan-2025 07:16:33 America/Bogota] PHP Warning:  Undefined array key "sucursal" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 54
+[23-Jan-2025 07:16:33 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 63
+[23-Jan-2025 07:16:33 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 66
+[23-Jan-2025 07:16:33 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[23-Jan-2025 07:16:33 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[23-Jan-2025 07:16:33 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[23-Jan-2025 07:16:33 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 20
+[23-Jan-2025 07:16:33 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 21
+[23-Jan-2025 07:16:33 America/Bogota] PHP Warning:  Undefined array key "ID_principal" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 21
+[23-Jan-2025 07:16:33 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[23-Jan-2025 07:16:33 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 49
+[23-Jan-2025 07:16:33 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/li_HeaderClientes.php on line 3
+[23-Jan-2025 07:16:33 America/Bogota] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 33
+[23-Jan-2025 07:16:33 America/Bogota] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/dentalroot/app.dentalsoftplus.com/menu.php:36
+Stack trace:
+#0 /home/dentalroot/app.dentalsoftplus.com/menu.php(36): mysqli_num_rows(false)
+#1 /home/dentalroot/app.dentalsoftplus.com/videoConsulta/vc_consultasAgendadas.php(3): include('/home/dentalroo...')
+#2 {main}
+  thrown in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 36
+[17-Feb-2025 23:30:36 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[17-Feb-2025 23:30:36 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[17-Feb-2025 23:30:36 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[17-Feb-2025 23:30:36 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[17-Feb-2025 23:30:36 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[17-Feb-2025 23:30:36 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[17-Feb-2025 23:30:36 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[17-Feb-2025 23:30:36 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[17-Feb-2025 20:30:36 America/Santiago] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[17-Feb-2025 18:30:36 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[17-Feb-2025 18:30:36 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[17-Feb-2025 18:30:36 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[17-Feb-2025 18:30:36 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[17-Feb-2025 18:30:36 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[17-Feb-2025 18:30:36 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[17-Feb-2025 18:30:36 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[17-Feb-2025 18:30:36 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 30
+[17-Feb-2025 18:30:36 America/Bogota] PHP Warning:  Undefined array key 127 in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 41
+[17-Feb-2025 18:30:36 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 41
+[17-Feb-2025 18:30:36 America/Bogota] PHP Warning:  Undefined array key 37 in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 48
+[17-Feb-2025 18:30:36 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 48
+[17-Feb-2025 18:30:36 America/Bogota] PHP Warning:  Undefined variable $linkScan in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 162
+[17-Feb-2025 18:30:36 America/Bogota] PHP Warning:  Undefined array key 37 in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 182
+[17-Feb-2025 18:30:36 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 182
+[17-Feb-2025 18:30:36 America/Bogota] PHP Warning:  Undefined array key 127 in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 182
+[17-Feb-2025 18:30:36 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 182
+[17-Feb-2025 18:30:36 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 210
+[17-Feb-2025 18:30:36 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 210
+[17-Feb-2025 18:30:37 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[17-Feb-2025 18:30:37 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[17-Feb-2025 18:30:37 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[26-Feb-2025 23:01:46 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[26-Feb-2025 23:01:46 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[26-Feb-2025 23:01:46 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[26-Feb-2025 23:01:46 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[26-Feb-2025 23:01:46 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[26-Feb-2025 23:01:46 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[26-Feb-2025 23:01:46 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[26-Feb-2025 23:01:46 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[26-Feb-2025 18:01:46 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[26-Feb-2025 18:01:46 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[26-Feb-2025 18:01:46 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[26-Feb-2025 18:01:46 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[26-Feb-2025 18:01:46 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[26-Feb-2025 18:01:46 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[26-Feb-2025 18:01:46 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[26-Feb-2025 18:01:46 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[26-Feb-2025 18:01:46 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 30
+[26-Feb-2025 18:01:46 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 210
+[26-Feb-2025 18:01:46 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 210
+[26-Feb-2025 18:01:48 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[26-Feb-2025 18:01:48 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[26-Feb-2025 18:01:48 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[26-Feb-2025 23:02:00 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[26-Feb-2025 23:02:00 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[26-Feb-2025 23:02:00 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[26-Feb-2025 23:02:00 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[26-Feb-2025 23:02:00 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[26-Feb-2025 23:02:00 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[26-Feb-2025 23:02:00 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[26-Feb-2025 23:02:00 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[26-Feb-2025 18:02:00 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[26-Feb-2025 18:02:00 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[26-Feb-2025 18:02:00 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[26-Feb-2025 18:02:00 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[26-Feb-2025 18:02:00 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[26-Feb-2025 18:02:00 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[26-Feb-2025 18:02:00 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[26-Feb-2025 18:02:00 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[26-Feb-2025 18:02:00 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 30
+[26-Feb-2025 18:02:00 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 210
+[26-Feb-2025 18:02:00 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 210
+[26-Feb-2025 18:02:04 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[26-Feb-2025 18:02:04 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[26-Feb-2025 18:02:04 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136
+[27-Feb-2025 23:52:31 UTC] PHP Warning:  Undefined variable $sistema in /home/dentalroot/app.dentalsoftplus.com/header.php on line 11
+[27-Feb-2025 23:52:31 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 26
+[27-Feb-2025 23:52:31 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 36
+[27-Feb-2025 23:52:31 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 39
+[27-Feb-2025 23:52:31 UTC] PHP Warning:  Undefined variable $Base in /home/dentalroot/app.dentalsoftplus.com/header.php on line 45
+[27-Feb-2025 23:52:31 UTC] PHP Warning:  Undefined variable $animation in /home/dentalroot/app.dentalsoftplus.com/header.php on line 166
+[27-Feb-2025 23:52:31 UTC] PHP Warning:  Undefined array key "idOperacion" in /home/dentalroot/app.dentalsoftplus.com/header.php on line 277
+[27-Feb-2025 23:52:31 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 21
+[27-Feb-2025 18:52:31 America/Bogota] PHP Warning:  Undefined array key "tipo" in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 36
+[27-Feb-2025 18:52:31 America/Bogota] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[27-Feb-2025 18:52:31 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[27-Feb-2025 18:52:31 America/Bogota] PHP Warning:  Undefined variable $contador in /home/dentalroot/app.dentalsoftplus.com/headerAdds.php on line 70
+[27-Feb-2025 18:52:31 America/Bogota] PHP Warning:  Undefined array key "cI" in /home/dentalroot/app.dentalsoftplus.com/modalHeaderClientes.php on line 40
+[27-Feb-2025 18:52:31 America/Bogota] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[27-Feb-2025 18:52:31 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[27-Feb-2025 18:52:31 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[27-Feb-2025 18:52:31 America/Bogota] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 30
+[27-Feb-2025 18:52:31 America/Bogota] PHP Warning:  Undefined variable $rowVideos in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 229
+[27-Feb-2025 18:52:31 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 229
+[27-Feb-2025 18:52:33 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/menu.php on line 239
+[27-Feb-2025 18:52:33 America/Bogota] PHP Warning:  Undefined array key "tipoLic" in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 30
+[27-Feb-2025 18:52:33 America/Bogota] PHP Warning:  Undefined variable $Campo_Javascript_Historia_Audiologia in /home/dentalroot/app.dentalsoftplus.com/footer.php on line 136

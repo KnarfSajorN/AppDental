@@ -1,0 +1,341 @@
+.centro:hover {
+    border: 1px solid rgba(117, 198, 243, 0.4);
+    /*background-color: rgba(117, 198, 243, 0.4);*/
+    cursor: pointer;
+}
+
+.derecha:hover {
+    border: 1px solid rgba(117, 198, 243, 0.4);
+    /*background-color: rgba(117, 198, 243, 0.4);*/
+    cursor: pointer;
+}
+
+.debajo:hover {
+    border: 1px solid rgba(117, 198, 243, 0.4);
+    /*background-color: rgba(117, 198, 243, 0.4);*/
+    cursor: pointer;
+}
+
+.izquierdo:hover {
+    border: 1px solid rgba(117, 198, 243, 0.4);
+    /*background-color: rgba(117, 198, 243, 0.4);*/
+    cursor: pointer;
+}
+
+.arriba:hover {
+    border: 1px solid rgba(117, 198, 243, 0.4);
+    /*background-color: rgba(117, 198, 243, 0.4);*/
+    cursor: pointer;
+}
+
+/* este estilo es para que cuando es menor a esa resolucion haga como si fuera col-6*/
+@media (max-width: 569px) {
+    .col-perso {
+        width: 50%;
+    }
+}
+
+@media (max-width: 359px) {
+    .col-perso {
+        width: 100%;
+    }
+}
+
+/* fin */
+
+
+
+/* este estilo va reemplazar a un col-md-2 ya que se usara ese espacio para aumentar el espacio de los recuadros */
+@media (max-width: 991px) {
+    .col-xs-0 {
+        display: none;
+    }
+}
+
+/* fin */
+
+/* este estilo es para mover los recuadros y el diente al lado derecho para que no se monten */
+@media(max-width:991px) AND (min-width:425px) {
+    .des_1 {
+        left: 10px;
+    }
+
+    .des_2 {
+        left: 20px;
+    }
+
+    .des_3 {
+        left: 30px;
+    }
+
+    .des_4 {
+        left: 40px;
+    }
+
+    .des_5 {
+        left: 50px;
+    }
+}
+
+
+@media(min-width:992px) {
+
+    .G_2,
+    .G_5,
+    .G_7,
+    .G_10 {
+        border-right: 1px solid;
+    }
+
+    .G_5,
+    .G_6 {
+        border-bottom: 1px solid;
+    }
+}
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.cuadro {
+    background-color: #FFFFFF;
+    border: 1px solid #7F7F7F;
+    position: relative;
+    width: 35px;
+    height: 35px;
+}
+
+.cuadro:hover {
+    background: rgba(117, 198, 243, 0.4);
+    cursor: pointer;
+}
+
+.arriba {
+    -webkit-border-radius: 80px 80px 0px 15px;
+    -moz-border-radius: 80px 80px 0px 15px;
+    border-radius: 80px 80px 0px 15px;
+}
+
+.izquierdo {
+    top: -1px !important;
+    left: -33px !important;
+    -webkit-border-radius: 80px 0px 0px 80px;
+    -moz-border-radius: 80px 0px 0px 80px;
+    border-radius: 80px 0px 0px 80px;
+}
+
+.debajo {
+    top: -2px !important;
+    -webkit-border-radius: 0px 0px 80px 80px;
+    -moz-border-radius: 0px 0px 80px 80px;
+    border-radius: 0px 0px 80px 80px;
+}
+
+.derecha {
+    top: -71px !important;
+    left: 34px !important;
+    -webkit-border-radius: 0px 80px 80px 0px;
+    -moz-border-radius: 0px 80px 80px 0px;
+    border-radius: 0px 80px 80px 0px;
+}
+
+.centro {
+    background: #F3F3F3;
+    border: 1px solid #7F7F7F;
+    top: -106px;
+    width: 35px;
+    height: 35px;
+    position: relative;
+}
+
+/* este estilo es para que haga un zoom mas peque;o y no se monte los recuadros en esas resoluciones */
+
+
+@media(max-width:1895px) AND (min-width:1495px) {
+    .recuadros {
+        zoom: 0.75
+    }
+}
+
+@media(max-width:1494px) AND (min-width:1200px) {
+    .recuadros {
+        zoom: 0.6;
+    }
+}
+
+@media(max-width:1494px) AND (min-width:992px) {
+    .recuadroperso {
+        zoom: 0.66;
+    }
+}
+
+.click_odontograma {
+    text-align-last: center;
+}
+
+.diente_img>svg {
+    position: absolute;
+    width: 35px;
+    top: 69px;
+    left: 21px;
+}
+
+.diente_img1>svg {
+    position: absolute;
+    width: 35px;
+    top: 81px;
+    left: 27px;
+    zoom: 0.84;
+}
+
+.diente_img2>svg {
+    position: absolute;
+    width: 35px;
+    top: 79px;
+    left: 27px;
+    zoom: 0.84;
+}
+
+.diente_img3>svg {
+    position: absolute;
+    width: 35px;
+    top: 52px;
+    left: 20px;
+}
+
+.rotate_icon>svg {
+    transform: rotate(180deg);
+}
+
+.Swal_Enviar_Firma {
+    height: 45em;
+    width: 45em;
+    font-size: 0.85em !important;
+}
+
+.Swal_Editar_Odontograma {
+    height: 55em;
+    width: 55em;
+    font-size: 0.85em !important;
+}
+
+.check_seleccionMultiple {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 125px;
+    margin: auto;
+    zoom: 0.4;
+
+    display: none;
+}
+
+.check_seleccionMultiple input {
+    display: none;
+}
+
+.check_seleccionMultiple input:checked+.box {
+    background-color: #b3ffb7;
+}
+
+.check_seleccionMultiple input:checked+.box:after {
+    top: 0;
+}
+
+.check_seleccionMultiple .box {
+    width: 100%;
+    height: 100%;
+    transition: all 1.1s cubic-bezier(.19, 1, .22, 1);
+    border: 2px solid black;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.check_seleccionMultiple .box:after {
+    width: 65%;
+    height: 30%;
+    content: '';
+    position: absolute;
+    border-left: 7.5px solid;
+    border-bottom: 7.5px solid;
+    border-color: #40c540;
+    transform: rotate(-45deg) translate3d(0, 0, 0);
+    transform-origin: center center;
+    transition: all 1.1s cubic-bezier(.19, 1, .22, 1);
+    left: 0;
+    right: 0;
+    top: 200%;
+    bottom: 5%;
+    margin: auto;
+}
+
+.checkbox-wrapper-31:hover .check {
+    stroke-dashoffset: 0;
+}
+
+.checkbox-wrapper-31 {
+    /*position: relative;
+display: inline-block;
+width: 40px;
+height: 40px;*/
+}
+
+.checkbox-wrapper-31 .background {
+    fill: #ccc;
+    transition: ease all 0.6s;
+    -webkit-transition: ease all 0.6s;
+}
+
+.checkbox-wrapper-31 .stroke {
+    fill: none;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+    stroke-dashoffset: 100;
+    stroke-dasharray: 100;
+    transition: ease all 0.6s;
+    -webkit-transition: ease all 0.6s;
+}
+
+.checkbox-wrapper-31 .check {
+    fill: none;
+    stroke: #fff;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2px;
+    stroke-dashoffset: 22;
+    stroke-dasharray: 22;
+    transition: ease all 0.6s;
+    -webkit-transition: ease all 0.6s;
+}
+
+.checkbox-wrapper-31 input[type=checkbox] {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    margin: 0;
+    opacity: 0;
+    -appearance: none;
+    -webkit-appearance: none;
+}
+
+.checkbox-wrapper-31 input[type=checkbox]:hover {
+    cursor: pointer;
+}
+
+.checkbox-wrapper-31 input[type=checkbox]:checked+svg .background {
+    fill: #6cbe45;
+}
+
+.checkbox-wrapper-31 input[type=checkbox]:checked+svg .stroke {
+    stroke-dashoffset: 0;
+}
+
+.checkbox-wrapper-31 input[type=checkbox]:checked+svg .check {
+    stroke-dashoffset: 0;
+}

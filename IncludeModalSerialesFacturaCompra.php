@@ -1,0 +1,414 @@
+    <script>
+
+
+    function ModalModuloExistenciasActivos_Compras(Detalle_id,SinvDep,caracter_serial,cantidad){
+        $('#ModalExistenciasActivos').modal('show');
+
+        document.getElementById('Div_CamposSeriales').innerHTML = '';
+        document.getElementById('ExistenciasActivos').value = '0';
+        $('#SinvDep_Modal').val(SinvDep);
+        $('#DetalleCompra_Modal').val(Detalle_id);
+        $('#caracter_serial_Modal').val(caracter_serial);
+        $('#ExistenciasActivos').val(cantidad);
+        
+        $('#ExistenciasActivos').trigger('change');
+
+    }
+
+    function AgregarCamposSeriales(valor){
+        var ValorExistencias = valor.value;
+
+        var Caracter = $('#caracter_serial_Modal').val();
+
+        var Campos = "";
+        for (let index = 1; index <= ValorExistencias; index++) {
+            
+            Campos += `
+            <div class="col-md-12">
+                <div align="left"> Serial - #`+index+`</div>
+                <div class="input-group mb-3">
+                    
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">`+Caracter+`</span>
+                    </div>
+                    <input type="text" class="form-control input-lg campo-serial" name="ArregloExistencias[`+index+`]"  onchange="verificarCampo(this)" required  maxlength="20" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" >
+                    <br>
+                </div>
+            </div>
+            `;
+
+        }
+
+        document.getElementById('Div_CamposSeriales').innerHTML = Campos;
+    }
+
+    function GuardarDatosExistenciasActivos(){
+        event.preventDefault(); 
+        var formData = $('#FormularioExistenciasSerial').serialize();
+
+        $.ajax({
+        type: "POST",
+        url: "IN_Ajax.php",
+        data: {
+            formulario: formData,
+            Tipo_Consulta: "Agregar Seriales Producto Detalles Compra"
+        },
+        success: function(response) {
+            var Arreglo = JSON.parse(response);
+            if(Arreglo.Estado == true){
+                Swal.fire(
+                'Guardado!',
+                '¡El Serial ya se Guardo Correctamente!',
+                'success'
+                );
+
+                window.location.reload();
+            }else{
+                Swal.fire(
+                'Error!',
+                '¡Error al Cargar los Seriales!',
+                'error'
+                );
+
+                window.location.reload();
+            }
+        }
+        });
+
+    }
+
+    function BuscarSerialRegistradoInventario(campo) {
+        //console.log(campo);
+        var Sinvdep = document.getElementById('SinvDep_Modal').value;
+        
+        $.ajax({
+            type: "POST",
+            url: "IN_Ajax.php",
+            data: {
+                serial: campo.value,
+                Sinvdep: Sinvdep,
+                Tipo_Consulta: "Buscar Serial Registrado"
+            },
+            success: function(response) {
+                var Arreglo = JSON.parse(response);
+                if(Arreglo.Estado == "Existe"){
+                    campo.value = "";
+                    Swal.fire(
+                'Duplicado!',
+                '¡El serial ya se encuentra Registrado!',
+                'warning'
+                );
+
+                }
+            }
+
+        })
+    }
+
+
+    function BuscarSerialRegistradoDetalles(campo) {
+
+        var Detalle_id = $('#DetalleCompra_Modal').val();
+        //console.log(campo);
+        var Sinvdep = document.getElementById('SinvDep_Modal').value;
+        
+        $.ajax({
+            type: "POST",
+            url: "IN_Ajax.php",
+            data: {
+                serial: campo.value,
+                Detalle_id: Detalle_id,
+                Sinvdep: Sinvdep,
+                Tipo_Consulta: "Buscar Serial Registrado Detalles Compra"
+            },
+            success: function(response) {
+                
+                var Arreglo = JSON.parse(response);
+                if(Arreglo.Estado == "Existe"){
+                    var Mensaje = Arreglo.Mensaje;
+                    campo.value = "";
+                    Swal.fire(
+                    'Duplicado!',
+                    Mensaje,
+                    'warning'
+                    );
+
+                }
+                
+            }
+
+        })
+    }
+
+
+    function verificarCampo(campoActual) {
+        // Envuelve campoActual en jQuery para utilizar la función val()
+        const valorActual = $(campoActual).val();
+
+        // Verifica la longitud del campo
+        if (valorActual.length !== 20) {
+            alert('¡El campo debe tener 20 dígitos! Se borrará el campo.');
+            $(campoActual).val(''); // Borra el campo si la longitud no es 20
+            return;
+        }
+
+        // Verifica duplicados
+        $('.campo-serial').not(campoActual).each(function() {
+            if ($(this).val() === valorActual) {
+                //alert('¡El serial ya existe en otro campo!');
+                Swal.fire(
+                'Duplicado!',
+                '¡El serial ya existe en otro campo!',
+                'warning'
+                );
+                $(campoActual).val(''); // Borra el campo si hay duplicados
+                return false; // Detiene el bucle cuando se encuentra un duplicado
+            }
+
+            
+        });
+
+        BuscarSerialRegistradoInventario(campoActual);
+        BuscarSerialRegistradoDetalles(campoActual);
+    }
+
+    function generarNumero() {
+        
+        let numeroAleatorio = Math.random();
+
+        let numeroCon20Digitos = Math.floor(numeroAleatorio * Math.pow(10, 20));
+        let resultado = String(numeroCon20Digitos).padStart(20, '0');
+        
+        //resultado ="11111111111111111111";
+        return resultado;
+    }
+
+
+    function asignarSeriales() {
+        $('.campo-serial').each(function() {
+            //console.log($(this).name);
+            var numeroGenerado = generarNumero();
+            $(this).val(numeroGenerado);
+            $(this).trigger('change');
+        });
+    }
+
+    // Agregar evento de clic al botón para generar y asignar números
+    $(document).on('click', '#generarNumeros', function() {
+        asignarSeriales();
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    function ModalModuloHistorialExistencias(Detalle_id,caracter_serial){
+        $('#ModalExistenciasRegistradas').modal('show');
+
+        document.getElementById('Div_CamposSerialesRegistrados').innerHTML = '';
+
+        $('#DetalleCompra_ModalHistorial').val(Detalle_id);
+
+        $.ajax({
+            type: "POST",
+            url: "IN_Ajax.php",
+            data: {
+                Detalle_id: Detalle_id,
+                Tipo_Consulta: "Obtener Seriales Registrados Detalles"
+            },
+            success: function(response) {
+                var Seriales = JSON.parse(response);
+                var Campos = "";
+
+                var serialArray = Object.values(Seriales);
+    
+                serialArray.forEach((value, index) => {
+                    Campos += `
+                    <div class="col-md-12">
+                        <div align="left"> Serial - #${index + 1}</div>
+                        <div class="input-group mb-3">
+                            
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon1">${caracter_serial}</span>
+                            </div>
+                            <input type="text" class="form-control input-lg " value="${value}" readonly>
+                            <br>
+                        </div>
+                    </div>`;
+                });
+
+                document.getElementById('Div_CamposSerialesRegistrados').innerHTML = Campos;
+
+            }
+
+        })
+
+    }
+
+    function EliminarSerialesRegistrados(){
+
+        var Detalle_id = $('#DetalleCompra_ModalHistorial').val();
+
+        $.ajax({
+            type: "POST",
+            url: "IN_Ajax.php",
+            data: {
+                Detalle_id: Detalle_id,
+                Tipo_Consulta: "Eliminar Seriales Detalles"
+            },
+            success: function(response) {
+                
+                var Arreglo = JSON.parse(response);
+                if(Arreglo.Estado == true){
+                    Swal.fire(
+                    'Guardado!',
+                    '¡Los Seriales se Eliminaron Correctamente!',
+                    'success'
+                    );
+
+                    window.location.reload();
+                }else{
+                    Swal.fire(
+                    'Error!',
+                    '¡Error al Eliminar los Seriales!',
+                    'error'
+                    );
+
+                    window.location.reload();
+                }
+
+            }
+
+        })
+
+    }
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<style>
+    .input-group {
+      position: relative;
+    }
+
+    .icono-input {
+      position: absolute;
+      left: 10px; /* Ajusta el valor según sea necesario */
+      top: 50%;
+      transform: translateY(-50%);
+    }
+</style>
+
+<!-- El Modal -->
+<div class="modal fade" id="ModalExistenciasActivos">
+  <div class="modal-dialog modal-lg" style="margin-top: 170px;">
+    <div class="modal-content">
+    
+      <!-- Encabezado del Modal -->
+      <div class="modal-header">
+        <h5 class="modal-title">Modulo Seriales</h5>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      
+      <!-- Agregar un botón para generar números -->
+      <button id="generarNumeros" class="btn btn-block btn-outline-info btn-lg rounded-pill shadow" >Generar Seriales Automáticos</button>
+
+      <!-- Contenido del Modal -->
+      <form onsubmit="GuardarDatosExistenciasActivos();" id="FormularioExistenciasSerial" method="POST">
+      <div class="modal-body row" id="ModalCamposSerialExistencias">
+
+        <div class="form-group col-md-12">
+          <div align="left"> Existencias  </div>
+          <input type="number" step="1" class="form-control input-lg" id="ExistenciasActivos"  value="0" min="1"  onchange="AgregarCamposSeriales(this);" readOnly>
+        </div>
+        
+        <div class="form-group col-md-12" id="Div_CamposSeriales">
+
+        </div>
+
+        <input type="hidden" name="DetalleCompra" id="DetalleCompra_Modal" >
+        <input type="hidden" name="SinvDep" id="SinvDep_Modal" >
+        <input type="hidden" name="caracter_serial" id="caracter_serial_Modal" >
+        <input type="hidden" name="usuario_id" id="usuario_id_modal" value="<?php echo $_SESSION['ID'] ?>">
+      </div>
+      
+      <!-- Pie del Modal -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-danger btn-lg rounded-pill shadow" data-dismiss="modal">Cerrar</button>
+        <button type="submit" class="btn btn-outline-info btn-lg rounded-pill shadow" >Guardar</button>
+      </div>
+    </form>
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- El Modal -->
+<div class="modal fade" id="ModalExistenciasRegistradas">
+  <div class="modal-dialog modal-lg" style="margin-top: 170px;">
+    <div class="modal-content">
+    
+      <!-- Encabezado del Modal -->
+      <div class="modal-header">
+        <h5 class="modal-title">Modulo Seriales Registrados</h5>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      
+
+      <div class="modal-body row" >
+
+        
+        <div class="form-group col-md-12" id="Div_CamposSerialesRegistrados">
+
+        </div>
+
+        <input type="hidden" name="DetalleCompra_ModalHistorial" id="DetalleCompra_ModalHistorial" >
+      </div>
+      
+      <!-- Pie del Modal -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-danger btn-lg rounded-pill shadow" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-outline-info btn-lg rounded-pill shadow" onclick="EliminarSerialesRegistrados();" > Eliminar Seriales</button>
+      </div>
+    
+      
+    </div>
+  </div>
+</div>

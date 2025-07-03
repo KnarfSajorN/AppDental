@@ -1,0 +1,11 @@
+---------------------------------------
+- modulos cuentas contables
+---------------------------------------
+
+agregar en htaccess
+# cuentas contables
+RewriteRule ^ccPlandeCuentas$ cuentasContables/ccPlandeCuentas.php
+RewriteRule ^ccCentros$ cuentasContables/ccCentros.php
+RewriteRule ^ccComprobantes$ cuentasContables/ccComprobantes.php
+RewriteRule ^ccComprobantesM$ cuentasContables/ccComprobantesM.php
+# cuentas contables - fin

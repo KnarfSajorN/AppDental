@@ -1,0 +1,58 @@
+<mxlibrary>[
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#2bccdc;strokeColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"80\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"Inducido\" style=\"text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry y=\"80\" width=\"80\" height=\"30\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 80,
+    "h": 110,
+    "aspect": "fixed",
+    "title": "Aborto Inducido"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"group\" vertex=\"1\" connectable=\"0\" parent=\"1\"&gt;&lt;mxGeometry width=\"80\" height=\"110\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"\" style=\"ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#13727b;strokeColor=none;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"80\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"4\" value=\"Espontáneo\" style=\"text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry y=\"80\" width=\"80\" height=\"30\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 80,
+    "h": 110,
+    "aspect": "fixed",
+    "title": "Aborto Espontaneo"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"group\" vertex=\"1\" connectable=\"0\" parent=\"1\"&gt;&lt;mxGeometry width=\"80\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"\" style=\"whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"80\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"4\" value=\"\" style=\"endArrow=none;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;\" edge=\"1\" parent=\"2\" target=\"3\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint y=\"80\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"50\" y=\"30\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"5\" value=\"\" style=\"endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;\" edge=\"1\" parent=\"2\" source=\"3\" target=\"3\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"10\" y=\"90\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"90\" y=\"10\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 80,
+    "h": 80,
+    "aspect": "fixed",
+    "title": "Muerte Masculino"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"group\" vertex=\"1\" connectable=\"0\" parent=\"1\"&gt;&lt;mxGeometry width=\"80\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"\" style=\"ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#00c5d5;strokeColor=none;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"80\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"4\" value=\"\" style=\"endArrow=none;html=1;rounded=0;exitX=0.16;exitY=0.84;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.84;entryY=0.16;entryDx=0;entryDy=0;entryPerimeter=0;\" edge=\"1\" parent=\"2\" source=\"3\" target=\"3\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"10\" y=\"70\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"70\" y=\"10\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"5\" value=\"\" style=\"endArrow=none;html=1;rounded=0;exitX=0.142;exitY=0.16;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.838;entryY=0.84;entryDx=0;entryDy=0;entryPerimeter=0;\" edge=\"1\" parent=\"2\" source=\"3\" target=\"3\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"10\" y=\"10\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"70\" y=\"70\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 80,
+    "h": 80,
+    "aspect": "fixed",
+    "title": "Muerte Femenino"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"triangle;whiteSpace=wrap;html=1;rotation=-90;fillColor=#f8dad8;strokeColor=#F8DAD8;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"60\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 60,
+    "h": 80,
+    "aspect": "fixed",
+    "title": "Embarazo"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"group\" vertex=\"1\" connectable=\"0\" parent=\"1\"&gt;&lt;mxGeometry x=\"-1.1368683772161603e-13\" width=\"80\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"\" style=\"whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=#F8CECC;container=0;strokeWidth=5;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"80\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"4\" value=\"\" style=\"whiteSpace=wrap;html=1;aspect=fixed;fillColor=#F8CECC;strokeColor=#b85450;container=0;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry x=\"8\" y=\"8\" width=\"64\" height=\"64\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 80,
+    "h": 80,
+    "aspect": "fixed",
+    "title": "Paciente Identificado Masculino"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"group\" vertex=\"1\" connectable=\"0\" parent=\"1\"&gt;&lt;mxGeometry x=\"-1.1368683772161603e-13\" width=\"80\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"\" style=\"ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeWidth=5;strokeColor=#00C5D5;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"80\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"4\" value=\"\" style=\"ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#00C5D5;strokeColor=none;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry x=\"8\" y=\"8\" width=\"64\" height=\"64\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 80,
+    "h": 80,
+    "aspect": "fixed",
+    "title": "Paciente Identificado Femenino"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"group\" vertex=\"1\" connectable=\"0\" parent=\"1\"&gt;&lt;mxGeometry width=\"100\" height=\"100\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"\" style=\"ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#13727B;strokeColor=none;container=0;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry x=\"10\" y=\"10\" width=\"80\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"4\" value=\"\" style=\"endArrow=none;html=1;rounded=0;strokeColor=#13727B;strokeWidth=2;\" edge=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint y=\"100\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"100\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 100,
+    "h": 100,
+    "aspect": "fixed",
+    "title": "Obito"
+  }
+]</mxlibrary>

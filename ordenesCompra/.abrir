@@ -1,0 +1,33 @@
+--------------------------------------
+- Ordenes de compra
+--------------------------------------
+
+- agregar en .htaccess
+
+# ordenes de compra
+RewriteRule ^ordenesCompraIngreso$ ordenesCompra/ordenesCompraIngreso.php
+RewriteRule ^ordenesCompraControl$ ordenesCompra/ordenesCompraControl.php
+RewriteRule ^ordenesCompraVer$ ordenesCompra/ordenesCompraVer.php
+RewriteRule ^ordenesCompraVerHistorial$ ordenesCompra/ordenesCompraVerHistorial.php
+RewriteRule ^ordenesCompraReportes$ ordenesCompra/ordenesCompraReportes.php
+RewriteRule ^ordenesCompraReportesVer$ ordenesCompra/ordenesCompraReportesVer.php
+# ordenes de compra - fin
+
+- en base de datos
+
+insert into medicaso_dev_baseGeneral.main_menu
+(nombre, nivel, pantalla, idPrincipal, estado)
+values
+('Ordenes de Compra',1,'#',0,1),
+('Ingreso',2,'ordenesCompraIngreso',0,1),
+('Control de Ordenes',2,'ordenesCompraControl',0,1),
+('Reportes',2,'ordenesCompraReportes',0,1)
+;
+
+# y luego se actualizan los ids de el sub menu con el id del menu principal "Ordenes de compra"
+update medicaso_dev_baseGeneral.main_menu 
+set idPrincipal = (select id from medicaso_dev_baseGeneral.main_menu where nombre = 'Ordenes de Compra' 
+and nivel = 1 and pantalla = '#')
+where nombre in ('Ingreso','Control de Ordenes','Reportes')
+and nivel = 2 
+and pantalla in ('ordenesCompraIngreso','ordenesCompraControl','ordenesCompraReportes');

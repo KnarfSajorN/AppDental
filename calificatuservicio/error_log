@@ -1,0 +1,145 @@
+[09-Jan-2025 17:12:04 UTC] PHP Warning:  include(../../masterFunciones.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 3
+[09-Jan-2025 17:12:04 UTC] PHP Warning:  include(): Failed opening '../../masterFunciones.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 3
+[09-Jan-2025 17:12:04 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[09-Jan-2025 17:12:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[09-Jan-2025 17:12:04 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[09-Jan-2025 17:12:04 UTC] PHP Warning:  Undefined array key "ID_principal" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 21
+[09-Jan-2025 17:12:04 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[09-Jan-2025 17:12:04 UTC] PHP Warning:  Undefined array key "" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[09-Jan-2025 17:12:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[09-Jan-2025 17:12:04 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[09-Jan-2025 17:12:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[09-Jan-2025 17:12:04 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[09-Jan-2025 17:12:04 UTC] PHP Warning:  Undefined array key "ID_principal" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 21
+[09-Jan-2025 17:12:04 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[09-Jan-2025 17:12:04 UTC] PHP Warning:  Undefined array key "" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[09-Jan-2025 17:12:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 34
+[09-Jan-2025 17:12:04 UTC] PHP Warning:  Undefined array key "geoData" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 23
+[09-Jan-2025 12:12:04 America/New_York] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 49
+[09-Jan-2025 12:12:04 America/New_York] PHP Warning:  Undefined variable $c_estado in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 415
+[09-Jan-2025 12:12:04 America/New_York] PHP Warning:  Undefined variable $tipo in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 825
+[11-Feb-2025 03:50:28 UTC] PHP Warning:  include(../../masterFunciones.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 3
+[11-Feb-2025 03:50:28 UTC] PHP Warning:  include(): Failed opening '../../masterFunciones.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 3
+[11-Feb-2025 03:50:28 UTC] PHP Warning:  Undefined variable $_SESSION in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 23
+[11-Feb-2025 03:50:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 23
+[10-Feb-2025 22:50:28 America/New_York] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 49
+[10-Feb-2025 22:50:28 America/New_York] PHP Warning:  Undefined variable $c_estado in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 415
+[10-Feb-2025 22:50:28 America/New_York] PHP Warning:  Undefined variable $tipo in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 825
+[18-Feb-2025 18:42:00 UTC] PHP Warning:  include(../../masterFunciones.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 3
+[18-Feb-2025 18:42:00 UTC] PHP Warning:  include(): Failed opening '../../masterFunciones.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 3
+[18-Feb-2025 18:42:00 UTC] PHP Warning:  Undefined array key "geoData" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 23
+[18-Feb-2025 13:42:00 America/New_York] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 49
+[18-Feb-2025 13:42:00 America/New_York] PHP Warning:  Undefined variable $c_estado in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 415
+[18-Feb-2025 13:42:00 America/New_York] PHP Warning:  Undefined variable $tipo in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 825
+[18-Feb-2025 13:42:00 America/New_York] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 13:42:00 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 18:42:29 UTC] PHP Warning:  include(../../masterFunciones.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 3
+[18-Feb-2025 18:42:29 UTC] PHP Warning:  include(): Failed opening '../../masterFunciones.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 3
+[18-Feb-2025 15:42:29 America/Santiago] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 49
+[18-Feb-2025 15:42:29 America/Santiago] PHP Warning:  Undefined variable $c_estado in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 415
+[18-Feb-2025 15:42:29 America/Santiago] PHP Warning:  Undefined variable $tipo in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 825
+[18-Feb-2025 15:42:29 America/Santiago] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 15:42:29 America/Santiago] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 22:33:04 UTC] PHP Warning:  include(../../masterFunciones.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 3
+[18-Feb-2025 22:33:04 UTC] PHP Warning:  include(): Failed opening '../../masterFunciones.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 3
+[18-Feb-2025 22:33:04 UTC] PHP Warning:  Undefined array key "geoData" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 23
+[18-Feb-2025 17:33:04 America/New_York] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 49
+[18-Feb-2025 17:33:04 America/New_York] PHP Warning:  Undefined variable $c_estado in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 415
+[18-Feb-2025 17:33:04 America/New_York] PHP Warning:  Undefined variable $tipo in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 825
+[18-Feb-2025 17:33:04 America/New_York] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 17:33:04 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 22:33:27 UTC] PHP Warning:  include(../../masterFunciones.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 3
+[18-Feb-2025 22:33:27 UTC] PHP Warning:  include(): Failed opening '../../masterFunciones.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 3
+[18-Feb-2025 22:33:27 UTC] PHP Warning:  Undefined array key "geoData" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 23
+[18-Feb-2025 19:33:27 America/Santiago] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 49
+[18-Feb-2025 19:33:27 America/Santiago] PHP Warning:  Undefined variable $c_estado in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 415
+[18-Feb-2025 19:33:27 America/Santiago] PHP Warning:  Undefined variable $tipo in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 825
+[18-Feb-2025 19:33:27 America/Santiago] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 19:33:27 America/Santiago] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 22:34:07 UTC] PHP Warning:  include(../../masterFunciones.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 3
+[18-Feb-2025 22:34:07 UTC] PHP Warning:  include(): Failed opening '../../masterFunciones.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 3
+[18-Feb-2025 22:34:07 UTC] PHP Warning:  Undefined array key "geoData" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 23
+[18-Feb-2025 17:34:07 America/New_York] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 49
+[18-Feb-2025 17:34:07 America/New_York] PHP Warning:  Undefined variable $c_estado in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 415
+[18-Feb-2025 17:34:07 America/New_York] PHP Warning:  Undefined variable $tipo in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 825
+[18-Feb-2025 17:34:07 America/New_York] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 17:34:07 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 22:34:34 UTC] PHP Warning:  include(../../masterFunciones.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 3
+[18-Feb-2025 22:34:34 UTC] PHP Warning:  include(): Failed opening '../../masterFunciones.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 3
+[18-Feb-2025 19:34:34 America/Santiago] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 49
+[18-Feb-2025 19:34:34 America/Santiago] PHP Warning:  Undefined variable $c_estado in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 415
+[18-Feb-2025 19:34:34 America/Santiago] PHP Warning:  Undefined variable $tipo in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 825
+[18-Feb-2025 19:34:34 America/Santiago] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 19:34:34 America/Santiago] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 23:27:32 UTC] PHP Warning:  include(../../masterFunciones.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 3
+[18-Feb-2025 23:27:32 UTC] PHP Warning:  include(): Failed opening '../../masterFunciones.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 3
+[18-Feb-2025 23:27:32 UTC] PHP Warning:  Undefined array key "geoData" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 23
+[18-Feb-2025 20:27:32 America/Santiago] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 49
+[18-Feb-2025 20:27:32 America/Santiago] PHP Warning:  Undefined variable $c_estado in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 415
+[18-Feb-2025 20:27:32 America/Santiago] PHP Warning:  Undefined variable $tipo in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 825
+[18-Feb-2025 20:27:32 America/Santiago] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 20:27:32 America/Santiago] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 23:27:48 UTC] PHP Warning:  include(../../masterFunciones.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 3
+[18-Feb-2025 23:27:48 UTC] PHP Warning:  include(): Failed opening '../../masterFunciones.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 3
+[18-Feb-2025 20:27:48 America/Santiago] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 49
+[18-Feb-2025 20:27:48 America/Santiago] PHP Warning:  Undefined array key "Ci" in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 11
+[18-Feb-2025 20:27:48 America/Santiago] PHP Warning:  Undefined array key "Cl" in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 13
+[18-Feb-2025 20:27:48 America/Santiago] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 20:27:48 America/Santiago] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 20:27:48 America/Santiago] PHP Warning:  Undefined variable $codigoPrincipal in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 40
+[18-Feb-2025 20:27:48 America/Santiago] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 20:27:48 America/Santiago] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 20:27:48 America/Santiago] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 20:27:48 America/Santiago] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 20:27:48 America/Santiago] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 20:27:48 America/Santiago] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 20:27:48 America/Santiago] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 20:27:48 America/Santiago] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 20:27:48 America/Santiago] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 20:27:48 America/Santiago] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 20:27:48 America/Santiago] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 20:27:48 America/Santiago] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 20:27:48 America/Santiago] PHP Warning:  Undefined variable $banderaB in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 148
+[18-Feb-2025 20:27:48 America/Santiago] PHP Warning:  Undefined variable $banderaB in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 175
+[18-Feb-2025 20:27:48 America/Santiago] PHP Warning:  Undefined variable $cliente_id in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 187
+[18-Feb-2025 20:27:49 America/Santiago] PHP Warning:  Undefined variable $telefono2 in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 189
+[18-Feb-2025 20:27:49 America/Santiago] PHP Warning:  Undefined variable $telefono2 in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 189
+[18-Feb-2025 20:27:49 America/Santiago] PHP Warning:  Undefined variable $telefono3 in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 191
+[18-Feb-2025 20:27:49 America/Santiago] PHP Warning:  Undefined variable $telefono3 in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 191
+[18-Feb-2025 20:27:49 America/Santiago] PHP Warning:  Undefined variable $telefono4 in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 193
+[18-Feb-2025 20:27:49 America/Santiago] PHP Warning:  Undefined variable $telefono4 in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 193
+[18-Feb-2025 20:27:49 America/Santiago] PHP Warning:  Undefined variable $titulo in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 213
+[18-Feb-2025 20:27:49 America/Santiago] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 20:27:49 America/Santiago] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 20:27:49 America/Santiago] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 20:27:49 America/Santiago] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 20:27:49 America/Santiago] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 20:27:49 America/Santiago] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 20:27:49 America/Santiago] PHP Warning:  Undefined variable $c_estado in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 415
+[18-Feb-2025 20:27:49 America/Santiago] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 20:27:49 America/Santiago] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 20:27:50 America/Santiago] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 49
+[18-Feb-2025 23:42:32 UTC] PHP Warning:  include(../../masterFunciones.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 3
+[18-Feb-2025 23:42:32 UTC] PHP Warning:  include(): Failed opening '../../masterFunciones.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 3
+[18-Feb-2025 23:42:32 UTC] PHP Warning:  Undefined array key "geoData" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 23
+[18-Feb-2025 20:42:32 America/Santiago] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 49
+[18-Feb-2025 20:42:32 America/Santiago] PHP Warning:  Undefined variable $c_estado in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 415
+[18-Feb-2025 20:42:32 America/Santiago] PHP Warning:  Undefined variable $tipo in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 825
+[18-Feb-2025 20:42:32 America/Santiago] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[18-Feb-2025 20:42:32 America/Santiago] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[06-Mar-2025 12:43:01 UTC] PHP Warning:  include(../../masterFunciones.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 3
+[06-Mar-2025 12:43:01 UTC] PHP Warning:  include(): Failed opening '../../masterFunciones.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 3
+[06-Mar-2025 12:43:01 UTC] PHP Warning:  Undefined array key "geoData" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 23
+[06-Mar-2025 07:43:01 America/New_York] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 49
+[06-Mar-2025 07:43:01 America/New_York] PHP Warning:  Undefined variable $c_estado in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 415
+[06-Mar-2025 07:43:01 America/New_York] PHP Warning:  Undefined variable $tipo in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 825
+[06-Mar-2025 07:43:01 America/New_York] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[06-Mar-2025 07:43:01 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[06-Mar-2025 19:31:32 UTC] PHP Warning:  include(../../masterFunciones.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 3
+[06-Mar-2025 19:31:32 UTC] PHP Warning:  include(): Failed opening '../../masterFunciones.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 3
+[06-Mar-2025 19:31:32 UTC] PHP Warning:  Undefined array key "geoData" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 23
+[06-Mar-2025 14:31:32 America/New_York] PHP Warning:  Undefined array key "ID" in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 49
+[06-Mar-2025 14:31:32 America/New_York] PHP Warning:  Undefined variable $c_estado in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 415
+[06-Mar-2025 14:31:32 America/New_York] PHP Warning:  Undefined variable $tipo in /home/dentalroot/app.dentalsoftplus.com/calificatuservicio/index.php on line 825
+[06-Mar-2025 14:31:32 America/New_York] PHP Warning:  Undefined variable $arrayConfig in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303
+[06-Mar-2025 14:31:32 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/funciones/funciones.php on line 303

@@ -1,0 +1,40 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On 
+RewriteBase /dentalsoft/webPro/
+
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://app.dentalsoftplus.com/webPro/$1 [R=301,L]
+
+RewriteRule ^home$ index.php 
+RewriteRule ^medico$ verdoctor.php 
+RewriteRule ^login$ login.php 
+RewriteRule ^loginmedical$ loginmedical.php
+RewriteRule ^registrarme$ register.php 
+RewriteRule ^olvidecontrasena$ olvidecontrasena.php 
+RewriteRule ^panel$ panel.php 
+RewriteRule ^lista$ lista.php
+RewriteRule ^listaClinicas$ listaClinicas.php 
+RewriteRule ^listaOdontologos$ listaOdontologos.php
+RewriteRule ^listaVeterinarios$ listaVeterinarios.php 
+RewriteRule ^registrarmemedical$ registrarmemedical.php 
+RewriteRule ^chat$ chat.php
+RewriteRule ^historias$ historias.php
+RewriteRule ^recetas$ recetas.php
+RewriteRule ^facturas$ facturas.php
+RewriteRule ^pagina$ pagina.php
+ 
+ 
+RewriteRule ^agendarcita$ agendarcita.php 
+
+RewriteRule ^citapago$ citapago.php 
+RewriteRule ^medical$ verdoctor.php 
+
+RewriteRule ^soymedico$ soymedico.php 
+
+RewriteRule ^listac/(.+)$/(.+)$ lista.php?idc=$1   
+RewriteRule ^medico/(.+)$ verdoctor.php?n=$1 
+RewriteRule ^agendar/(.+)$ agendarcita.php?idUsuario=$1
+RewriteRule ^ConfirmacionCita/(.+)/(.+)$ ConfirmacionCita.php?idCita=$1&directorio=$2
+RewriteRule ^ConfirmacionCita$ ConfirmacionCita.php
+RewriteRule ^ProgramarCitas/(.+)/(.+)$ ProgramarCitas.php?idCita=$1&directorio=$2
+RewriteRule ^ProgramarCitas$ ProgramarCitas.php

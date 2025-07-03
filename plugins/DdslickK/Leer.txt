@@ -1,0 +1,3 @@
+Este plugin se usa en:
+
+historiaclinica de audiometria -> configHistoriaCllinica.php

@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://app.dentalsoftplus.com/firma/$1 [R=301,L]   
+RewriteBase /firma/
+RewriteRule ^firmardocumento/(.+)/(.+)/(.+)$ firmar.php?id=$1&tipo=$2&cliente=$3 [L]
+RewriteRule ^documento/(.+)$ documento.php?id=$1 [L]  
+RewriteRule ^firmardocumento$ firmar.php 
+RewriteRule ^documentoFirmado$ documentoFirmado.php
+
+RewriteRule ^FirmarAbono/(.+)/(.+)$ FirmarAbono.php?idOperacion=$1&idAbono=$2 [L]
+RewriteRule ^FirmarAbonoC/(.+)/(.+)$ FirmarAbonoC.php?idOperacion=$1&idAbono=$2 [L]
+RewriteRule ^FirmarAbonoP/(.+)/(.+)$ FirmarAbonoP.php?idOperacion=$1&idAbono=$2 [L]
+RewriteRule ^FirmarPresupuesto/(.+)$ FirmarPresupuesto.php?idOperacion=$1 [L]
+RewriteRule ^AbonoFirmado$ AbonoFirmado.php
+RewriteRule ^AbonoFirmadoC$ AbonoFirmadoC.php
+RewriteRule ^AbonoFirmadoP$ AbonoFirmadoP.php

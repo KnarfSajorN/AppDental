@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://app.dentalsoftplus.com/FirmasPacientes/$1 [R=301,L]   
+RewriteBase /FirmasPacientes/
+
+RewriteRule ^FirmarDocumento/(.+)/(.+)/(.+)$ FirmarDocumento.php?nombretabla=$1&campoid=$2&id=$3 [L]
+RewriteRule ^FirmaFinalizado$ FirmaFinalizado.php
+
+RewriteRule ^FirmarDocumentoDinamico/(.+)/(.+)$ FirmarDocumentoDinamico.php?id=$1&tipoHistoria=$2 [L]

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "medical-calendar-353222",
+  "private_key_id": "871304e22d7679fdc4dffb541615878e98470ca6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCTtTX6t0SF7jSI\nOViVC8Ims7oXg+bKOTZafOAkgENZQ5LitfiKyYoxVhumR5QhUAZIEkdqj49Cm7K1\ncFKnl70t83g+cBgrbC6wgVBh6AaJ9SpA6aVqmbBN2lsbwAlb2JGn78yVnmEPUdsi\nnxgfveBhpu69bc1GisqlObzWdhzJlsilsGCW0CegiI6MAu3tW2OGISuYYQaoazl8\nSSY1ZVwtu/GOQuLRDbAFOTRlIYxxG57+9K9LbpFNAAjxRtA3hDciSwO+7fb8vCKu\nYNe1kBqbaGb95LGBPpKMQt5gTj0CWkhSwZazOcC5I60rtkOFq8ziJ2LOJoaa4gbe\n0T/bQKr3AgMBAAECggEACHQ7tbDdnCjJGu7lUgqNPzfUM9pZ0EM8CCvTjGNG94n1\nk0JFCnSEk1RRWtAH+2wgH+nj6oZy9aYBsX7PTEZUDpg7zp8N0xZrCbEtD51/GlBM\n7dAxpotLWvlfc5QnNPmNRKZl+D5LYdwWhcHDWLW+bPhn+7GYKSxycsh+NWwnM6Z2\na2EKeqop50fVC4LWb8f3hrK5fokBK4F3yVwCw3vJw16huitRt9tfY1j0EEaKzj6t\n39OwdIYfE7F8oFNeO6dA4IjNTHQF5E9ZQoDzSwCvu9V0vQZ2Vdppm5tZabfWBS6D\nRXJPLNkeieGUwhHCz+qyLdPVQ62/k33J+i5X5uRm2QKBgQDHKrSPe6/d17IDL/bg\ngSOSxoCcn3cDilmHkOLYxTKqAwIW2UrRDquiBfEFYtYDVxEU38XB1Siep2E1ozGG\nOBc9BuLQmLNRRMUUaF/pO+gaGxAVNRqSww9tNFsWpZhb/yIccpkXtufAf0uQEQ4y\nyWQHawlpeagfJDoKHWHncK/d5QKBgQC922MnmMvCAgxexRboUlMGjRswFtdVDI3R\nqrbCUGzCMcwAdj7ZyJZicI0WJqFRfmbNpzt3TzIdYhWOUZBwfQm1H1Gwb6R6J0ML\nsKlh9G/IgIlrWDvvFX28lKZCo+YDET4ChRM6dBOG8soUQXRXU41yTY2NzcU6iiZ8\n7aNYVPp3qwKBgQCkyiflhDBqPHqUeo4pCZC2c7mcXbDqZAFZ0r5vHxKhaqXC4/0s\nZpgKEiJvE20CDHscq14D1+upAdLDv4hNhoFrxBPNBltwBZePICEjaKbNWtD+yxZ2\nkiBkeepYHaGnlLzTjtoure6o7mpGBGacDNfP73c1Jyy8v4uqLM+B4FITJQKBgH9w\nfws6RjNxGoqWszy43eA84W4TNvFw3tVJSSn/wDFOKch5ltCrEz76m8mtnoVMWoda\n5NC+ST5t81g3qcPIOrboUfYjynzwU9HKALiu0kX8+cEjVf+zJlZqVXvP9npCnaQl\nXXXUKrNfz4NvOD/R5tU993GjGOulhhY/kXCegg3HAoGBAKdAzNoDSDYqkQRUS+gA\ntWMqHmEP+4Q9OEt5K0ddynosCngUjPW2UglSZi6OwU6uZPE8ZDUtz/Br/irm6cVy\n/dBiSG+vVdUf9pGmE05OO5dI763OOPxSvvUyWz3k/7OgMDbLi6gBDA1dtB/4DaC2\nESFcjeLhdbrQk/F8GP55THdd\n-----END PRIVATE KEY-----\n",
+  "client_email": "api-medical-calendar@medical-calendar-353222.iam.gserviceaccount.com",
+  "client_id": "104619604783042274626",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/api-medical-calendar%40medical-calendar-353222.iam.gserviceaccount.com"
+}

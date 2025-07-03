@@ -1,0 +1,360 @@
+# ---------------------------------------------------
+# para sistemas de la base nueva
+# ---------------------------------------------------
+
+
+# -------------------------------------------------
+# agregar lo siguiente al htaccess del sistema
+# -------------------------------------------------
+
+# mensajeria masiva
+RewriteRule ^masivoContactos$ moduloMasivos/ws_contactos.php
+RewriteRule ^masivoMensajesW$  moduloMasivos/ws_mensajes.php
+RewriteRule ^masivoMensajesC$  moduloMasivos/ws_mensajesC.php
+RewriteRule ^masivoFiltros$   moduloMasivos/ws_filtros.php
+RewriteRule ^masivoArchivos$  moduloMasivos/ws_archivos.php
+RewriteRule ^masivoActivarFiltro$  moduloMasivos/activarFiltro.php
+RewriteRule ^masivoEnviarWhatsApp$  moduloMasivos/ws_enviarMensaje.php
+RewriteRule ^masivoEnviarCorreo$  moduloMasivos/ws_enviarMensajeC.php
+RewriteRule ^r/(.*)$ moduloMasivos/ws_location.php?url=$1
+RewriteRule ^masivoConfig$  moduloMasivos/masivoConfig.php
+RewriteRule ^masivoWASaludo$  moduloMasivos/masivoWASaludo.php
+RewriteRule ^masivoWAMensajes$  moduloMasivos/masivoWAMensajes.php
+RewriteRule ^masivoWAChatConfig$  moduloMasivos/masivoWAChatConfig.php
+RewriteRule ^masivoWAChat$  moduloMasivos/masivoWAChat.php
+RewriteRule ^activarcontacto$  moduloMasivos/activarcontacto.php
+RewriteRule ^masivoWAChatConfigApi$  moduloMasivos/masivoWAChatConfigApi.php
+
+RewriteRule ^activarcontacto$  moduloMasivos/activarcontacto.php
+RewriteRule ^masivoWAChatConfigApi$  moduloMasivos/masivoWAChatConfigApi.php
+RewriteRule ^denysbot$  moduloMasivos/denysbot/index.php
+RewriteRule ^masivoWAFormularios$  moduloMasivos/masivoWAFormularios.php
+RewriteRule ^masivoWAFormulariosReporte$  moduloMasivos/masivoWAFormulariosReporte.php
+# mensajeria masiva - fin
+
+# -------------------------------------------------
+
+
+# -------------------------------------------------
+# para el menu toca insertar con el siguiente query
+# -------------------------------------------------
+
+
+# insert into medicaso_dev_baseGeneral.main_menu
+# (nombre, nivel, pantalla, idPrincipal, estado)
+# values
+# ('Mensajer&iacute;a masiva',1,'#',0,1),
+# ('Configurar',2,'masivoConfig',0,1),
+# ('Lista de contactos',2,'masivoContactos',0,1),
+# ('Mensajes Whatsapp',2,'masivoMensajesW',0,1),
+# ('Mensajes Correo',2,'masivoMensajesC',0,1),
+# ('Panel de Chat',2,'masivoWAChat',0,1)
+# ;
+
+# y luego se actualizan los ids de el sub menu con el id del menu principal "Mensajeria masiva"
+
+update medicaso_dev_baseGeneral.main_menu 
+set idPrincipal = (select id from medicaso_dev_baseGeneral.main_menu where nombre = 'Mensajer&iacute;a masiva' 
+and nivel = 1 and pantalla = '#')
+where nombre in ('Configurar','Lista de contactos','Filtros','Archivos Publicitarios','Mensajes Whatsapp','Mensajes Correo','Bot - Saludos','Bot - Mensajes') 
+and nivel = 2 
+and pantalla in ('masivoConfig','masivoContactos','masivoFiltros','masivoArchivos','masivoMensajesW','masivoMensajesC','masivoWASaludo','masivoWAMensajes');
+
+
+# una vez registrado el menu se debe ir a configuracion y perfil -> usuarios -> Gestionar perfiles -> administrar grupos, para agregar las opciones en el menu del cliente
+
+# las tablas de crear de manera automatica una vez abrimos cualquier enlace de mensajeria masiva no se debe preocupar por crear cada una de las tablas
+# ws_createTables.php - crea las tablas
+
+# --------------------------------------------------
+# tablas
+# --------------------------------------------------
+
+# CREATE TABLE `ws_archivos` (
+#   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+#   `usuario_id` int(11) DEFAULT NULL,
+#   `descripcion` text DEFAULT NULL,
+#   `alias` text DEFAULT NULL,
+#   `url` text DEFAULT NULL,
+#   `activo` int(11) DEFAULT 1 COMMENT '0: INACTIVO, 1: ACTIVO;',
+#   `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+#   `updated_at` datetime DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+#   PRIMARY KEY (`id`)
+# );
+
+
+
+# CREATE TABLE `ws_correo` (
+#   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+#   `usuario_id` int(11) DEFAULT NULL,
+#   `setFrom` text DEFAULT NULL,
+#   `Username` text DEFAULT NULL,
+#   `Password` text DEFAULT NULL,
+#   `Host` text DEFAULT NULL,
+#   `Port` text DEFAULT NULL,
+#   `fecha` text DEFAULT NULL,
+#   `smtp` text DEFAULT NULL,
+#   PRIMARY KEY (`id`)
+# );
+
+# CREATE TABLE `ws_filtro` (
+#   `id` int(11) NOT NULL AUTO_INCREMENT,
+#   `filtro` text DEFAULT NULL,
+#   `activo` int(11) DEFAULT 1,
+#   PRIMARY KEY (`id`)
+# );
+
+# CREATE TABLE `ws_mensajes` (
+#   `id` int(11) NOT NULL AUTO_INCREMENT,
+#   `usuarioId` int(11) DEFAULT 0,
+#   `fecha` timestamp NULL DEFAULT current_timestamp(),
+#   `titulo` longtext DEFAULT NULL,
+#   `mensaje` longtext DEFAULT NULL,
+#   `filtro` longtext DEFAULT NULL,
+#   `filtroAZ` text DEFAULT NULL,
+#   `activo` int(11) DEFAULT 1,
+#   `idArchivo` int(11) DEFAULT 0,
+#   PRIMARY KEY (`id`)
+# );
+
+# CREATE TABLE `ws_mensajesC` (
+#   `id` int(11) NOT NULL AUTO_INCREMENT,
+#   `usuarioId` int(11) DEFAULT 0,
+#   `fecha` timestamp NULL DEFAULT current_timestamp(),
+#   `titulo` longtext DEFAULT NULL,
+#   `mensaje` longtext DEFAULT NULL,
+#   `filtro` longtext DEFAULT NULL,
+#   `filtroAZ` text DEFAULT NULL,
+#   `activo` int(11) DEFAULT 1,
+#   `banner` longtext DEFAULT NULL,
+#   `asunto` longtext DEFAULT NULL,
+#   PRIMARY KEY (`id`)
+# );
+
+
+# -------------------------------------------------
+# estilos
+# -------------------------------------------------
+
+# en cada pantalla de mensajeria masiva poner el siguiente include
+# al principio de cada archivo
+# include 'compatibilidad.php';
+# esto puede variar depende la pantalla puede ser o debajo del header.php p debajo del footer.php, toca probar e ir mirando
+
+
+# -------------------------------------------------
+# formulario automatico
+# -------------------------------------------------
+
+# gran parte de la configuracion funciona con una serie de funciones llamadas, automaticform, automaticUpdate
+# para instalarlas deben de copiar la carpeta de automaticForm en baseDev/plugins/ a la misma ruta en su sistema XXXX/plugins
+# revisar los php que tengan automaticForm para poner que apunte a este sistema 
+# la estructura es mas o menos asi
+# $('#correoForm').automaticForm({type:1, table:'ws_correo',idUpdate:'0',db:'medicaso_dev_baseGeneral',reload:'',page:'masivoConfig'});
+# entonces toca revisar que este apuntando a la base de datos correcta
+
+# -------------------------------------------------
+# filtros ya cargados
+# -------------------------------------------------
+
+# INSERT INTO ws_filtro
+# (filtro,activo)
+# values
+# ('Sexo - Todos','1'),
+# ('Sexo - Hombre','1'),
+# ('Sexo - Mujer','1'),
+# ('Edad - 0 a 5','1'),
+# ('Edad - 5 a 12','1'),
+# ('Edad - 12 a 18','1'),
+# ('Edad - 18 a 25','1'),
+# ('Edad - 25 a 55','1'),
+# ('Edad - 55 +','1'),
+# ('Residencia - Nacional','1'),
+# ('Residencia - Internacional','1'),
+# ('Estado Civil - Casado(a)','1'),
+# ('Estado Civil - Soltero(a)','1'),
+# ('Estado Civil - Viudo(a)','1'),
+# ('Estado Civil - Otros','1'),
+# ('Sangre - A+','1'),
+# ('Sangre - A-','1'),
+# ('Sangre - B+','1'),
+# ('Sangre - B-','1'),
+# ('Sangre - AB+','1'),
+# ('Sangre - AB-','1'),
+# ('Sangre - O+','1'),
+# ('Sangre - O-','1');
+
+
+# ---------------------------------------------------
+# para sistemas de la base nueva - fin
+# ---------------------------------------------------
+
+
+
+
+# ---------------------------------------------------
+# para sistemas de la base vieja
+# ---------------------------------------------------
+
+# -------------------------------------------------
+# agregar lo siguiente al htaccess del sistema
+# -------------------------------------------------
+
+# mensajeria masiva
+# RewriteRule ^masivoContactos$ moduloMasivos/ws_contactos.php
+# RewriteRule ^masivoMensajesW$  moduloMasivos/ws_mensajes.php
+# RewriteRule ^masivoMensajesC$  moduloMasivos/ws_mensajesC.php
+# RewriteRule ^masivoFiltros$   moduloMasivos/ws_filtros.php
+# RewriteRule ^masivoArchivos$  moduloMasivos/ws_archivos.php
+# RewriteRule ^masivoActivarFiltro$  moduloMasivos/activarFiltro.php
+# RewriteRule ^masivoEnviarWhatsApp$  moduloMasivos/ws_enviarMensaje.php
+# RewriteRule ^masivoEnviarCorreo$  moduloMasivos/ws_enviarMensajeC.php
+# RewriteRule ^r/(.*)$ moduloMasivos/ws_location.php?url=$1
+# RewriteRule ^masivoConfig$  moduloMasivos/masivoConfig.php
+# RewriteRule ^masivoWASaludo$  moduloMasivos/masivoWASaludo.php
+# RewriteRule ^masivoWAMensajes$  moduloMasivos/masivoWAMensajes.php
+# RewriteRule ^masivoWAChatConfig$  moduloMasivos/masivoWAChatConfig.php
+# RewriteRule ^masivoWAChat$  moduloMasivos/masivoWAChat.php
+
+# RewriteRule ^activarcontacto$  moduloMasivos/activarcontacto.php
+# RewriteRule ^masivoWAChatConfigApi$  moduloMasivos/masivoWAChatConfigApi.php
+# RewriteRule ^denysbot$  moduloMasivos/denysbot/index.php
+# RewriteRule ^masivoWAFormularios$  moduloMasivos/masivoWAFormularios.php
+# RewriteRule ^masivoWAFormulariosReporte$  moduloMasivos/masivoWAFormulariosReporte.php
+# mensajeria masiva - fin
+
+# -------------------------------------------------
+
+# para el menu colocar este php dentro de menu.php
+    #   <?php
+    #   $menusPrincipales = [
+    #     'Mensajeria masiva'
+    #   ];
+
+    #   $menusSecundarios = [
+        #  [0, 'Configurar', 'masivoConfig'],
+        #  [0, 'Lista de contactos', 'masivoContactos'],
+        #  [0, 'Mensajes Whatsapp', 'masivoMensajesW'],
+        #  [0, 'Mensajes Correo', 'masivoMensajesC'],
+        #  [0, 'Panel de Chat', 'masivoWAChat'],
+    #   ];
+
+    #   for ($i = 0; $i < count($menusPrincipales); $i++) {
+    #     echo '<li><a><span class="fas fa-circle-notch"></span><label>' . $menusPrincipales[$i] . '</label></a>';
+    #     echo '<ul class="nav-flyout">';
+    #     for ($j = 0; $j < count($menusSecundarios); $j++) {
+    #       if ($menusSecundarios[$j][0] == $i) {
+    #         echo '<li><a href="' . $menusSecundarios[$j][2] . '"><span class="fas fa-circle-notch"> </span><label>' . $menusSecundarios[$j][1] . '</label></a></li>';
+    #       }
+    #     }
+    #     echo '</ul>';
+    #     echo '</li>';
+    #   }
+    #   ?>
+
+# --------------------------------------------------
+# tablas
+# --------------------------------------------------
+
+# CREATE TABLE `ws_archivos` (
+#   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+#   `usuario_id` int(11) DEFAULT NULL,
+#   `descripcion` text DEFAULT NULL,
+#   `alias` text DEFAULT NULL,
+#   `url` text DEFAULT NULL,
+#   `activo` int(11) DEFAULT 1 COMMENT '0: INACTIVO, 1: ACTIVO;',
+#   `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+#   `updated_at` datetime DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+#   PRIMARY KEY (`id`)
+# );
+
+
+# CREATE TABLE `ws_correo` (
+#   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+#   `usuario_id` int(11) DEFAULT NULL,
+#   `setFrom` text DEFAULT NULL,
+#   `Username` text DEFAULT NULL,
+#   `Password` text DEFAULT NULL,
+#   `Host` text DEFAULT NULL,
+#   `Port` text DEFAULT NULL,
+#   `fecha` text DEFAULT NULL,
+#   `smtp` text DEFAULT NULL,
+#   PRIMARY KEY (`id`)
+# );
+
+# CREATE TABLE `ws_filtro` (
+#   `id` int(11) NOT NULL AUTO_INCREMENT,
+#   `filtro` text DEFAULT NULL,
+#   `activo` int(11) DEFAULT 1,
+#   PRIMARY KEY (`id`)
+# );
+
+# CREATE TABLE `ws_mensajes` (
+#   `id` int(11) NOT NULL AUTO_INCREMENT,
+#   `usuarioId` int(11) DEFAULT 0,
+#   `fecha` timestamp NULL DEFAULT current_timestamp(),
+#   `titulo` longtext DEFAULT NULL,
+#   `mensaje` longtext DEFAULT NULL,
+#   `filtro` longtext DEFAULT NULL,
+#   `filtroAZ` text DEFAULT NULL,
+#   `activo` int(11) DEFAULT 1,
+#   `idArchivo` int(11) DEFAULT 0,
+#   PRIMARY KEY (`id`)
+# );
+
+# CREATE TABLE `ws_mensajesC` (
+#   `id` int(11) NOT NULL AUTO_INCREMENT,
+#   `usuarioId` int(11) DEFAULT 0,
+#   `fecha` timestamp NULL DEFAULT current_timestamp(),
+#   `titulo` longtext DEFAULT NULL,
+#   `mensaje` longtext DEFAULT NULL,
+#   `filtro` longtext DEFAULT NULL,
+#   `filtroAZ` text DEFAULT NULL,
+#   `activo` int(11) DEFAULT 1,
+#   `banner` longtext DEFAULT NULL,
+#   `asunto` longtext DEFAULT NULL,
+#   PRIMARY KEY (`id`)
+# );
+
+# -------------------------------------------------
+# filtros ya cargados
+# -------------------------------------------------
+
+# INSERT INTO ws_filtro
+# (filtro,activo)
+# values
+# ('Sexo - Todos','1'),
+# ('Sexo - Hombre','1'),
+# ('Sexo - Mujer','1'),
+# ('Edad - 0 a 5','1'),
+# ('Edad - 5 a 12','1'),
+# ('Edad - 12 a 18','1'),
+# ('Edad - 18 a 25','1'),
+# ('Edad - 25 a 55','1'),
+# ('Edad - 55 +','1'),
+# ('Residencia - Nacional','1'),
+# ('Residencia - Internacional','1'),
+# ('Estado Civil - Casado(a)','1'),
+# ('Estado Civil - Soltero(a)','1'),
+# ('Estado Civil - Viudo(a)','1'),
+# ('Estado Civil - Otros','1'),
+# ('Sangre - A+','1'),
+# ('Sangre - A-','1'),
+# ('Sangre - B+','1'),
+# ('Sangre - B-','1'),
+# ('Sangre - AB+','1'),
+# ('Sangre - AB-','1'),
+# ('Sangre - O+','1'),
+# ('Sangre - O-','1');
+
+
+# ---------------------------------------------------
+# para sistemas de la base vieja - fin
+# ---------------------------------------------------
+
+
+
+
+
+
+

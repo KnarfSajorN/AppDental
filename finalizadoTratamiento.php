@@ -1,0 +1,185 @@
+<?php
+
+include 'header.php';
+include 'menu.php';
+
+$historiaClinica1 = decrypt($_GET['iHC']);
+//$historiaClinica1 = $_GET['historiaClinica1'];
+
+$queryList = mysqli_query($conn3, "SELECT * FROM  e_tratamiento where ID = $historiaClinica1");
+$nrowl = mysqli_num_rows($queryList);
+while ($rowMotorizado = mysqli_fetch_array($queryList)) {
+  $idCliente      = $rowMotorizado['idCliente'];
+
+  $usuario_id = $rowMotorizado['idUsuario'];
+  $cliente_id = $rowMotorizado['idCliente'];
+
+}
+
+
+$whatsapp = funcionMaster($cliente_id, 'cliente_id', 'whatsapp', 'cliente');
+$nombre_cliente = funcionMaster($cliente_id, 'cliente_id', 'nombre_cliente', 'cliente');
+
+if (isset($_GET['tipo'])) {
+  $tipo = $_GET['tipo'];
+
+  $mensajeW = 'Sr(a) *' . $nombre_cliente . '* Se le envía el siguiente documento registrado, para visualizarlo ingresar en el siguiente link: ' . $Base . 'HC_ImprimirCentroEstetico?iHC=' . encrypt($historiaClinica1) . '';
+  $accion = 0;
+  Whatsapp_sent_cliente($linkkey, $whatsapp, $mensajeW, $cliente_id, $usuario_id, $whatsapp, $accion);
+
+  echo "<script language='Javascript'> window.location='HC_FinalizadoCentroEstetico?iHC=" . encrypt($historiaClinica1) . "';</script>";
+
+}
+
+//echo "SELECT * FROM  e_tratamiento where ID = $historiaClinica1";
+
+?>
+
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+  <!-- Content Header (Page header) -->
+  <!--
+  <section class="content-header">
+    <h1>
+
+    </h1>
+    <ol class="breadcrumb">
+      <li><a href="portada"><i class="fa fa-dashboard"></i> Escritorio</a></li>
+      <li><a href="#"> </a></li>
+    </ol>
+  </section> -->
+
+
+
+  <br><br>
+  <section class="content">
+    <div class="box">
+      <div class="box-body">
+    <br>
+    <br>
+    <div align="center">
+      <a class="btn btn-outline-info btn-lg rounded-pill shadow" href="<?php echo $Base; ?>HC_HistoriaCentroEstetico?cI=<?php echo encrypt($idCliente) ?> ">
+        <i class="fa fa-heartbeat"></i> Nuevo Consulta
+      </a>
+
+      <a class="btn btn-outline-info btn-lg rounded-pill shadow" href="<?php echo $Base; ?>agregarCitas?cI=<?php echo encrypt($idCliente) ?> ">
+        <i class="fa fa-calendar-check-o"></i> Agregar Cita
+      </a>
+
+      <a class="btn btn-outline-info btn-lg rounded-pill shadow" href="<?php echo $Base; ?>SclienteAdministracion_facturas">
+        <i class="fa fa-plus"></i> Facturar
+      </a>
+
+
+    </div>
+
+
+
+    <hr>
+
+
+    <div align="center">
+      <a class="btn btn-outline-info btn-lg rounded-pill shadow" target="_blank" href="<?php echo $Base; ?>HC_ImprimirCentroEstetico?iHC=<?php echo encrypt($historiaClinica1); ?>">
+        <i class="fa fa-print"></i> Imprimir Consulta
+      </a>
+    </div>
+
+     <?php 
+        $botonesImprimir = [
+          ['Consulta', base64_encode($Base.'HC_ImprimirCentroEstetico_plantilla.php?iHC='.encrypt($historiaClinica1).'')],         
+        ];
+        $_GET['botones'] = base64_encode(json_encode($botonesImprimir));
+        include './creadorImpresiones/seleccionarMetodoImpresion.php';
+      ?>
+
+    <hr>
+
+<div align="center">
+
+<a class="btn btn-outline-info btn-lg rounded-pill shadow" href="<?php echo $Base; ?>HC_FinalizadoCentroEstetico?iHC=<?php echo encrypt($historiaClinica1); ?>&tipo=consulta">
+<i class="fa fa-paper-plane"></i> Enviar Consulta
+</a>
+</div>
+
+<hr>
+
+
+    <div align="center">
+
+
+
+      <?php
+
+
+
+
+      $queryList = mysqli_query($conn3, "SELECT firma FROM  firmas where historia_id = $historiaClinica1 and historia_nombre = 'e_tratamiento'");
+      $nrowl = mysqli_num_rows($queryList);
+      while ($rowMotorizado = mysqli_fetch_array($queryList)) {
+        $firma = $rowMotorizado['firma'];
+      }
+
+      if (strlen($firma) > 10) {
+        echo "<img src='$firma'>";
+      } else {
+
+      ?>
+        <a class="btn btn-outline-info btn-lg rounded-pill shadow" target="_blank" href="<?php echo $Base; ?>firma/firmardocumento/<?php echo $historiaClinica1; ?>/e_tratamiento/<?php echo $usuario_id; ?>">
+          <i class="fa fa-pencil-square-o"></i> Solicitar Firma
+        </a>
+        <!-- <a class="btn btn-block btn-outline-info btn-lg rounded-pill shadow" target="_blank" onclick="solicitarFirma1()" href="<?php echo $Base; ?>firma/firmardocumento/<?php echo $historiaClinica1; ?>/21/<?php echo $usuario_id; ?>" > 
+    <i class="fa fa-pencil-square-o" ></i> Solicitar Firma 
+  </a> -->
+
+        <!-- <div id="div-results"></div> -->
+
+      <?php
+
+      }
+
+
+
+
+
+
+      ?>
+
+
+    </div>
+
+
+
+
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<!-- /.box-body -->
+</div>
+<!-- /.box -->
+</div>
+<!-- /.col -->
+</div>
+<!-- /.row -->
+</section>
+<!-- /.content -->
+</div>
+
+
+
+
+
+<?php include("footer.php") ?>

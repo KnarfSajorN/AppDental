@@ -1,0 +1,24 @@
+# ---------------------------------------------------
+# 04 09 2023 - JRodriguez
+# módulos para facturación electrónica de ecuador
+# Integración API EboxEc con Servicio de Rentas Internas (SRI).
+# ---------------------------------------------------
+
+# ---------------------------------------------------
+# tablas de facturación
+# ---------------------------------------------------
+# todas las tablas dew referencia para consulta están ubicadas:
+# Base de datos: 
+# medicaso_fe_ec
+# Tablas: 
+# medicaso_fe_ec.impuestos; - Tabla de impuestos (iva, ice, etc)
+# medicaso_fe_ec.impuestos_tarifas; - Tabla de porcentajes y tarifas de los impuestos "IVA" (0%,12%,13%,etc)
+# medicaso_fe_ec.formas_pago; - Tabla de formas de pago (tarj. de crédito, tarj. de débito, etc)
+# medicaso_fe_ec.tipo_identificacion; - Tabla de tipos de identificación del cliente (cédula, ruc, pasaporte, etc)
+# ---------------------------------------------------
+# No copiar esta base de datos, siempre utilizarla para consultas y referencias.
+# ---------------------------------------------------
+
+
+
+

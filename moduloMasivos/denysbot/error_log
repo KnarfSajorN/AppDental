@@ -1,0 +1,121 @@
+[25-Nov-2024 21:19:40 UTC] PHP Warning:  include(../../../whatsappPersonalizadoList.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 3
+[25-Nov-2024 21:19:40 UTC] PHP Warning:  include(): Failed opening '../../../whatsappPersonalizadoList.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 3
+[25-Nov-2024 21:19:40 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[25-Nov-2024 21:19:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[25-Nov-2024 21:19:40 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[25-Nov-2024 21:19:40 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[25-Nov-2024 21:19:41 UTC] PHP Warning:  Undefined array key "iB" in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 40
+[25-Nov-2024 21:19:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 143
+[25-Nov-2024 21:21:22 UTC] PHP Warning:  include(../../../whatsappPersonalizadoList.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 3
+[25-Nov-2024 21:21:22 UTC] PHP Warning:  include(): Failed opening '../../../whatsappPersonalizadoList.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 3
+[25-Nov-2024 21:21:22 UTC] PHP Warning:  include(../menuFlotante.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/buscarWhatsapp.php on line 5
+[25-Nov-2024 21:21:22 UTC] PHP Warning:  include(): Failed opening '../menuFlotante.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/buscarWhatsapp.php on line 5
+[25-Nov-2024 21:21:22 UTC] PHP Warning:  Undefined variable $link in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/buscarWhatsapp.php on line 18
+[25-Nov-2024 21:21:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/buscarWhatsapp.php on line 18
+[25-Nov-2024 21:21:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/buscarWhatsapp.php on line 18
+[25-Nov-2024 21:21:22 UTC] PHP Warning:  Undefined variable $connDenysCliente in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 36
+[25-Nov-2024 21:21:22 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php:36
+Stack trace:
+#0 /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php(36): mysqli_query(NULL, 'SELECT * FROM c...')
+#1 {main}
+  thrown in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 36
+[25-Nov-2024 21:21:32 UTC] PHP Warning:  include(../../../whatsappPersonalizadoList.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 3
+[25-Nov-2024 21:21:32 UTC] PHP Warning:  include(): Failed opening '../../../whatsappPersonalizadoList.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 3
+[25-Nov-2024 21:21:32 UTC] PHP Warning:  include(../menuFlotante.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/buscarWhatsapp.php on line 5
+[25-Nov-2024 21:21:32 UTC] PHP Warning:  include(): Failed opening '../menuFlotante.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/buscarWhatsapp.php on line 5
+[25-Nov-2024 21:21:32 UTC] PHP Warning:  Undefined variable $link in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/buscarWhatsapp.php on line 18
+[25-Nov-2024 21:21:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/buscarWhatsapp.php on line 18
+[25-Nov-2024 21:21:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/buscarWhatsapp.php on line 18
+[25-Nov-2024 21:21:32 UTC] PHP Warning:  Undefined variable $connDenysCliente in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 36
+[25-Nov-2024 21:21:32 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php:36
+Stack trace:
+#0 /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php(36): mysqli_query(NULL, 'SELECT * FROM c...')
+#1 {main}
+  thrown in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 36
+[25-Nov-2024 21:21:40 UTC] PHP Warning:  include(../../../whatsappPersonalizadoList.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 3
+[25-Nov-2024 21:21:40 UTC] PHP Warning:  include(): Failed opening '../../../whatsappPersonalizadoList.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 3
+[25-Nov-2024 21:21:40 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[25-Nov-2024 21:21:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[25-Nov-2024 21:21:40 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[25-Nov-2024 21:21:40 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[25-Nov-2024 21:21:40 UTC] PHP Warning:  Undefined array key "iB" in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 40
+[25-Nov-2024 21:21:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 143
+[25-Nov-2024 21:23:10 UTC] PHP Warning:  include(../../../whatsappPersonalizadoList.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 3
+[25-Nov-2024 21:23:10 UTC] PHP Warning:  include(): Failed opening '../../../whatsappPersonalizadoList.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 3
+[25-Nov-2024 21:23:10 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[25-Nov-2024 21:23:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[25-Nov-2024 21:23:10 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[25-Nov-2024 21:23:10 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[25-Nov-2024 21:23:10 UTC] PHP Warning:  Undefined array key "iB" in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 40
+[25-Nov-2024 21:23:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 143
+[25-Nov-2024 21:24:53 UTC] PHP Warning:  include(../../../whatsappPersonalizadoList.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 3
+[25-Nov-2024 21:24:53 UTC] PHP Warning:  include(): Failed opening '../../../whatsappPersonalizadoList.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 3
+[25-Nov-2024 21:24:53 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[25-Nov-2024 21:24:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[25-Nov-2024 21:24:53 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[25-Nov-2024 21:24:53 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[25-Nov-2024 21:24:53 UTC] PHP Warning:  Undefined array key "iB" in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 40
+[25-Nov-2024 21:24:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 143
+[25-Nov-2024 21:25:59 UTC] PHP Warning:  include(../../../whatsappPersonalizadoList.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 3
+[25-Nov-2024 21:25:59 UTC] PHP Warning:  include(): Failed opening '../../../whatsappPersonalizadoList.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 3
+[25-Nov-2024 21:25:59 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[25-Nov-2024 21:25:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[25-Nov-2024 21:25:59 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[25-Nov-2024 21:25:59 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[25-Nov-2024 21:26:00 UTC] PHP Warning:  Undefined array key "iB" in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 40
+[25-Nov-2024 21:26:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 143
+[25-Nov-2024 21:27:26 UTC] PHP Warning:  include(../../../whatsappPersonalizadoList.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 3
+[25-Nov-2024 21:27:26 UTC] PHP Warning:  include(): Failed opening '../../../whatsappPersonalizadoList.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 3
+[25-Nov-2024 21:27:26 UTC] PHP Warning:  include(../menuFlotante.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/buscarWhatsapp.php on line 5
+[25-Nov-2024 21:27:26 UTC] PHP Warning:  include(): Failed opening '../menuFlotante.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/buscarWhatsapp.php on line 5
+[25-Nov-2024 21:27:26 UTC] PHP Warning:  Undefined variable $link in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/buscarWhatsapp.php on line 18
+[25-Nov-2024 21:27:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/buscarWhatsapp.php on line 18
+[25-Nov-2024 21:27:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/buscarWhatsapp.php on line 18
+[25-Nov-2024 21:27:26 UTC] PHP Warning:  Undefined variable $connDenysCliente in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 36
+[25-Nov-2024 21:27:26 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php:36
+Stack trace:
+#0 /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php(36): mysqli_query(NULL, 'SELECT * FROM c...')
+#1 {main}
+  thrown in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 36
+[25-Nov-2024 21:27:46 UTC] PHP Warning:  include(../../../whatsappPersonalizadoList.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 3
+[25-Nov-2024 21:27:46 UTC] PHP Warning:  include(): Failed opening '../../../whatsappPersonalizadoList.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 3
+[25-Nov-2024 21:27:46 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[25-Nov-2024 21:27:46 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[25-Nov-2024 21:27:46 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[25-Nov-2024 21:27:46 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[25-Nov-2024 21:27:46 UTC] PHP Warning:  include(../menuFlotante.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/buscarWhatsapp.php on line 6
+[25-Nov-2024 21:27:46 UTC] PHP Warning:  include(): Failed opening '../menuFlotante.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/buscarWhatsapp.php on line 6
+[25-Nov-2024 21:27:46 UTC] PHP Warning:  Undefined array key "iB" in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 40
+[25-Nov-2024 21:27:46 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 143
+[25-Nov-2024 21:27:56 UTC] PHP Warning:  include(../../../whatsappPersonalizadoList.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 3
+[25-Nov-2024 21:27:56 UTC] PHP Warning:  include(): Failed opening '../../../whatsappPersonalizadoList.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 3
+[25-Nov-2024 21:27:56 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[25-Nov-2024 21:27:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[25-Nov-2024 21:27:56 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[25-Nov-2024 21:27:56 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[25-Nov-2024 21:27:56 UTC] PHP Warning:  include(../menuFlotante.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/buscarWhatsapp.php on line 6
+[25-Nov-2024 21:27:56 UTC] PHP Warning:  include(): Failed opening '../menuFlotante.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/buscarWhatsapp.php on line 6
+[25-Nov-2024 21:39:01 UTC] PHP Warning:  include(../../../whatsappPersonalizadoList.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 3
+[25-Nov-2024 21:39:01 UTC] PHP Warning:  include(): Failed opening '../../../whatsappPersonalizadoList.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 3
+[25-Nov-2024 21:39:01 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[25-Nov-2024 21:39:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[25-Nov-2024 21:39:01 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[25-Nov-2024 21:39:01 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[25-Nov-2024 21:39:01 UTC] PHP Warning:  include(../menuFlotante.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/buscarWhatsapp.php on line 6
+[25-Nov-2024 21:39:01 UTC] PHP Warning:  include(): Failed opening '../menuFlotante.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/buscarWhatsapp.php on line 6
+[25-Nov-2024 21:39:26 UTC] PHP Warning:  include(../../../whatsappPersonalizadoList.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 3
+[25-Nov-2024 21:39:26 UTC] PHP Warning:  include(): Failed opening '../../../whatsappPersonalizadoList.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 3
+[25-Nov-2024 21:39:26 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[25-Nov-2024 21:39:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[25-Nov-2024 21:39:26 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[25-Nov-2024 21:39:26 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[25-Nov-2024 21:39:26 UTC] PHP Warning:  include(../menuFlotante.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/buscarWhatsapp.php on line 6
+[25-Nov-2024 21:39:26 UTC] PHP Warning:  include(): Failed opening '../menuFlotante.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/buscarWhatsapp.php on line 6
+[25-Nov-2024 21:44:46 UTC] PHP Warning:  include(../../../whatsappPersonalizadoList.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 3
+[25-Nov-2024 21:44:46 UTC] PHP Warning:  include(): Failed opening '../../../whatsappPersonalizadoList.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/denysbot/index.php on line 3
+[25-Nov-2024 21:44:46 UTC] PHP Warning:  Undefined variable $argv in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[25-Nov-2024 21:44:46 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 16
+[25-Nov-2024 21:44:46 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 17
+[25-Nov-2024 21:44:46 UTC] PHP Warning:  Undefined array key "s" in /home/dentalroot/app.dentalsoftplus.com/menuFlotante.php on line 29
+[25-Nov-2024 21:44:46 UTC] PHP Warning:  include(../menuFlotante.php): Failed to open stream: No such file or directory in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/buscarWhatsapp.php on line 6
+[25-Nov-2024 21:44:46 UTC] PHP Warning:  include(): Failed opening '../menuFlotante.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dentalroot/app.dentalsoftplus.com/moduloMasivos/buscarWhatsapp.php on line 6

@@ -1,0 +1,208 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?t4nheg');
+  src:  url('fonts/icomoon.eot?t4nheg#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?t4nheg') format('truetype'),
+    url('fonts/icomoon.woff?t4nheg') format('woff'),
+    url('fonts/icomoon.svg?t4nheg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Placa-Dental:before {
+  content: "\e938";
+}
+.icon-Odontologia-Periodoncia:before {
+  content: "\e935";
+}
+.icon-Odontologia-Endodoncia:before {
+  content: "\e936";
+}
+.icon-Odontologia-Ortodoncia:before {
+  content: "\e937";
+}
+.icon-biochemistry-laboratory:before {
+  content: "\e900";
+}
+.icon-blood-test-svgrepo-com:before {
+  content: "\e901";
+}
+.icon-book-half:before {
+  content: "\e902";
+}
+.icon-book-open:before {
+  content: "\e903";
+}
+.icon-book-open-page-variant-outline:before {
+  content: "\e904";
+}
+.icon-box-add:before {
+  content: "\e905";
+}
+.icon-box-open:before {
+  content: "\e906";
+}
+.icon-box-remove:before {
+  content: "\e907";
+}
+.icon-building-retail-money-24-filled:before {
+  content: "\e908";
+}
+.icon-business:before {
+  content: "\e909";
+}
+.icon-bxs-video-recording:before {
+  content: "\e90a";
+}
+.icon-calendar-alt:before {
+  content: "\e90b";
+}
+.icon-calendar-alt-fill:before {
+  content: "\e90c";
+}
+.icon-calendar-user:before {
+  content: "\e90d";
+}
+.icon-chemistry-laboratory-svgrepo-com:before {
+  content: "\e90e";
+}
+.icon-chemistry-svgrepo-com:before {
+  content: "\e90f";
+}
+.icon-clinical-fe:before {
+  content: "\e910";
+}
+.icon-clipboard-task-list-ltr-20-filled:before {
+  content: "\e911";
+}
+.icon-cogs:before {
+  content: "\e912";
+}
+.icon-covid-19:before {
+  content: "\e913";
+}
+.icon-date-add:before {
+  content: "\e914";
+}
+.icon-desktop-pulse-24-filled:before {
+  content: "\e915";
+}
+.icon-document-list:before {
+  content: "\e916";
+}
+.icon-exit-outline:before {
+  content: "\e917";
+}
+.icon-experimentation-flask-tool-svgrepo-com:before {
+  content: "\e918";
+}
+.icon-file-invoice:before {
+  content: "\e919";
+}
+.icon-file-invoice-dollar:before {
+  content: "\e91a";
+}
+.icon-file-text:before {
+  content: "\e91b";
+}
+.icon-flask-laboratory-svgrepo-com:before {
+  content: "\e91c";
+}
+.icon-flasks-chemistry-svgrepo-com:before {
+  content: "\e91d";
+}
+.icon-formula-svgrepo-com:before {
+  content: "\e91e";
+}
+.icon-i-certificate-paper-outline:before {
+  content: "\e91f";
+}
+.icon-i-schedule-school-date-time:before {
+  content: "\e920";
+}
+.icon-laboratory:before {
+  content: "\e921";
+}
+.icon-medical-drugs-svgrepo-com:before {
+  content: "\e922";
+}
+.icon-medical-result-svgrepo-com:before {
+  content: "\e923";
+}
+.icon-medicine-bottle-fill:before {
+  content: "\e924";
+}
+.icon-newspaper-sharp:before {
+  content: "\e925";
+}
+.icon-patient-24-filled:before {
+  content: "\e926";
+}
+.icon-people-circle-sharp:before {
+  content: "\e927";
+}
+.icon-people-team-toolbox-20-filled:before {
+  content: "\e928";
+}
+.icon-product-downloadable:before {
+  content: "\e929";
+}
+.icon-receipt-money-20-filled:before {
+  content: "\e92a";
+}
+.icon-report:before {
+  content: "\e92b";
+}
+.icon-twotone-inventory-2 .path1:before {
+  content: "\e92c";
+  color: rgb(68, 68, 68);
+  opacity: 0.3;
+}
+.icon-twotone-inventory-2 .path2:before {
+  content: "\e92d";
+  margin-left: -1em;
+  color: rgb(68, 68, 68);
+}
+.icon-twotone-inventory-2 .path3:before {
+  content: "\e92e";
+  margin-left: -1em;
+  color: rgb(68, 68, 68);
+}
+.icon-twotone-tips-and-updates .path1:before {
+  content: "\e92f";
+  color: rgb(68, 68, 68);
+  opacity: 0.3;
+}
+.icon-twotone-tips-and-updates .path2:before {
+  content: "\e930";
+  margin-left: -1em;
+  color: rgb(68, 68, 68);
+}
+.icon-dermatologia:before {
+  content: "\e931";
+}
+.icon-spa:before {
+  content: "\e932";
+}
+.icon-cirugia-estetica:before {
+  content: "\e933";
+}
+.icon-medicina-estetica:before {
+  content: "\e934";
+}

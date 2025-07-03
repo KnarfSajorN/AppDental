@@ -1,0 +1,46 @@
+# ---------------------------------------------------
+# módulos para video consulta 
+# ---------------------------------------------------
+# en este directorio se encuentran los archivos necesarios para el uso e instalación de video consulta con webRTC
+# módulos de consulta, reportes, modificación, y envió de salas de video personalizadas
+
+# -------------------------------------------------
+# agregar lo siguiente al htaccess del sistema
+# -------------------------------------------------
+
+# videoConsulta
+RewriteRule ^videoConsultas$ videoConsulta/vc_consultasAgendadas.php
+RewriteRule ^videoConsultasCrearSala$ videoConsulta/vc_crearSala.php
+RewriteRule ^videoConsultasReporte$ ReporteVideoconsultas.php
+RewriteRule ^clienteAdministracion_VideoChat$ videoConsulta/vc_consultasAgendadas.php
+# videoConsulta - fin
+
+
+# -------------------------------------------------
+# base de datos para las salas
+# -------------------------------------------------
+# para el uso de las salas dinámicas , una vez iniciada una sala desde el doctor se creara un registro en la base de datos
+# este se encuentra alojado en una base distinta a todos los sistemas para unificar las salas a esa tabla
+# -------------------------------------------------
+# base de datos: medicaso_videoConsulta
+# Tabla: salas
+# -------------------------------------------------
+# esta tabla tiene los siguientes campos
+# id -- clave primaria
+# fechaC -- fecha de creación
+# fechaF -- fecha de finalización
+# sistema -- código del sistema
+# sala -- código único de la sala
+# estado -- 1 = activa, 0 = inactiva
+# idCitas -- id de la cita de Medical
+# -------------------------------------------------
+
+
+# -------------------------------------------------
+# para las bases viejas
+# -------------------------------------------------
+# incluir el archivo "compatibilidad.php" al inicio o al final del php para que se ajuste al estilo de bootstrap 3 
+
+
+
+

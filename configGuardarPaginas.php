@@ -1,0 +1,76 @@
+<?php
+include 'funciones/funciones.php';
+include 'funciones/funcionesUtilidades.php';
+
+
+
+include 'configFunciones.php';
+
+
+
+$ID                    = $_POST['ID'];          
+$clienteId            = $_POST['clienteId'];          
+
+        // datos de fecha y hora
+$fechar                = date("Y-m-d");
+$Afechar               = date("Y-m-d H:i:s");
+$hora                  = date("H:i:s");
+
+
+
+
+$accion=reem($_POST['accion']);
+$metodo=reem($_POST['metodo']);
+$formu=reem($_POST['formu']);
+$menu=reem($_POST['menu']);
+$boton=reem($_POST['boton']);
+$tipoB=reem($_POST['tipoB']);
+$claseB=reem($_POST['claseB']);
+$Titulo=reem($_POST['Titulo']);
+$Nombre=reem($_POST['Nombre']);
+
+$Nombre2=reemConfig($_POST['Nombre']);
+
+$method=reem($_POST['method']);
+
+
+
+
+
+$Nombre_name = reemConfig($Nombre2);
+$Nombre_name = strtolower($Nombre_name);
+
+
+
+mysqli_query($conn3,"INSERT INTO configPaginas 
+  ( fecha,     hora,   titulo,    nombre)
+  VALUES 
+  ('$fechar', '$hora','$Titulo', '$Nombre');");
+
+$queryListhc=mysqli_query($conn3,"SELECT MAX(id) as Paginas from configPaginas ");
+$nrowl=mysqli_num_rows($queryListhc);
+while($rowhc=mysqli_fetch_array($queryListhc))
+{
+  $Tabla=$rowhc['Paginas'];
+}   
+
+
+
+// mysqli_query($conn3,"CREATE TABLE $Nombre_name(
+// id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+// cliente_id  int(11) NOT NULL,
+// usuario_id  int(11) NOT NULL,
+// Fecha date NOT NULL,
+// Hora time NOT NULL,
+// firma TEXT NULL DEFAULT NULL
+// )");
+
+
+
+echo '<br> ----------------------- >>>>> '.$Tabla;
+
+echo "<script language='Javascript'> window.location='configFormularioPagina.php?Nombre_Page=$Nombre&Pagina=$Tabla';</script>";  
+
+
+
+?>

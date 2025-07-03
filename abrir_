@@ -1,0 +1,26 @@
+# --------------------------------------------------------------------------
+# Sistema estetica
+# --------------------------------------------------------------------------
+# 22 06 2023 - JRodriguez
+# nota: todas las historias y/o modificaciones en vistas o controladores
+# favor utilizar mascaras en htaccess y funciones encrypt / decrypt para
+# parámetros via get
+#
+# ej: 
+# de esto: estetica/historiaClinica.php?idCliente=1
+#
+# a  esto: estetica/historia?iC=WzgQCiBDHoMQ==
+# --------------------------------------------------------------------------
+# mantener simetría en la creación de archivos de historias o vistas
+#
+# "objetivo principal o relevante" _ "especialidad" _ "tipo de archivo"
+#
+# ej: 
+#
+# vista pacientes: historia_clinica_medicinaEstetica_pacientes.php
+# historia clínica: historia_clinica_medicinaEstetica.php
+# finalizado historia: historia_clinica_medicinaEstetica_finalizado.php
+# impresión: historia_clinica_medicinaEstetica_impresion.php
+#
+# tener en cuenta el punto anterior con respecto a las mascaras y datos
+# --------------------------------------------------------------------------

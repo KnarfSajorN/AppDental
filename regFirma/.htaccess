@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On 
+RewriteBase /baseDev/firma/
+RewriteRule ^firmardocumento/(.+)$ firmar.php?id=$1
+RewriteRule ^firmardocumento$ firmar.php 
+
+
+                               

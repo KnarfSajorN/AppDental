@@ -1,0 +1,82 @@
+
+    /* Styles go here */
+
+    .page-header,
+    .page-header-space {
+        height: 150px;
+    }
+
+    .page-footer,
+    .page-footer-space {
+        height: 50px;
+        margin-top: 50px;
+    }
+
+    .page-footer {
+        position: fixed;
+        bottom: 0;
+        /*
+        width: 100%;
+        */
+        width: 100vw;
+        border-top: 1px solid black;
+        /* for demo */
+        background: #3c8dbc;
+        /* for demo */
+        text-align: center;
+    }
+
+    .page-header {
+        position: fixed;
+        top: 0mm;
+        width: 100vw;
+        /*
+        width: 100%;
+        */
+        border-bottom: 1px solid black;
+        /* for demo */
+        background: #3c8dbc;
+        /* for demo */
+
+    }
+
+    .page {
+        /*page-break-after: always;*/
+        page-break-after: auto;
+    }
+
+    @page {
+        margin: 10mm
+    }
+
+    @media print {
+        thead {
+            display: table-header-group;
+        }
+
+        tfoot {
+            display: table-footer-group;
+        }
+
+        button {
+            display: none;
+        }
+
+        body {
+            margin: 0;
+        }
+    }
+
+    @media print {
+        .page
+        {
+            width:100%;
+        }
+    }
+
+    @media screen {
+        .page
+        {
+            width:100vw;
+        }
+    }

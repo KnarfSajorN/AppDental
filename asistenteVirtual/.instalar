@@ -1,0 +1,76 @@
+-- ------------------------------
+-- instalación
+-- ------------------------------
+-- copiar esta carpeta completa al sistema que se quiera
+-- copiar en el .htaccess del sistema
+# Asistente virtual
+RewriteRule ^asistente$ asistenteVirtual/asistenteVirtualConfig.php
+RewriteRule ^asistenteConfig$ asistenteVirtual/asistenteVirtualConfigOpcion.php
+RewriteRule ^asistenteV$ asistenteVirtual/asistenteVisual.php
+# Asistente virtual - fin
+-- insertar opciones en el menu desde "Perfiles_RegistrarNuevoMenu"
+
+-- ------------------------------
+-- tablas que se deben crear
+-- ------------------------------
+-- ------------------------------
+--  asistenteAuditor
+-- ------------------------------
+create table asistenteAuditor (
+    id int not null auto_increment,
+    fechaRegistro timestamp null default current_timestamp,
+    idUsuario int null default 0,
+    mensaje text null default null,
+    primary key (id)
+);
+
+-- ------------------------------
+--  asistenteVirtualCommands
+-- ------------------------------
+create table asistenteVirtualCommands (
+    id int not null auto_increment,
+    categoria int null default 0,
+    nombre text null default null,
+    icon text null default null,
+    color text null default null,
+    estado int null default 1,
+    primary key (id)
+);
+INSERT INTO asistenteVirtualCommands (id, categoria, nombre, icon, color, estado) VALUES(1, 1, 'Registro de paciente', 'fas fa-address-book', 'info', 1);
+INSERT INTO asistenteVirtualCommands (id, categoria, nombre, icon, color, estado) VALUES(2, 1, 'Registro de Cita', 'fas fa-calendar-alt', 'info', 1);
+INSERT INTO asistenteVirtualCommands (id, categoria, nombre, icon, color, estado) VALUES(3, 2, 'Enviar correo', 'fas fa-mail-bulk', 'maroon', 1);
+INSERT INTO asistenteVirtualCommands (id, categoria, nombre, icon, color, estado) VALUES(4, 3, 'Reproducir m&uacute;sica', 'fas fa-music', 'purple', 1);
+INSERT INTO asistenteVirtualCommands (id, categoria, nombre, icon, color, estado) VALUES(5, 4, 'Ir a [modulo - pagina]', 'fas fa-external-link-square-alt', 'olive', 0);
+INSERT INTO asistenteVirtualCommands (id, categoria, nombre, icon, color, estado) VALUES(6, 1, 'Consultar agenda del d&iacute;a', 'far fa-calendar-check', 'info', 1);
+INSERT INTO asistenteVirtualCommands (id, categoria, nombre, icon, color, estado) VALUES(7, 1, 'Leer Historia cl&iacute;nica', 'fas fa-file-medical', 'info', 0);
+INSERT INTO asistenteVirtualCommands (id, categoria, nombre, icon, color, estado) VALUES(8, 1, 'Consultar notas de enfermer&iacute;a', 'fas fa-book-medical', 'info', 1);
+
+-- ------------------------------
+--  asistenteVirtualCommandsUsers
+-- ------------------------------
+create table asistenteVirtualCommandsUsers (
+    id int not null auto_increment,
+    fechaRegistro timestamp null default current_timestamp,
+    activo int null default 1,
+    comando text null default null,
+    usuarioId int null default 0,
+    commandId int null default 0,
+    preguntas text null default null,
+    random text null default null,
+    primary key (id)
+);
+
+-- ------------------------------
+--  asistenteVirtualConfig
+-- ------------------------------
+create table asistenteVirtualConfig (
+    id int not null auto_increment,
+    fechaRegistro timestamp null default current_timestamp,
+    nombre text null default null,
+    idioma text null default null,
+    saludo text null default null,
+    modoUso text null default null,
+    activo int null default 1,
+    usuarioId int null default 0,
+    primary key (id)
+);

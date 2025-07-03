@@ -1,0 +1,64 @@
+@media print,
+screen {
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+        print-color-adjust: exact;
+        color-adjust: exact;
+        text-rendering: optimizeLegibility;
+        -webkit-print-color-adjust: exact;
+        -webkit-color-adjust: exact;
+        -moz-print-color-adjust: exact;
+        -moz-color-adjust: exact;
+        margin: 0 auto !important;
+    }
+    @page {
+        size: letter landscape;
+        margin-top: 10mm;
+        margin-bottom: 10mm;
+        margin-left: 10mm;
+        margin-right: 10mm;
+    }
+    #header,
+    .header-space {
+        height: 20mm;
+        width: 100%;
+    }
+    #footer,
+    .footer-space {
+        height: 20mm;
+        width: 100%;
+    }
+    #header {
+        position: fixed !important;
+        top: 0 !important;
+    }
+    #contenido {
+        width: 100% !important;
+        position: relative;
+    }
+    .marcaAgua {
+        position: fixed;
+        opacity: 0.15;
+        width: 80%;
+        height: auto;
+        left: 10%;
+        top: 10%;
+    }
+    #footer {
+        position: fixed !important;
+        bottom: 0 !important;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    div,
+    td {
+        page-break-before: auto !important;
+        page-break-after: auto !important;
+        page-break-inside: auto !important;
+    }
+}

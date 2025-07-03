@@ -1,0 +1,51 @@
+.medical-icon-medicina-estetica:before {
+    content: "";
+    display: inline-block;
+    width: 24px; /* ajusta el ancho de acuerdo a tus necesidades */
+    height: 24px; /* ajusta la altura de acuerdo a tus necesidades */
+    background-image: url("medicina-estetica.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    bottom: -4px;
+    position: relative;
+  }
+
+.medical-icon-dermatologia:before {
+    content: "";
+    display: inline-block;
+    width: 24px; /* ajusta el ancho de acuerdo a tus necesidades */
+    height: 24px; /* ajusta la altura de acuerdo a tus necesidades */
+    background-image: url("dermatologia.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    bottom: -4px;
+    position: relative;
+  }
+
+.medical-icon-spa:before {
+    content: "";
+    display: inline-block;
+    width: 24px; /* ajusta el ancho de acuerdo a tus necesidades */
+    height: 24px; /* ajusta la altura de acuerdo a tus necesidades */
+    background-image: url("spa.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    bottom: -4px;
+    position: relative;
+  }
+
+.medical-icon-cirugia-plastica:before {
+    content: "";
+    display: inline-block;
+    width: 24px; /* ajusta el ancho de acuerdo a tus necesidades */
+    height: 24px; /* ajusta la altura de acuerdo a tus necesidades */
+    background-image: url("cirugia-estetica.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    bottom: -4px;
+    position: relative;
+  }

@@ -1,0 +1,218 @@
+/* para select2*/
+.form__group > span{
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    font-size: var(--size-font);
+    color: black;
+    padding: 4px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+    width: 100%!important;
+ }
+ 
+ .form__group > textarea{
+    height: 300px;
+    border: 2px solid #9b9b9b;
+    padding: 20px;
+    position: relative;
+    top: 10px;
+ }
+ 
+     
+ 
+ .form__group  .select2-selection{
+   border: none;
+   padding-left: 0;
+ }
+ .form__group  .select2-selection__arrow{
+   top: 10px!important;
+ }
+ 
+ .select2-container--default .select2-selection--multiple .select2-selection__choice {
+   background-color: #3c8dbc;}
+   
+ /* cierre para select 2 */
+ 
+ :root {
+   --size-font: 15px;
+ }
+ 
+   .form__group {
+    position: relative;
+    padding: 20px 0 0;
+    margin-top: 10px;
+    padding-right: 20px;
+ }
+  .form__field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    font-size: var(--size-font);
+    color: black;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+ }
+ 
+  .form__field::placeholder {
+    color: transparent;
+ }
+  .form__field:placeholder-shown ~ .form__label {
+    font-size: var(--size-font);
+    cursor: text;
+    top: 20px;
+ }
+ .form__field[type=date]{
+   font-size:  calc(var(--size-font)*0.9);
+ }
+  .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: var(--size-font);
+    color: #9b9b9b;
+ }
+  .form__field:focus {
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #2881b3, #a3cadc);
+    border-image-slice: 1;
+ }
+  .form__field:focus ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: var(--size-font);
+    color: #3c8dbc;
+    font-weight: 700;
+ }
+ /* reset input */
+  .form__field:required, .form__field:invalid {
+    box-shadow: none;
+ }
+ 
+  .fill:hover, .fill:focus {
+    box-shadow: inset 0 0 0 2em var(--hover);
+ }
+  .pulse:hover, .pulse:focus {
+    animation: pulse 1s;
+    box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+ }
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 var(--hover);
+   }
+ }
+  .pulse {
+    --color: #3c8dbc;
+    --hover: #3c8dbc;
+ }
+ 
+ /*
+ <div class="form__group col-md-3">
+ <input type="text" class="form__field" id="medicamento'+i+'" placeholder="Medicamento" name="Vacunacion['+i+'][Medicamento]"/>
+ <label for="medicamento'+i+'" class="form__label">Medicamento</label>
+ </div>
+ */
+ 
+ 
+ /* ------------------------------------- */
+ /* ------------------------------------- */
+ /* ----------input numero 2---------------- */
+ /* ------------------------------------- */
+ 
+ 
+  :root {
+    --color-background: white;
+    --color-text: #212121;
+    --color-accent: #3c8dbc;
+    --size-bezel: 0.5rem;
+    --size-radius: 4px;
+    --size-font: 15px;
+ }
+ .input {
+    position: relative;
+    margin-top: 30px;
+ }
+ 
+ .input .select2 
+ {
+   width: 100%!important;
+ }
+ .input .select2-selection
+ {
+   padding: 10px;
+   height: 38px;
+   border-color: #d2d6de;
+ }
+ .input .select2-selection__arrow 
+ {
+   top: 6px!important;
+ }
+ .input__label_select2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: calc(var(--size-bezel) * 0.75) calc(var(--size-bezel) * .5);
+    margin: calc(var(--size-bezel) * 0.75 + 3px) calc(var(--size-bezel) * 5.5);
+    background: pink;
+    white-space: nowrap;
+    transform: translate(0.25rem, -65%) scale(0.8);
+     color: var(--color-accent);
+    transform-origin: 0 0;
+    background: var(--color-background);
+    transition: transform 120ms ease-in;
+    font-weight: bold;
+    line-height: 1.2;
+    font-size: var(--size-font);
+ }
+ 
+  .input__label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: calc(var(--size-bezel) * 0.75) calc(var(--size-bezel) * .5);
+    margin: calc(var(--size-bezel) * 0.75 + 3px) calc(var(--size-bezel) * 5.5);
+    background: pink;
+    white-space: nowrap;
+    transform: translate(0, 0);
+    transform-origin: 0 0;
+    background: var(--color-background);
+    transition: transform 120ms ease-in;
+    font-weight: bold;
+    line-height: 1.2;
+    font-size: var(--size-font);
+ }
+  .input__field {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border: 1px solid currentColor;
+    border-color: #d2d6de;
+    padding: calc(var(--size-bezel) * 1.5) var(--size-bezel);
+    padding-left: 10px;
+    color: currentColor;
+    background: transparent;
+    border-radius: var(--size-radius);
+     font-size: var(--size-font);
+ }
+ .input__field[type=date]{
+   font-size:  calc(var(--size-font)*0.9);
+ }
+  .input__field:focus + .input__label, .input__field:not(:placeholder-shown) + .input__label {
+    transform: translate(0.25rem, -65%) scale(0.8);
+    color: var(--color-accent);
+ }
+ 
+ /* <div class="input col-md-6">
+   <input class="input__field" type="date" placeholder=" " />
+   <span class="input__label">Some Fancy Label</span>
+ </div> */

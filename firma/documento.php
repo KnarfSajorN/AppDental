@@ -1,0 +1,244 @@
+<?php
+include '../funciones/funciones.php';
+include '../../masterFunciones.php';
+
+
+$conn3 = mysqli_connect($host,$userdb,$pass2,$DB)or die ('Ha fallado la conexion MySQL: '.mysqli_error($conn3));
+$id = $_GET['id'];
+$estado = $_GET['estado'];
+
+
+
+//  $cliente = $_GET['cliente'];
+
+$cuentas = 0;
+$fecha = date("Y-m-d");
+$hora  = date("h:m:s");
+
+
+/*
+hc0 = hisotria clinica general
+hc2 = hisotria clinica spa
+hc5 = Tratamiento estetico
+
+ 
+*/
+
+  
+$queryList=mysqli_query($conn3,"SELECT * FROM  historiaConsentimientos where ID = $id");
+$nrowl=mysqli_num_rows($queryList);
+while($rowMotorizado=mysqli_fetch_array($queryList))
+{
+  $firma = $rowMotorizado['firma']; 
+  $cliente = $rowMotorizado['cliente_id']; 
+  $tipo = $rowMotorizado['tipo']; 
+}
+
+
+
+
+
+
+if ($tipo = 1) {
+
+ $queryList=mysqli_query($conn3,"SELECT * FROM  cliente where cliente_id = $cliente ");
+    $nrowl=mysqli_num_rows($queryList);
+    while($rowMotorizado=mysqli_fetch_array($queryList))
+    {
+      $whatsapp = $rowMotorizado['whatsapp']; 
+    }
+
+
+$mensaje = 'Porfavor leer  '.$Base.'consentimientos/'.$tipo.'.html  Para firmar entrar al link  https://medicalsoftplus.com/baseDev/firma/documento/'.$id.'  *Si no desea recibir notificaciones puede darle de baja en cualquier momento respondiendo con la palabra NO. Atte VirtualMedic – Colombia';
+ Whatsapp_sent($linkkey, $whatsapp, $mensaje); 
+}
+
+ 
+
+
+
+
+
+
+if (strlen($firma)>10) 
+{
+      echo "<script>alert('Su firma ya a sido Registrada');window.location='https://medicalsoftplus.com/baseDev/comofunciona';</script>";
+}
+ 
+
+?>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Modulo de Firma</title>
+  <meta name="description" content="Modulo de Firma">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <link rel="stylesheet" href="https://medicalsoftplus.com/baseDev/firma/css/signature-pad.css">
+
+  <!--[if IE]>
+    <link rel="stylesheet" type="text/css" href="css/ie9.css">
+  <![endif]-->
+
+<style type="text/css">
+  .boton_personalizado{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+  }
+  .boton_personalizado:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
+
+
+
+    .boton_personalizado2{
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 10px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+  }
+  .boton_personalizado2:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
+</style>
+
+
+  
+</head>
+<body onselectstart="return false">
+  
+
+  <div id="signature-pad" class="signature-pad">
+    <div align="center"  class="signature-pad--actions">
+        <div>
+          <button  type="button" class="boton_personalizado2" data-action="clear">Borrar</button>
+
+           <button type="hidden" class="boton_personalizado2" data-action="change-color">Cambiar Color</button> 
+
+          <button type="button" class="boton_personalizado2" data-action="undo">Borrar ultimo traso</button>
+         </div> 
+
+      </div> 
+    <div class="signature-pad--body">
+      <canvas></canvas>
+    </div>
+    <div class="signature-pad--footer">
+
+
+
+      <div align="center" class="description">Firmar</div>
+
+      
+ <div>
+
+          <br> 
+          
+          <button type="button" class="boton_personalizado" data-action="save-png">Paso 1 - Guardar Firma</button>
+        
+
+
+<!--
+          <button type="button" class="button save" data-action="save-jpg">Save as JPG</button>
+          <button type="button" class="button save" data-action="save-svg">Save as SVG</button>
+-->
+
+        </div>
+
+    </div>
+ <font size="1"> 
+ <div id="div-mostrarFimra" align="center"></div>
+</font>
+ 
+
+ 
+<div align="center">
+  <br>
+<hr>
+  <br>
+ 
+<form action="https://medicalsoftplus.com/baseDev/firma/documentoFirmado2.php" method="POST">
+ 
+
+<input type="hidden"  name="tarea" id="tarea"    required>
+<input type="hidden"  name="idFirma" id="id"  value="<?php echo $idFirma;?>"  required>
+<input type="hidden"  name="id" id="id"  value="<?php echo $id;?>"  required>
+
+Nombre
+<input type="text" class="form-control input-lg"  name="nombre" id="nombre"    required>
+ 
+Documento
+<input type="text" class="form-control input-lg"  name="documento" id="nombre"    required>
+
+<br> 
+ 
+<button type="submit" class="boton_personalizado" <h4> Paso 2 - Guardar </h4></button>
+ 
+ </form>
+
+
+
+</div>
+  </div>
+
+
+
+
+
+
+
+
+  <script src="https://medicalsoftplus.com/baseDev/firma/js/signature_pad.umd.js"></script>
+  <script src="https://medicalsoftplus.com/baseDev/firma/js/app.js"></script>
+</body>
+</html>
+
+
+<script type="text/javascript">
+/*    
+
+
+          function agergarItem(){
+// estas son las variables que enviamos
+
+        var tarea = $("#tarea").val();
+        var nombre = $("#nombre").val();
+
+// aqui enviamos el mensaje por medio de un arreglo     
+
+        $.ajax({
+            type: "POST",
+            url: "ajax_guardarFirma.php",
+            data: {tarea:tarea, nombre:nombre},
+            success: function(response) {
+                $('#div-results').html(response);      
+            }
+        });
+
+
+
+
+        
+    };
+
+
+
+*/
+
+</script>
