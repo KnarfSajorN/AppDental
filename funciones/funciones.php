@@ -337,6 +337,8 @@ function selectMaster($whereselect, $campoValue, $campoTexto, $tabla)
 		// var_dump("SELECT * FROM $tabla " . $whereselect);
 		$nrowl = mysqli_num_rows($query);
 		//echo $query;
+		$textoprint='';
+		$valueprint='';
 		while ($row = mysqli_fetch_array($query)) {
 			for ($i = 0; $i < count($arraytexto); $i++) {
 				$textoprint .= $row[$arraytexto[$i]] . ' - ';
@@ -349,13 +351,16 @@ function selectMaster($whereselect, $campoValue, $campoTexto, $tabla)
 			$valueprint = trim($valueprint, ' - ');
 
 
-			$text .= "<option value='.$valueprint.'>$textoprint</option>";
+			$text .= "<option value='$valueprint'>$textoprint</option>";
 			$textoprint = "";
 			$valueprint = "";
 		}
 	} catch (Exception $th) {
 		# Esto es meramente para saber un error
-		$text = "<option value=''>Error</option>";
+		//$text = "<option value=''>Error</option>";
+		$text = "<option value=''>Error</option>".$th;
+		//error_log("SELECT * FROM $tabla ");
+		//$text = "<option value=''>".$th."</option>";
 	} finally {
 		return utf8_encode($text);
 	}
@@ -3264,6 +3269,7 @@ function categoria($id)
 {
 
 	include 'conn3.php';
+	//var_dump("SELECT * FROM c_categoria where id = $id");
 	$resultadojornadaLaboral = mysqli_query($conn3, "SELECT * FROM c_categoria where id = $id");
 	//$resultado=mysqli_query($conn3, "select * from ytc_oferta");
 	if ($resultadojornadaLaboral) {

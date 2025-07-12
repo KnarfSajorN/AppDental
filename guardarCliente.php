@@ -263,7 +263,7 @@ Si no desea recibir notificaciones puede darle de baja en cualquier momento resp
 Atte ALTE 
 de MedicalSoft';
 
-Whatsapp_sent_cliente($linkkey, $whatsapp, $mensaje, $cliente_id, $usuario_id, $whatsapp, $accion)
+Whatsapp_sent_cliente($linkkey, $whatsapp, $mensaje, $cliente_id, $usuario_id, $whatsapp, $accion);
 
 
 

@@ -16,9 +16,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     </div>
 <?php
 //var_dump($response['location']);
-$_SESSION['response']=$response['location'];
-    if ($response['location']) {
-        header("location: " . $response['location']);
+if (isset($response['location'])) {
+    $_SESSION['response']=$response['location'];
+        if ($response['location']) {
+            header("location: " . $response['location']);
+        }
     }
 }
 ?>

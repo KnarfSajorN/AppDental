@@ -18,7 +18,8 @@ include 'menu.php';
       <div class="col-md-12">
         <h4 class="Titulo_Pagina">Pacientes Historias Clínicas</h4>
         <?php
-        $msg = $_GET['msg'];
+        //$msg = $_GET['msg'];
+        $msg = $_GET['msg'] ?? '';
         if ($msg == '1') {
           echo '  <div class="callout callout-info ">
         <h4> Cliente ya Registrado!</h4>

@@ -3,18 +3,20 @@
 include 'header.php';
 include 'menu.php';
 
+$clienteId=0;
 
-$clienteId = ($_GET['cI'] != '' ? decrypt($_GET['cI']) : $_GET['clienteId']);
+if (isset($_GET['cI'])) {
+    $clienteId = ($_GET['cI'] != '' ? decrypt($_GET['cI']) : $_GET['clienteId']);
 
-if (isset($_SESSION['cI']) && $_SESSION['cI'] <> '' && $clienteId == "") {
-    $clienteId = $_SESSION['cI'];
+    if (isset($_SESSION['cI']) && $_SESSION['cI'] <> '' && $clienteId == "") {
+        $clienteId = $_SESSION['cI'];
+    }
+
+    if (isset($_SESSION['cI'])) {
+        $queryClienteC = " AND idCliente=" . $clienteId;
+    }
+
 }
-
-if (isset($_SESSION['cI'])) {
-    $queryClienteC = " AND idCliente=" . $clienteId;
-}
-
-
 
 
 $IDconfig = $_SESSION['ID'];
@@ -52,7 +54,7 @@ while ($rowcalendario = mysqli_fetch_array($queryListcalendario)) {
     $dh = $rowcalendario['dh'];
 
     $CitasGoogleCalendar = $rowcalendario['CitasGoogleCalendar'];
-    $Sucursales = $rowcalendario['Sucursales'];
+    $Sucursales = $rowcalendario['Sucursales'] ?? null;
 }
 
 
@@ -91,6 +93,8 @@ if ($clienteId > 0) {
     //     $_SESSION['NOMBRE_USUARIO']
 }
 
+$fecha='';
+
 if (isset($_GET['editar_cita'])) {
     $editar_cita = mysqli_real_escape_string($conn3, htmlspecialchars(trim($_GET['editar_cita'])));
     $queryList = mysqli_query($conn3, "SELECT * FROM  citas where idCitas = '$editar_cita' and doctor = '{$_SESSION['ID']}' or doctor = '{$_SESSION['ID_principal']}'");
@@ -120,9 +124,7 @@ if ($idCitas = '') {
     $idCitas = 0;
 }
 
-
-
-$msg = $_GET['msg'];
+$msg = $_GET['msg'] ?? '';
 /*
 if ($msg == 1) {
   $respuesta = '
@@ -135,10 +137,13 @@ if ($msg == 1) {
 
 
 #Cierre
-if ($_GET["msg"] != "") {
+
+if ($msg != "") {
     include "plugins/SweetAlert2K/AlertaCorrectaOperacion.php";
 }
-if ($_GET["error"] != "") {
+$error = $_GET["error"] ?? '';
+
+if ($error != "") {
     include "plugins/SweetAlert2K/AlertaErrorOperacion.php";
 }
 
@@ -166,7 +171,7 @@ if ($_GET["error"] != "") {
 
                 <form action="guardar_Cita" method="POST" name="formularioActualizarcliente">
                     <div class="box box-body row">
-                        <div class="col-md-12"><?php echo $respuesta; ?></div>
+                        <div class="col-md-12"><?php echo $respuesta ?? ''; ?></div>
 
                         <div class="form-group col-md-6">
                             <div align="left">
@@ -209,7 +214,7 @@ if ($_GET["error"] != "") {
                                 <strong>Nombre Paciente</strong>
                             </div>
                             <input type="text" class="form-control input-lg" name="nombre" placeholder="Nombre"
-                                value="<?php echo $nombre_cliente ?>" required>
+                                value="<?php echo $nombre_cliente ?? '' ?>" required>
                         </div>
 
                         <?php if (!isset($_GET['editar_cita'])): ?>
@@ -241,7 +246,7 @@ if ($_GET["error"] != "") {
                                 <strong>Correo</strong>
                             </div>
                             <input type="email" class="form-control input-lg" name="correo" placeholder="Correo"
-                                value="<?php echo $correo_cliente ?>">
+                                value="<?php echo $correo_cliente ?? '' ?>">
                             <font color="red" size="2">Para enviar la notificación al correo colocar el correo de los
                                 contrario no colocarlo </font>
                         </div>
@@ -285,7 +290,7 @@ if ($_GET["error"] != "") {
                             </div>
                             <select id="duracion" name="duracion" class="form-control select2"
                                 data-placeholder="Seleccione el tiempo en minutos" style="width: 100%;" required>
-                                <option value="<?php echo $duracion ?>"> <?php echo categoria($duracion) ?> </option>
+                                <option value="<?php echo $duracion ?? 1 ?>"> <?php echo categoria($duracion ?? 1) ?> </option>
                                 <option>5</option>
                                 <option>10</option>
                                 <option>15</option>

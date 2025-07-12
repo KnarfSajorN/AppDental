@@ -992,23 +992,21 @@ para indicar el nombre y enviarlo pos POST a guardar
         },
         success: function(response) {
           $('#departamento').html(response);
-
         }
       });
 
       $('#ciudad').empty();
-    } else {
-
+    } else {   
       $.ajax({
         type: "POST",
         url: "ajax_select.php",
         data: {
           where: "WHERE Codigo_Pais='" + valor + "'",
-          value: "Nombre",
-          texto: "Nombre_Tildes",
+          value: "ciudad_id",
+          texto: "nombre_ciudad",
           tabla: "Ciudades"
         },
-        success: function(response) {
+        success: function(response) {         
           $('#ciudad').html(response);
 
         }
